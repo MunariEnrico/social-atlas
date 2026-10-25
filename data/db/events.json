@@ -52,9 +52,15 @@
   "hidden": false,
   "history": [],
   "id": "american-photographs-e3afa3d5",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/american-photographs",
@@ -92,7 +98,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/american-photographs"
    }
@@ -170,9 +176,15 @@
   "hidden": false,
   "history": [],
   "id": "adobe-creative-residents-on-display-3c8bb4e1",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/the-adobe-creative-residents-on-display",
@@ -210,7 +222,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/the-adobe-creative-residents-on-display"
    }
@@ -244,7 +256,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -259,7 +272,7 @@
     "min": 15.0,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/event/WNe47n3ExjO/talk-art-brilliant",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -302,9 +315,9 @@
   "hidden": false,
   "history": [],
   "id": "talk-art-brilliant-unexpected-art-from-e-4b341f3a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/event/WNe47n3ExjO/talk-art-brilliant",
@@ -336,7 +349,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/event/WNe47n3ExjO/talk-art-brilliant"
    }
@@ -377,7 +390,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -392,7 +406,7 @@
     "min": 12.5,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -435,9 +449,15 @@
   "hidden": false,
   "history": [],
   "id": "inside-aardman-wallace-gromit-and-friend-0e6fdace",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends",
@@ -472,7 +492,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends"
    }
@@ -555,9 +575,15 @@
   "hidden": false,
   "history": [],
   "id": "notes-on-weathering-d04bc2b1",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/notes-weathering",
@@ -595,7 +621,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/notes-weathering"
    }
@@ -629,7 +655,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability soldout (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability soldout (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability soldout (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -644,7 +671,7 @@
     "min": 28.0,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/exhibitions/schiaparelli",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -687,9 +714,15 @@
   "hidden": false,
   "history": [],
   "id": "schiaparelli-fashion-becomes-art-e18e9a8a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/schiaparelli",
@@ -724,7 +757,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/schiaparelli"
    }
@@ -820,6 +853,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.paris.fr/evenements/conferences-mardis-de-l-histoire-de-paris-le-divertissement-a-paris-109036",
@@ -908,7 +947,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -923,7 +963,7 @@
     "min": 22.5,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -966,9 +1006,15 @@
   "hidden": false,
   "history": [],
   "id": "the-music-is-black-a-british-story-b7c63b16",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story",
@@ -1003,7 +1049,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story"
    }
@@ -1087,9 +1133,15 @@
   "hidden": false,
   "history": [],
   "id": "urushi-now-contemporary-japanese-lacquer-221271a1",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/urushi-now-contemporary-japanese-lacquer",
@@ -1127,7 +1179,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/urushi-now-contemporary-japanese-lacquer"
    }
@@ -1204,9 +1256,15 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-biennale-arte-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "Castello (Giardini & Arsenale)",
   "occurrences": [],
   "official_url": "https://labiennale.org/en/art/2026/prepare-your-visit",
@@ -1278,7 +1336,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -1293,7 +1352,7 @@
     "min": 17.0,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/exhibitions/rising-voices-contemporary-art-from-asia-australia-and-the-pacific",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -1336,9 +1395,15 @@
   "hidden": false,
   "history": [],
   "id": "rising-voices-contemporary-art-from-asia-f49806f7",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/rising-voices-contemporary-art-from-asia-australia-and-the-pacific",
@@ -1373,7 +1438,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/rising-voices-contemporary-art-from-asia-australia-and-the-pacific"
    }
@@ -1457,9 +1522,15 @@
   "hidden": false,
   "history": [],
   "id": "lost-music-venues-5cfacf89",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/lost-music-venues",
@@ -1497,7 +1568,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/lost-music-venues"
    }
@@ -1531,7 +1602,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -1546,7 +1618,7 @@
     "min": 5.0,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -1589,9 +1661,15 @@
   "hidden": false,
   "history": [],
   "id": "david-bowie-centre-370c9236",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
@@ -1626,7 +1704,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre"
    }
@@ -1723,6 +1801,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.paris.fr/evenements/balades-guidees-a-la-decouverte-des-quartiers-123258",
@@ -1818,7 +1902,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": true,
    "inferred": [
@@ -1829,7 +1914,7 @@
     "currency": "GBP",
     "display": "Free",
     "source_url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -1872,9 +1957,15 @@
   "hidden": false,
   "history": [],
   "id": "upperground-dj-sets-23ee80d8",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
@@ -1909,7 +2000,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026"
    }
@@ -1992,9 +2083,15 @@
   "hidden": false,
   "history": [],
   "id": "the-day-of-the-mantis-55b401ee",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/day-mantis",
@@ -2033,7 +2130,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/day-mantis"
    }
@@ -2109,9 +2206,15 @@
   "hidden": false,
   "history": [],
   "id": "the-hearth-room-d6049ce6",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/hearth-room",
@@ -2149,7 +2252,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/hearth-room"
    }
@@ -2238,6 +2341,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "5e arrondissement",
   "occurrences": [
    "2026-10-30T20:00:00+01:00",
@@ -2394,6 +2503,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "8e arrondissement",
   "occurrences": [
    "2026-10-25T10:00:00+01:00",
@@ -2536,9 +2651,15 @@
   "hidden": false,
   "history": [],
   "id": "the-burberry-trench-crafting-an-icon-6f5d1d26",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/the-burberry-trench-crafting-an-icon",
@@ -2576,7 +2697,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/the-burberry-trench-crafting-an-icon"
    }
@@ -2652,9 +2773,15 @@
   "hidden": false,
   "history": [],
   "id": "bebe-trek-dc9bd70a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/bebe-trek",
@@ -2692,7 +2819,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/bebe-trek"
    }
@@ -2768,9 +2895,15 @@
   "hidden": false,
   "history": [],
   "id": "pipes-have-their-ways-822811ec",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/pipes-have-their-ways",
@@ -2808,7 +2941,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/pipes-have-their-ways"
    }
@@ -2896,6 +3029,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.paris.fr/evenements/andre-malraux-le-programme-a-l-occasion-du-cinquantenaire-de-sa-disparition-126437",
@@ -3033,6 +3172,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "19e arrondissement",
   "occurrences": [
    "2026-10-29T18:00:00+01:00"
@@ -3172,6 +3317,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "8e arrondissement",
   "occurrences": [],
   "official_url": "https://www.paris.fr/evenements/art-basel-paris-2026-125712",
@@ -3296,9 +3447,15 @@
   "hidden": false,
   "history": [],
   "id": "freddie-mercury-splendid-things-fda16389",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/freddie-mercury-splendid-things",
@@ -3336,7 +3493,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/freddie-mercury-splendid-things"
    }
@@ -3418,6 +3575,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.be/e/xhuliano-dule-italian-comedy-night-tickets-1997064071397",
@@ -3535,9 +3698,9 @@
   "hidden": false,
   "history": [],
   "id": "creative-sunday-dc771167",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/creative-sunday-gnl4-v",
@@ -3573,7 +3736,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/creative-sunday-gnl4-v"
    },
@@ -3582,7 +3745,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/creative-sunday"
    }
@@ -3661,9 +3824,9 @@
   "hidden": false,
   "history": [],
   "id": "lecon-d-essai-gratuite-code-et-robotique-3035e3d1",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -3710,7 +3873,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/lecon-dessai-gratuite-code-et-robotique-de-4-a-13-ans"
    }
@@ -3760,7 +3923,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-actart-jeux-de-mains-jeux-de-mots-x0rl1",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -3804,9 +3967,9 @@
   "hidden": false,
   "history": [],
   "id": "concert-actart-jeux-de-mains-jeux-de-mot-fc1178d6",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-actart-jeux-de-mains-jeux-de-mots-x0rl1",
@@ -3841,7 +4004,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-actart-jeux-de-mains-jeux-de-mots-x0rl1"
    },
@@ -3850,7 +4013,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/concert-actart-jeux-de-mains-jeux-de-mots"
    }
@@ -3926,9 +4089,9 @@
   "hidden": false,
   "history": [],
   "id": "krixkrax-bill-7b52ed76",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -3974,7 +4137,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/krixkrax-bill"
    }
@@ -4023,7 +4186,7 @@
     "min": 14.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/dei-kleng-hex-s6qbbr",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -4067,9 +4230,9 @@
   "hidden": false,
   "history": [],
   "id": "dei-kleng-hex-3e02563b",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/dei-kleng-hex-s6qbbr",
@@ -4105,7 +4268,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/dei-kleng-hex-s6qbbr"
    },
@@ -4114,7 +4277,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/dei-kleng-hex"
    }
@@ -4194,9 +4357,9 @@
   "hidden": false,
   "history": [],
   "id": "free-trial-lesson-coding-and-robotics-fo-9a49a71e",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -4244,7 +4407,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/free-trial-lesson-coding-and-robotics-for-ages-4-to-13-6fxy2s"
    }
@@ -4291,7 +4454,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/halloween-ul2qmj",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -4335,9 +4498,9 @@
   "hidden": false,
   "history": [],
   "id": "halloween-bc97e1b1",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -4381,7 +4544,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/halloween-ul2qmj"
    },
@@ -4390,7 +4553,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/halloween"
    }
@@ -4433,7 +4596,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/matinee-musicale-un-moment-magique-alliant-art-et-musique-91avnu",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -4477,9 +4640,9 @@
   "hidden": false,
   "history": [],
   "id": "matinee-musicale-un-moment-magique-allia-fa068523",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/matinee-musicale-un-moment-magique-alliant-art-et-musique-91avnu",
@@ -4515,7 +4678,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/matinee-musicale-un-moment-magique-alliant-art-et-musique-91avnu"
    },
@@ -4524,7 +4687,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/matinee-musicale-un-moment-magique-alliant-art-et-musique"
    }
@@ -4600,9 +4763,9 @@
   "hidden": false,
   "history": [],
   "id": "special-workshop-by-kinetic-orchestra-d1798eec",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -4648,7 +4811,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/special-workshop-kineticorchestra"
    }
@@ -4691,7 +4854,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/visite-guidee-reguliere-fundatio-huzhsc",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -4736,9 +4899,9 @@
   "hidden": false,
   "history": [],
   "id": "visite-guidee-reguliere-fundatio-89313a92",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/visite-guidee-reguliere-fundatio-huzhsc",
@@ -4775,7 +4938,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/visite-guidee-reguliere-fundatio-huzhsc"
    },
@@ -4784,7 +4947,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/visite-guidee-reguliere-fundatio"
    }
@@ -4833,7 +4996,7 @@
     "min": 20.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/bock-casemates",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -4876,9 +5039,9 @@
   "hidden": false,
   "history": [],
   "id": "bock-casemates-guided-tour-24662315",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/bock-casemates",
@@ -4915,7 +5078,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/bock-casemates"
    }
@@ -4993,9 +5156,15 @@
   "hidden": false,
   "history": [],
   "id": "a-closer-look-guided-close-looking-throu-be957bc9",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/closer-look-fall2026",
@@ -5035,7 +5204,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "ny-whitney",
     "url": "https://whitney.org/events/closer-look-fall2026"
    }
@@ -5076,7 +5245,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/mon-petit-monde-en-couleurs-qwe6-q",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -5120,9 +5289,9 @@
   "hidden": false,
   "history": [],
   "id": "mon-petit-monde-en-couleurs-143aa097",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/mon-petit-monde-en-couleurs-qwe6-q",
@@ -5158,7 +5327,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/mon-petit-monde-en-couleurs-qwe6-q"
    },
@@ -5167,7 +5336,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/mon-petit-monde-en-couleurs"
    }
@@ -5244,9 +5413,9 @@
   "hidden": false,
   "history": [],
   "id": "atelier-d-aquarelle-pratique-et-explorat-bb690b9d",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -5293,7 +5462,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/atelier-daquarelle-pratique-et-exploration-2"
    }
@@ -5370,9 +5539,9 @@
   "hidden": false,
   "history": [],
   "id": "city-promenade-104548d6",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -5418,7 +5587,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/city-promenade"
    }
@@ -5461,7 +5630,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/visite-reguliere-city-visions-8o8rtx",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -5506,9 +5675,9 @@
   "hidden": false,
   "history": [],
   "id": "visite-reguliere-city-visions-5715c68c",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/visite-reguliere-city-visions-8o8rtx",
@@ -5544,7 +5713,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/visite-reguliere-city-visions-8o8rtx"
    },
@@ -5553,7 +5722,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/visite-reguliere-city-visions"
    }
@@ -5633,9 +5802,15 @@
   "hidden": false,
   "history": [],
   "id": "exhibition-tour-untitled-america-ba6d11e3",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/untitled-america-exh-tour-2026",
@@ -5675,7 +5850,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "ny-whitney",
     "url": "https://whitney.org/events/untitled-america-exh-tour-2026"
    }
@@ -5716,7 +5891,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/decouvrez-la-muerbelsmillen-p6qhyr",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -5761,9 +5936,9 @@
   "hidden": false,
   "history": [],
   "id": "decouvrez-la-muerbelsmillen-d56848ac",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/decouvrez-la-muerbelsmillen-p6qhyr",
@@ -5800,7 +5975,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/decouvrez-la-muerbelsmillen-p6qhyr"
    },
@@ -5809,7 +5984,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/decouvrez-la-muerbelsmillen-0"
    }
@@ -5858,7 +6033,7 @@
     "min": 14.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/die-grusel-loser-igsdpi",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -5903,9 +6078,9 @@
   "hidden": false,
   "history": [],
   "id": "die-grusel-loser-762b8eb9",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -5917,14 +6092,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/die-grusel-loser-igsdpi",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 70,
+   "actionability": 60,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [
@@ -5949,7 +6121,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/die-grusel-loser-igsdpi"
    },
@@ -5958,7 +6130,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/die-grusel-loser"
    }
@@ -5971,7 +6143,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Die Grusel-Loser",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "1 Place de l’Europe // , L-1499, Luxembourg",
   "venue_name": "1 Place de l’Europe",
   "verification_evidence": [
@@ -5983,7 +6155,7 @@
     "url": "https://www.vdl.lu/fr/agenda/die-grusel-loser"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6007,7 +6179,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/les-mesaventures-de-joe-cinema-paradiso-7gnze",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -6051,9 +6223,9 @@
   "hidden": false,
   "history": [],
   "id": "les-mesaventures-de-joe-cinema-paradiso-bba76848",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/les-mesaventures-de-joe-cinema-paradiso-7gnze",
@@ -6087,7 +6259,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/les-mesaventures-de-joe-cinema-paradiso-7gnze"
    },
@@ -6096,7 +6268,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/les-mesaventures-de-joe-cinema-paradiso-meets-cineast"
    }
@@ -6187,6 +6359,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "12e arrondissement",
   "occurrences": [
    "2026-10-25T14:00:00+01:00"
@@ -6281,7 +6459,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/regelma-ige-fuhrung-the-luxembourg-story-9hl7rv",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -6325,9 +6503,9 @@
   "hidden": false,
   "history": [],
   "id": "regelma-ige-fuhrung-the-luxembourg-story-cdb09b2c",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/regelma-ige-fuhrung-the-luxembourg-story-9hl7rv",
@@ -6363,7 +6541,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/regelma-ige-fuhrung-the-luxembourg-story-9hl7rv"
    },
@@ -6372,7 +6550,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/regelmassige-fuhrung-luxembourg-story-0"
    }
@@ -6452,9 +6630,9 @@
   "hidden": false,
   "history": [],
   "id": "watercolour-workshop-practice-and-explor-624bec66",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/watercolour-workshop-practice-and-exploration-6nzcpe",
@@ -6490,7 +6668,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/watercolour-workshop-practice-and-exploration-6nzcpe"
    }
@@ -6568,9 +6746,15 @@
   "hidden": false,
   "history": [],
   "id": "exhibition-tour-the-lost-world-the-art-o-6430b9be",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/minnie-evans-tour",
@@ -6612,7 +6796,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "ny-whitney",
     "url": "https://whitney.org/events/minnie-evans-tour"
    }
@@ -6691,9 +6875,9 @@
   "hidden": false,
   "history": [],
   "id": "berthe-brincour-1879-1947-1a3361ef",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -6705,14 +6889,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/berthe-brincour-1879-1947-mvf12u",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [
@@ -6739,7 +6920,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/berthe-brincour-1879-1947-mvf12u"
    },
@@ -6748,7 +6929,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/berthe-brincour-1879-1947"
    }
@@ -6761,7 +6942,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Berthe Brincour (1879-1947)",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "1 Marché-aux-Poissons - // , L-2345, Luxembourg",
   "venue_name": "1 Marché-aux-Poissons -",
   "verification_evidence": [
@@ -6773,7 +6954,7 @@
     "url": "https://www.vdl.lu/fr/agenda/berthe-brincour-1879-1947"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6839,6 +7020,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "16e arrondissement",
   "occurrences": [
    "2026-10-25T15:00:00+01:00"
@@ -6964,9 +7151,9 @@
   "hidden": false,
   "history": [],
   "id": "regelma-ige-fuhrung-ein-spaziergang-durc-5c2b378f",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -7012,7 +7199,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/regelmassige-fuhrung-ein-spaziergang-durch-die-kunst"
    }
@@ -7055,7 +7242,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/regular-guided-tour-the-luxembourg-story-kvrb0d",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -7099,9 +7286,9 @@
   "hidden": false,
   "history": [],
   "id": "regular-guided-tour-the-luxembourg-story-cd7ba4e0",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -7113,14 +7300,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/regular-guided-tour-the-luxembourg-story-kvrb0d",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 55,
+   "actionability": 45,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [
@@ -7146,7 +7330,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/regular-guided-tour-the-luxembourg-story-kvrb0d"
    },
@@ -7155,7 +7339,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/regular-guided-tour-luxembourg-story"
    }
@@ -7168,7 +7352,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Regular guided tour: The Luxembourg Story",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "14 rue Saint Esprit - // , L-2090, Luxembourg",
   "venue_name": "14 rue Saint Esprit -",
   "verification_evidence": [
@@ -7180,7 +7364,7 @@
     "url": "https://www.vdl.lu/fr/agenda/regular-guided-tour-luxembourg-story"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7235,9 +7419,15 @@
   "hidden": false,
   "history": [],
   "id": "exhibition-tour-roy-lichtenstein-like-ne-0de568a1",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/exhibition-tour-lichtenstein",
@@ -7279,7 +7469,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "ny-whitney",
     "url": "https://whitney.org/events/exhibition-tour-lichtenstein"
    }
@@ -7326,7 +7516,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-magie-karel-zeman-cinema-paradiso-fvfybw",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -7370,9 +7560,9 @@
   "hidden": false,
   "history": [],
   "id": "la-magie-karel-zeman-cinema-paradiso-mee-e4ab9cec",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -7417,7 +7607,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/la-magie-karel-zeman-cinema-paradiso-fvfybw"
    },
@@ -7426,7 +7616,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/la-magie-karel-zeman-cinema-paradiso-meets-cineast"
    }
@@ -7517,6 +7707,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [
    "2026-10-25T16:00:00+01:00"
@@ -7657,6 +7853,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "14e arrondissement",
   "occurrences": [
    "2026-10-25T16:00:00+01:00"
@@ -7796,6 +7998,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "4e arrondissement",
   "occurrences": [
    "2026-10-25T16:00:00+01:00"
@@ -7901,7 +8109,7 @@
     "min": 24.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/petrusse-casemates",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -7944,9 +8152,9 @@
   "hidden": false,
   "history": [],
   "id": "petrusse-casemates-guided-tour-631cc445",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -7991,7 +8199,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/petrusse-casemates"
    }
@@ -8038,7 +8246,7 @@
     "min": 7.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/sein-oder-nichtsein-6ea28z",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -8083,9 +8291,9 @@
   "hidden": false,
   "history": [],
   "id": "sein-oder-nichtsein-ff61303c",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -8129,7 +8337,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/sein-oder-nichtsein-6ea28z"
    },
@@ -8138,7 +8346,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/sein-oder-nichtsein"
    }
@@ -8187,7 +8395,7 @@
     "min": 7.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/to-hold-a-mountain-cineast-2026-uxkfso",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -8231,9 +8439,9 @@
   "hidden": false,
   "history": [],
   "id": "to-hold-a-mountain-cineast-festival-2026-8e7ee0ca",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -8276,7 +8484,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/to-hold-a-mountain-cineast-2026-uxkfso"
    },
@@ -8285,7 +8493,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/hold-a-mountain-cineast-festival-2026"
    }
@@ -8334,7 +8542,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-pianiste-why-we-love-cinema-maql3s",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -8378,9 +8586,9 @@
   "hidden": false,
   "history": [],
   "id": "la-pianiste-why-we-love-cinema-4bc16664",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -8422,7 +8630,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/la-pianiste-why-we-love-cinema-maql3s"
    },
@@ -8431,7 +8639,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/la-pianiste-why-we-love-cinema"
    }
@@ -8511,9 +8719,9 @@
   "hidden": false,
   "history": [],
   "id": "bertha-guadalupe-perez-gautier-laurent-6bd9579a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -8559,7 +8767,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/bertha-guadalupe-perez-gautier-laurent-azw-cs"
    }
@@ -8600,7 +8808,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-des-laureats-avec-l-8217-ocl-ld-o0f",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -8643,9 +8851,9 @@
   "hidden": false,
   "history": [],
   "id": "concert-des-laureats-avec-l-ocl-d604916e",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -8690,7 +8898,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-des-laureats-avec-l-8217-ocl-ld-o0f"
    }
@@ -8779,6 +8987,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "4e arrondissement",
   "occurrences": [
    "2026-10-25T15:00:00+01:00",
@@ -8907,9 +9121,15 @@
   "hidden": false,
   "history": [],
   "id": "wayfinding-senas-del-camino-e197f19c",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/wayfinding",
@@ -8949,7 +9169,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "ny-whitney",
     "url": "https://whitney.org/events/wayfinding"
    }
@@ -8996,7 +9216,7 @@
     "min": 8.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/seven-methods-of-killing-kylie-jenner-9aarif",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -9041,9 +9261,9 @@
   "hidden": false,
   "history": [],
   "id": "seven-methods-of-killing-kylie-jenner-5c536145",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -9087,7 +9307,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/seven-methods-of-killing-kylie-jenner-9aarif"
    },
@@ -9096,7 +9316,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/seven-methods-killing-kylie-jenner"
    }
@@ -9187,6 +9407,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "20e arrondissement",
   "occurrences": [
    "2026-10-25T18:00:00+01:00"
@@ -9286,7 +9512,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/connection-or-deconnection-6vfqk",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -9329,9 +9555,9 @@
   "hidden": false,
   "history": [],
   "id": "connexion-ou-deconnexion-f0f2a00c",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -9374,7 +9600,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/connection-or-deconnection-6vfqk"
    }
@@ -9421,7 +9647,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/repetition-du-film-ayant-remporte-le-grand-prix-du-festival-cineast-2026-jhlbfz",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -9465,9 +9691,9 @@
   "hidden": false,
   "history": [],
   "id": "repetition-du-film-ayant-remporte-le-gra-f70483de",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -9510,7 +9736,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/repetition-du-film-ayant-remporte-le-grand-prix-du-festival-cineast-2026-jhlbfz"
    },
@@ -9519,7 +9745,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/repetition-du-film-ayant-remporte-le-grand-prix-du-festival-cineast-2026"
    }
@@ -9610,6 +9836,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "20e arrondissement",
   "occurrences": [
    "2026-10-25T18:00:00+01:00"
@@ -9707,7 +9939,7 @@
     "min": 25.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/she-she-xiu9jr",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -9750,9 +9982,9 @@
   "hidden": false,
   "history": [],
   "id": "she-she-2ca36cd4",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -9795,7 +10027,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/she-she-xiu9jr"
    }
@@ -9842,7 +10074,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/m-a-s-h-comedy-classics-eufaou",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -9887,9 +10119,9 @@
   "hidden": false,
   "history": [],
   "id": "m-a-s-h-comedy-classics-c5c23d72",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -9932,7 +10164,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/m-a-s-h-comedy-classics-eufaou"
    },
@@ -9941,7 +10173,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-vdl-agenda",
     "url": "https://www.vdl.lu/fr/agenda/mash-comedy-classics"
    }
@@ -10030,6 +10262,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-25T15:24:08+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "12e arrondissement",
   "occurrences": [
    "2026-10-25T19:00:00+01:00"
@@ -10837,7 +11075,7 @@
   "closing_soon": false,
   "confidence": "high",
   "conflicts": [],
-  "coverage": 1,
+  "coverage": 2,
   "curated": false,
   "date_basis": null,
   "date_status": "confirmed",
@@ -10880,21 +11118,19 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows",
    "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
   "scores": {
    "actionability": 75,
-   "insider": 75,
+   "insider": 63,
    "reasons": {
     "actionability_gaps": [
      "access unverified"
     ],
     "insider": [
      "discovered in the last 3 days",
-     "limited coverage detected (1 monitored source)",
      "niche/limited format: apre"
     ],
     "relevance": [
@@ -11116,7 +11352,7 @@
     "min": 270.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/cours-particulier-one-to-one-hsel7p",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -11159,9 +11395,9 @@
   "hidden": false,
   "history": [],
   "id": "cours-particulier-one-to-one-4ac168b8",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -11204,7 +11440,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/cours-particulier-one-to-one-hsel7p"
    }
@@ -11682,7 +11918,7 @@
     "min": 10.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/yoga-art-a-unique-experience-4mprpw",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -11725,9 +11961,9 @@
   "hidden": false,
   "history": [],
   "id": "yoga-art-a-unique-experience-c9e34b98",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -11772,7 +12008,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/yoga-art-a-unique-experience-4mprpw"
    }
@@ -11813,7 +12049,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/open-floor-breaking-in37g",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -11856,9 +12092,9 @@
   "hidden": false,
   "history": [],
   "id": "open-floor-breaking-cbb4fa41",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -11903,7 +12139,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/open-floor-breaking-in37g"
    }
@@ -11950,7 +12186,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/mala-noche-cult-fiction-vrjlcm",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -11993,9 +12229,9 @@
   "hidden": false,
   "history": [],
   "id": "mala-noche-cult-fiction-f35e11da",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -12038,7 +12274,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/mala-noche-cult-fiction-vrjlcm"
    }
@@ -12116,9 +12352,9 @@
   "hidden": false,
   "history": [],
   "id": "social-dance-with-taster-class-at-atmos-3de494a9",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -12164,7 +12400,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/social-dance-with-taster-class-at-atmos-32fecn"
    }
@@ -12211,7 +12447,7 @@
     "min": 20.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/wien-wien-nur-du-allein-vvxruo",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -12254,9 +12490,9 @@
   "hidden": false,
   "history": [],
   "id": "wien-wien-nur-du-allein-81a8e28a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -12299,7 +12535,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/wien-wien-nur-du-allein-vvxruo"
    }
@@ -12346,7 +12582,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/dr-jekyll-and-mr-hyde-dr-jekyll-mr-hyde-uajwjm",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -12389,9 +12625,9 @@
   "hidden": false,
   "history": [],
   "id": "dr-jekyll-and-mr-hyde-1941-e6817699",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -12434,7 +12670,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/dr-jekyll-and-mr-hyde-dr-jekyll-mr-hyde-uajwjm"
    }
@@ -12475,7 +12711,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/open-floor-funk-and-disco-xz-sbr",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -12518,9 +12754,9 @@
   "hidden": false,
   "history": [],
   "id": "open-floor-funk-and-disco-0726fa03",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -12565,7 +12801,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/open-floor-funk-and-disco-xz-sbr"
    }
@@ -13117,7 +13353,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/luxembourg-sustainability-forum-2026-hoppdu",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -13160,9 +13396,9 @@
   "hidden": false,
   "history": [],
   "id": "luxembourg-sustainability-forum-2026-080be72e",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -13207,7 +13443,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/luxembourg-sustainability-forum-2026-hoppdu"
    }
@@ -13285,9 +13521,9 @@
   "hidden": false,
   "history": [],
   "id": "hungry-for-culture-48bb6bf4",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -13333,7 +13569,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/hungry-for-culture-iuqnge"
    }
@@ -13971,9 +14207,9 @@
   "hidden": false,
   "history": [],
   "id": "portes-ouvertes-sur-les-cours-jeunes-10-95d91244",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -14020,7 +14256,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/portes-ouvertes-sur-les-cours-jeunes-10-12-ans-ya1wc6"
    }
@@ -14239,9 +14475,9 @@
   "hidden": false,
   "history": [],
   "id": "de-la-nature-a-l-art-une-exploration-des-d0b6f9ca",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -14287,7 +14523,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/de-la-nature-a-l-art-une-exploration-des-formes-zq7y0s"
    }
@@ -14365,9 +14601,9 @@
   "hidden": false,
   "history": [],
   "id": "from-nature-to-art-an-exploration-of-for-693a089a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -14415,7 +14651,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/from-nature-to-art-an-exploration-of-forms-ibhaeg"
    }
@@ -14604,7 +14840,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/kwaidan-great-restorations-7x92yb",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -14647,9 +14883,9 @@
   "hidden": false,
   "history": [],
   "id": "kwaidan-great-restorations-d673e82e",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/kwaidan-great-restorations-7x92yb",
@@ -14688,7 +14924,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/kwaidan-great-restorations-7x92yb"
    }
@@ -15021,7 +15257,7 @@
     "min": 224.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/improv-theatre-6-week-course-for-beginners-aukj6n",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -15064,9 +15300,9 @@
   "hidden": false,
   "history": [],
   "id": "improv-theatre-6-week-course-for-beginne-30127962",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/improv-theatre-6-week-course-for-beginners-aukj6n",
@@ -15105,7 +15341,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/improv-theatre-6-week-course-for-beginners-aukj6n"
    }
@@ -15586,7 +15822,7 @@
     "min": 30.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/theatre-open-session-8ao-ae",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -15629,9 +15865,9 @@
   "hidden": false,
   "history": [],
   "id": "theatre-open-session-b9e22164",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/theatre-open-session-8ao-ae",
@@ -15670,7 +15906,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/theatre-open-session-8ao-ae"
    }
@@ -15717,7 +15953,7 @@
     "min": 18.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/rising-stars-elionor-martinez-pakexp",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -15760,9 +15996,9 @@
   "hidden": false,
   "history": [],
   "id": "rising-stars-elionor-martinez-58414489",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/rising-stars-elionor-martinez-pakexp",
@@ -15799,7 +16035,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/rising-stars-elionor-martinez-pakexp"
    }
@@ -15846,7 +16082,7 @@
     "min": 1.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/so-ma-to-p0-jto",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -15889,9 +16125,9 @@
   "hidden": false,
   "history": [],
   "id": "so-ma-to-137ac0af",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/so-ma-to-p0-jto",
@@ -15930,7 +16166,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/so-ma-to-p0-jto"
    }
@@ -16117,7 +16353,7 @@
     "min": 20.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/somato-3enr1h",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -16160,9 +16396,9 @@
   "hidden": false,
   "history": [],
   "id": "somato-fa6b782f",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/somato-3enr1h",
@@ -16199,7 +16435,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/somato-3enr1h"
    }
@@ -16417,9 +16653,9 @@
   "hidden": false,
   "history": [],
   "id": "liquid-jazz-jam-session-ad705ae6",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/liquid-jazz-jam-session-aoxqfv",
@@ -16459,7 +16695,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/liquid-jazz-jam-session-aoxqfv"
    }
@@ -17329,7 +17565,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-salon-chocolat-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "15e — Porte de Versailles",
@@ -18124,7 +18360,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-galerie-de-portraits-du-letzebuerg-city-museum-ho1ner",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -18167,9 +18403,9 @@
   "hidden": false,
   "history": [],
   "id": "the-who-is-who-713687da",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-galerie-de-portraits-du-letzebuerg-city-museum-ho1ner",
@@ -18209,7 +18445,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/la-galerie-de-portraits-du-letzebuerg-city-museum-ho1ner"
    }
@@ -18395,7 +18631,7 @@
     "min": 24.5,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/chicken-wings-q5goq5",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -18438,9 +18674,9 @@
   "hidden": false,
   "history": [],
   "id": "chicken-wings-00923a81",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/chicken-wings-q5goq5",
@@ -18478,7 +18714,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/chicken-wings-q5goq5"
    }
@@ -18519,7 +18755,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/public-forum-klima-zukunft-caetok",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -18562,9 +18798,9 @@
   "hidden": false,
   "history": [],
   "id": "public-forum-klima-zukunft-e7053020",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/public-forum-klima-zukunft-caetok",
@@ -18602,7 +18838,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/public-forum-klima-zukunft-caetok"
    }
@@ -18649,7 +18885,7 @@
     "min": 8.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/dogtooth-efthimis-filippou-zyug3s",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -18692,9 +18928,9 @@
   "hidden": false,
   "history": [],
   "id": "a-conversation-with-efthimis-filippou-do-1665fdb5",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/dogtooth-efthimis-filippou-zyug3s",
@@ -18730,7 +18966,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/dogtooth-efthimis-filippou-zyug3s"
    }
@@ -18777,7 +19013,7 @@
     "min": 29.0,
     "per_person": null,
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/moules-frites-a-volonte-y029hx",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "view",
@@ -18820,9 +19056,9 @@
   "hidden": false,
   "history": [],
   "id": "moules-frites-a-volonte-4840a75a",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/moules-frites-a-volonte-y029hx",
@@ -18860,7 +19096,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/moules-frites-a-volonte-y029hx"
    }
@@ -18901,7 +19137,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://www.luxembourg-city.com/en/what-s-on/event/palestine-36-vmbw3c",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -18944,9 +19180,9 @@
   "hidden": false,
   "history": [],
   "id": "palestine-36-0fa0cd08",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/palestine-36-vmbw3c",
@@ -18984,7 +19220,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/palestine-36-vmbw3c"
    }
@@ -19062,9 +19298,9 @@
   "hidden": false,
   "history": [],
   "id": "pop-party-0ee8b01f",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/member-night-pop-party",
@@ -19103,7 +19339,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "ny-whitney",
     "url": "https://whitney.org/events/member-night-pop-party"
    }
@@ -19308,9 +19544,9 @@
   "hidden": false,
   "history": [],
   "id": "clio-van-aerde-end-of-residency-symposiu-947bcf4c",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/clio-van-aerde-end-residency-symposium",
@@ -19351,7 +19587,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/clio-van-aerde-end-residency-symposium"
    }
@@ -20104,7 +20340,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -20119,7 +20356,7 @@
     "min": 15.0,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -20162,9 +20399,9 @@
   "hidden": false,
   "history": [],
   "id": "family-workshop-5-11-clay-character-fdd91fbd",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
@@ -20200,7 +20437,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026"
    }
@@ -20491,7 +20728,7 @@
     "currency": "EUR",
     "display": "Free",
     "source_url": "https://lhoft.com/event/fintech-recruits-2026/",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "verify",
@@ -20533,9 +20770,9 @@
   "hidden": false,
   "history": [],
   "id": "fintech-recruits-2026-8e18d245",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://lhoft.com/event/fintech-recruits-2026/",
@@ -20575,7 +20812,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lhoft-events",
     "url": "https://lhoft.com/event/fintech-recruits-2026/"
    }
@@ -21752,7 +21989,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-marathon-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Five boroughs — finish in Central Park",
@@ -23261,9 +23498,9 @@
   "hidden": false,
   "history": [],
   "id": "clay-is-on-the-hunt-for-textures-6b1efa4f",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/clay-hunt-textures",
@@ -23302,7 +23539,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/clay-hunt-textures"
    }
@@ -25451,7 +25688,8 @@
    "booking_deadline": null,
    "dress_code": null,
    "evidence": [
-    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)"
+    "Official structured data: availability instock (as of 2026-10-25 14:48 UTC)",
+    "Official structured data: availability instock (as of 2026-10-25 15:24 UTC)"
    ],
    "free": false,
    "inferred": [
@@ -25466,7 +25704,7 @@
     "min": 25.0,
     "per_person": null,
     "source_url": "https://www.vam.ac.uk/exhibitions/constantinople-to-istanbul-one-city-two-empires",
-    "verified_at": "2026-10-25T14:48:00+00:00"
+    "verified_at": "2026-10-25T15:24:08+00:00"
    },
    "primary_action": {
     "kind": "ticket",
@@ -25508,9 +25746,9 @@
   "hidden": false,
   "history": [],
   "id": "constantinople-to-istanbul-one-city-two-1507f02b",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/constantinople-to-istanbul-one-city-two-empires",
@@ -25546,7 +25784,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/constantinople-to-istanbul-one-city-two-empires"
    }
@@ -27841,7 +28079,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-paris-photo-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "8e — Champs-Élysées",
@@ -28622,7 +28860,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-jazz-festival-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide (Southbank, Barbican, KOKO, Union Chapel…)",
@@ -28743,7 +28981,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-fenice-fedora-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "San Marco",
@@ -29233,7 +29471,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-lord-mayors-show-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "City of London",
@@ -29636,7 +29874,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lu-internet-days-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Kirchberg",
@@ -30045,9 +30283,9 @@
   "hidden": false,
   "history": [],
   "id": "roundtables-step-across-the-border-an-ar-b2d80a4f",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/roundtables-step-across-border-art-scene-spanning-grande-region",
@@ -30086,7 +30324,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/roundtables-step-across-border-art-scene-spanning-grande-region"
    }
@@ -30447,7 +30685,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-winter-wonderland-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Hyde Park",
@@ -31634,7 +31872,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lu-art-week-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Limpertsberg",
@@ -31764,9 +32002,9 @@
   "hidden": false,
   "history": [],
   "id": "luxembourg-art-week-2026-framework-progr-0d341b52",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/luxembourg-art-week-2026-framework-programme",
@@ -31807,7 +32045,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/luxembourg-art-week-2026-framework-programme"
    }
@@ -31883,9 +32121,9 @@
   "hidden": false,
   "history": [],
   "id": "luxembourg-art-week-2026-opening-night-t-798f2826",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/luxembourg-art-week-2026-opening-night-live-hearth-signal-room",
@@ -31928,7 +32166,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-casino-agenda",
     "url": "https://casino-luxembourg.lu/en/agenda/luxembourg-art-week-2026-opening-night-live-hearth-signal-room"
    }
@@ -32548,7 +32786,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-festa-salute-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Dorsoduro",
@@ -33348,7 +33586,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-champs-elysees-lights-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "8e — Champs-Élysées",
@@ -34292,7 +34530,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-co-ski-season-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Dolomites",
@@ -35363,7 +35601,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-tree-lighting-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Midtown",
@@ -37266,7 +37504,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-fenice-etoiles-2026",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "San Marco",
@@ -38182,7 +38420,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-co-ski-world-cup-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Olympia delle Tofane",
@@ -38306,7 +38544,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-pfw-men-fw27",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -38429,7 +38667,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-couture-ss27",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -38789,7 +39027,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-pfw-women-fw27",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -39042,9 +39280,9 @@
   "hidden": false,
   "history": [],
   "id": "punk-to-pop-10bb7d6b",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/punk-to-pop",
@@ -39083,7 +39321,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/punk-to-pop"
    }
@@ -39161,9 +39399,9 @@
   "hidden": false,
   "history": [],
   "id": "eimaischen-4129df3e",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -39208,7 +39446,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/eimaischen"
    }
@@ -39286,9 +39524,9 @@
   "hidden": false,
   "history": [],
   "id": "octave-maertchen-ea31f6fb",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -39333,7 +39571,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/octave"
    }
@@ -39410,9 +39648,9 @@
   "hidden": false,
   "history": [],
   "id": "south-asia-now-fashion-art-design-9988d8fe",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/south-asia-now-fashion-art-design",
@@ -39451,7 +39689,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/south-asia-now-fashion-art-design"
    }
@@ -39530,7 +39768,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-biennale-architettura-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Castello (Giardini & Arsenale)",
@@ -39654,7 +39892,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-roland-garros-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "16e — Porte d'Auteuil",
@@ -39895,9 +40133,9 @@
   "hidden": false,
   "history": [],
   "id": "sculpture-in-clay-a74ae423",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/sculpture-in-clay",
@@ -39936,7 +40174,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/sculpture-in-clay"
    }
@@ -40112,7 +40350,7 @@
   "closing_soon": false,
   "confidence": "high",
   "conflicts": [],
-  "coverage": 1,
+  "coverage": 2,
   "curated": true,
   "date_basis": null,
   "date_status": "confirmed",
@@ -40134,7 +40372,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-tech-week-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Kensington — Olympia",
@@ -40157,7 +40395,6 @@
     ],
     "insider": [
      "discovered in the last 3 days",
-     "limited coverage detected (1 monitored source)",
      "announced well ahead"
     ],
     "relevance": [
@@ -40265,7 +40502,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-vivatech-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "15e — Porte de Versailles",
@@ -40388,9 +40625,9 @@
   "hidden": false,
   "history": [],
   "id": "national-holiday-54479757",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -40435,7 +40672,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/national-holiday"
    }
@@ -40514,7 +40751,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-wimbledon-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Wimbledon",
@@ -40637,9 +40874,9 @@
   "hidden": false,
   "history": [],
   "id": "schueberfouer-2eface58",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "link_check": {
    "checked_at": "2026-10-25T14:48:00+00:00",
    "error": null,
@@ -40684,7 +40921,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lu-lcto-whats-on",
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/schueberfouer"
    }
@@ -40761,7 +40998,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-us-open-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Queens — Flushing Meadows",
@@ -40884,9 +41121,9 @@
   "hidden": false,
   "history": [],
   "id": "chintz-48a6f31f",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
-  "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "last_verified_at": "2026-10-25T15:24:08+00:00",
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/exhibitions/chintz",
@@ -40925,7 +41162,7 @@
     "official": true,
     "published_at": null,
     "reliability": 1,
-    "seen_at": "2026-10-25T14:48:00+00:00",
+    "seen_at": "2026-10-25T15:24:08+00:00",
     "source_id": "lo-vam",
     "url": "https://www.vam.ac.uk/exhibitions/chintz"
    }
@@ -41125,7 +41362,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-lfw-feb-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -41248,7 +41485,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-nyfw-feb-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -41370,7 +41607,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-carnevale-2027",
-  "last_seen_at": "2026-10-25T14:48:00+00:00",
+  "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide (San Marco focus)",

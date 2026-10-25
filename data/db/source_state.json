@@ -1,16 +1,16 @@
 {
  "co-bing-events": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 2
   },
-  "last_duration_ms": 41941,
+  "last_duration_ms": 42274,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
@@ -22,43 +22,43 @@
  },
  "co-bing-hospitality": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 4
   },
-  "last_duration_ms": 44755,
+  "last_duration_ms": 45034,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 4,
+   "signals": 5,
    "verified_events": 0
   }
  },
  "co-bing-ski": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 8
+   "signals": 7
   },
-  "last_duration_ms": 26912,
+  "last_duration_ms": 30048,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 7,
+   "signals": 9,
    "verified_events": 0
   }
  },
@@ -87,15 +87,15 @@
   }
  },
  "co-eventbrite": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1815,
-  "last_error": null,
-  "last_status": "ok",
+  "last_duration_ms": 15,
+  "last_error": "https://www.eventbrite.it/d/italy--cortina-d'ampezzo/events/: HTTP 405",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -108,15 +108,15 @@
  },
  "co-gazzettino-belluno": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 129,
+  "last_duration_ms": 162,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -140,16 +140,16 @@
  },
  "co-skiworldcup": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 6
   },
-  "last_duration_ms": 1258,
+  "last_duration_ms": 1593,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -161,16 +161,16 @@
  },
  "curated-research": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 28,
    "signals": 0
   },
-  "last_duration_ms": 52,
+  "last_duration_ms": 32,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "curated",
   "monitorable": true,
   "totals": {
@@ -194,78 +194,78 @@
  },
  "lo-bing-art": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 2
+   "signals": 9
   },
-  "last_duration_ms": 29954,
+  "last_duration_ms": 29863,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 2,
+   "signals": 11,
    "verified_events": 0
   }
  },
  "lo-bing-business": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 1
+   "signals": 4
   },
-  "last_duration_ms": 26997,
+  "last_duration_ms": 29984,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 1,
+   "signals": 5,
    "verified_events": 0
   }
  },
  "lo-bing-openings": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 14
+   "signals": 16
   },
-  "last_duration_ms": 44027,
+  "last_duration_ms": 44837,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 14,
+   "signals": 25,
    "verified_events": 0
   }
  },
  "lo-eventbrite-business": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 8,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1523,
-  "last_error": null,
+  "last_duration_ms": 161,
+  "last_error": "https://www.eventbrite.co.uk/d/united-kingdom--london/business--events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -277,16 +277,16 @@
   }
  },
  "lo-eventbrite-food": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 6,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 3275,
-  "last_error": null,
+  "last_duration_ms": 3002,
+  "last_error": "https://www.eventbrite.co.uk/d/united-kingdom--london/food-and-drink--events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -311,16 +311,16 @@
  },
  "lo-londonist": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 14
   },
-  "last_duration_ms": 851,
+  "last_duration_ms": 551,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -344,15 +344,15 @@
  },
  "lo-standard-goingout": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 402,
+  "last_duration_ms": 404,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -364,16 +364,16 @@
  },
  "lo-vam": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 19,
    "signals": 0
   },
-  "last_duration_ms": 60977,
+  "last_duration_ms": 60679,
   "last_error": "https://www.vam.ac.uk/event/JlwWzPwXlD/friday-late-october-2026: HTTP 404",
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "partial",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "jsonld_detail",
   "monitorable": true,
   "totals": {
@@ -385,15 +385,15 @@
  },
  "lu-bing-business": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 27543,
+  "last_duration_ms": 30573,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
@@ -405,36 +405,36 @@
  },
  "lu-bing-culture": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 2
+   "signals": 4
   },
-  "last_duration_ms": 24531,
+  "last_duration_ms": 24301,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 2,
+   "signals": 4,
    "verified_events": 0
   }
  },
  "lu-bing-openings": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 27712,
+  "last_duration_ms": 27522,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
@@ -446,16 +446,16 @@
  },
  "lu-casino-agenda": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 10,
    "signals": 0
   },
-  "last_duration_ms": 29566,
+  "last_duration_ms": 29369,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "jsonld_detail",
   "monitorable": true,
   "totals": {
@@ -466,16 +466,16 @@
   }
  },
  "lu-eventbrite": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 27,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 3013,
-  "last_error": null,
+  "last_duration_ms": 220,
+  "last_error": "https://www.eventbrite.fr/d/luxembourg--luxembourg/events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -488,37 +488,37 @@
  },
  "lu-lcto-whats-on": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 59,
    "signals": 0
   },
-  "last_duration_ms": 189134,
+  "last_duration_ms": 180805,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "jsonld_detail",
   "monitorable": true,
   "totals": {
    "duplicates": 21,
    "events": 59,
    "signals": 0,
-   "verified_events": 47
+   "verified_events": 44
   }
  },
  "lu-lhoft-events": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 1,
    "signals": 0
   },
-  "last_duration_ms": 1415,
+  "last_duration_ms": 1349,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "tribe_api",
   "monitorable": true,
   "totals": {
@@ -530,16 +530,16 @@
  },
  "lu-lhoft-news": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 1
   },
-  "last_duration_ms": 3909,
+  "last_duration_ms": 3472,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -599,37 +599,37 @@
  },
  "lu-vdl-agenda": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 27,
    "signals": 0
   },
-  "last_duration_ms": 1664,
+  "last_duration_ms": 1171,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_events",
   "monitorable": true,
   "totals": {
    "duplicates": 21,
    "events": 27,
    "signals": 0,
-   "verified_events": 17
+   "verified_events": 14
   }
  },
  "lu-vdl-news": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 8
   },
-  "last_duration_ms": 4585,
+  "last_duration_ms": 4090,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -641,16 +641,16 @@
  },
  "lu-wort": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 2
   },
-  "last_duration_ms": 885,
+  "last_duration_ms": 767,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -662,16 +662,16 @@
  },
  "mx-artnewspaper": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 19
   },
-  "last_duration_ms": 729,
+  "last_duration_ms": 431,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -683,16 +683,16 @@
  },
  "mx-dezeen": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 11
   },
-  "last_duration_ms": 1217,
+  "last_duration_ms": 676,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -704,16 +704,16 @@
  },
  "mx-fashionunited": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 4
   },
-  "last_duration_ms": 743,
+  "last_duration_ms": 435,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -725,16 +725,16 @@
  },
  "mx-wallpaper": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 10
   },
-  "last_duration_ms": 1276,
+  "last_duration_ms": 657,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -746,16 +746,16 @@
  },
  "mx-wwd": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 2
   },
-  "last_duration_ms": 405,
+  "last_duration_ms": 181,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -767,15 +767,15 @@
  },
  "ny-6sqft": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 972,
+  "last_duration_ms": 1052,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -787,79 +787,79 @@
  },
  "ny-bing-art": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 2
+   "signals": 5
   },
-  "last_duration_ms": 36005,
+  "last_duration_ms": 39182,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 2,
+   "signals": 7,
    "verified_events": 0
   }
  },
  "ny-bing-business": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 2
   },
-  "last_duration_ms": 35989,
+  "last_duration_ms": 39303,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 2,
+   "signals": 3,
    "verified_events": 0
   }
  },
  "ny-bing-openings": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 9
+   "signals": 14
   },
-  "last_duration_ms": 42512,
+  "last_duration_ms": 51005,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 9,
+   "signals": 22,
    "verified_events": 0
   }
  },
  "ny-eater": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 9
   },
-  "last_duration_ms": 796,
+  "last_duration_ms": 237,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -870,16 +870,16 @@
   }
  },
  "ny-eventbrite-business": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 8,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1418,
-  "last_error": null,
+  "last_duration_ms": 184,
+  "last_error": "https://www.eventbrite.com/d/ny--new-york/business--events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -891,16 +891,16 @@
   }
  },
  "ny-eventbrite-food": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 7,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 3968,
-  "last_error": null,
+  "last_duration_ms": 3001,
+  "last_error": "https://www.eventbrite.com/d/ny--new-york/food-and-drink--events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -913,16 +913,16 @@
  },
  "ny-gothamist": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 5
   },
-  "last_duration_ms": 803,
+  "last_duration_ms": 223,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -958,16 +958,16 @@
  },
  "ny-theskint": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 9
   },
-  "last_duration_ms": 989,
+  "last_duration_ms": 814,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -979,16 +979,16 @@
  },
  "ny-whitney": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 6,
    "signals": 0
   },
-  "last_duration_ms": 18667,
+  "last_duration_ms": 18595,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T14:48:00+00:00",
+  "last_event_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "jsonld_detail",
   "monitorable": true,
   "totals": {
@@ -1000,79 +1000,79 @@
  },
  "pa-bing-art": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 18
+   "signals": 13
   },
-  "last_duration_ms": 34931,
+  "last_duration_ms": 37999,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 17,
+   "signals": 21,
    "verified_events": 0
   }
  },
  "pa-bing-business": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 1
   },
-  "last_duration_ms": 35914,
+  "last_duration_ms": 42035,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 1,
+   "signals": 2,
    "verified_events": 0
   }
  },
  "pa-bing-openings": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 22
+   "signals": 14
   },
-  "last_duration_ms": 41234,
+  "last_duration_ms": 50448,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 22,
+   "signals": 28,
    "verified_events": 0
   }
  },
  "pa-connaissance-arts": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 5
   },
-  "last_duration_ms": 770,
+  "last_duration_ms": 568,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -1083,16 +1083,16 @@
   }
  },
  "pa-eventbrite-business": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 6,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 2115,
-  "last_error": null,
+  "last_duration_ms": 82,
+  "last_error": "https://www.eventbrite.fr/d/france--paris/business--events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -1129,16 +1129,16 @@
  },
  "pa-lemonde-arts": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 13
   },
-  "last_duration_ms": 2512,
+  "last_duration_ms": 3020,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -1150,16 +1150,16 @@
  },
  "pa-lemonde-gastro": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 2
   },
-  "last_duration_ms": 980,
+  "last_duration_ms": 365,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -1182,16 +1182,16 @@
   }
  },
  "pa-quefaire-opendata": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 120,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 26712,
-  "last_error": null,
+  "last_duration_ms": 576,
+  "last_error": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records?limit=100&order_by=updated_at+desc&where=date_end+%3E%3D+now%28%29: disallowed by robots.txt",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "paris_opendata",
   "monitorable": true,
@@ -1204,16 +1204,16 @@
  },
  "pa-vogue-fr": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 7
   },
-  "last_duration_ms": 579,
+  "last_duration_ms": 173,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -1237,16 +1237,16 @@
  },
  "ve-bing-art": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 6
+   "signals": 2
   },
-  "last_duration_ms": 42019,
+  "last_duration_ms": 42086,
   "last_error": null,
   "last_signal_found_at": "2026-10-25T14:48:00+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
@@ -1258,43 +1258,43 @@
  },
  "ve-bing-business": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 4
+   "signals": 5
   },
-  "last_duration_ms": 42056,
+  "last_duration_ms": 42025,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 4,
+   "signals": 8,
    "verified_events": 0
   }
  },
  "ve-bing-openings": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
-   "signals": 10
+   "signals": 7
   },
-  "last_duration_ms": 53596,
+  "last_duration_ms": 51450,
   "last_error": null,
-  "last_signal_found_at": "2026-10-25T14:48:00+00:00",
+  "last_signal_found_at": "2026-10-25T15:24:08+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "bing_news",
   "monitorable": true,
   "totals": {
    "duplicates": 0,
    "events": 0,
-   "signals": 10,
+   "signals": 11,
    "verified_events": 0
   }
  },
@@ -1312,15 +1312,15 @@
  },
  "ve-cini": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1684,
+  "last_duration_ms": 2132,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -1331,16 +1331,16 @@
   }
  },
  "ve-eventbrite": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
-   "events": 6,
+   "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1672,
-  "last_error": null,
+  "last_duration_ms": 304,
+  "last_error": "https://www.eventbrite.it/d/italy--venezia/events/: HTTP 405",
   "last_event_found_at": "2026-10-25T14:48:00+00:00",
-  "last_status": "ok",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "jsonld_page",
   "monitorable": true,
@@ -1365,15 +1365,15 @@
  },
  "ve-gazzettino": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1004,
+  "last_duration_ms": 2665,
   "last_error": null,
   "last_status": "ok",
-  "last_success_at": "2026-10-25T14:48:00+00:00",
+  "last_success_at": "2026-10-25T15:24:08+00:00",
   "method": "rss_news",
   "monitorable": true,
   "totals": {
@@ -1408,15 +1408,15 @@
   }
  },
  "ve-veneziatoday": {
-  "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T14:48:00+00:00",
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-10-25T15:24:08+00:00",
   "last_counts": {
    "events": 0,
    "signals": 0
   },
-  "last_duration_ms": 1172,
-  "last_error": null,
-  "last_status": "ok",
+  "last_duration_ms": 1016,
+  "last_error": "https://www.veneziatoday.it/rss: HTTP 403",
+  "last_status": "failed",
   "last_success_at": "2026-10-25T14:48:00+00:00",
   "method": "rss_news",
   "monitorable": true,

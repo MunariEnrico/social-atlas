@@ -3,18 +3,18 @@
   "by_city": {
    "cortina": 2,
    "london": 38,
-   "luxembourg": 93,
+   "luxembourg": 90,
    "nyc": 25,
    "paris": 134,
    "venice": 12
   },
-  "live_events": 304,
-  "signals_24h": 91
+  "live_events": 301,
+  "signals_24h": 125
  },
  "date": "2026-10-25",
  "empty_note": null,
- "generated_at": "2026-10-25T14:53:46+00:00",
- "run_id": "20261025T145346Z-67ae",
+ "generated_at": "2026-10-25T15:24:08+00:00",
+ "run_id": "20261025T152408Z-94b2",
  "sections": {
   "booking_deadlines": [],
   "changes": [],
@@ -65,25 +65,14 @@
    },
    {
     "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-10-27T21:00:00+01:00",
-    "event_id": "improv-theatre-6-week-course-for-beginne-30127962",
-    "start": "2026-10-27T19:00:00+01:00",
-    "title": "Improv Theatre: 6-week course for beginners",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: limited · happening within two weeks"
-   },
-   {
-    "category": "culture",
     "city": "paris",
-    "end": "2026-10-27T21:00:00+01:00",
-    "event_id": "le-piano-de-margot-ef6a6edb",
-    "start": "2026-10-27T19:00:00+01:00",
-    "title": "Le piano de Margot",
-    "urgency": "act_now",
+    "end": "2026-10-25T18:00:00+01:00",
+    "event_id": "musique-pour-l-ame-carlos-intrieri-ricci-600bad27",
+    "start": "2026-10-25T16:00:00+01:00",
+    "title": "Musique pour L' âme - Carlos Intrieri Ricci (Piano Soliste)",
+    "urgency": "monitor",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: debut · happening within two weeks · registration required"
+    "why": "official source · distinctive: gala · happening within two weeks · free"
    },
    {
     "category": "culture",
@@ -125,6 +114,17 @@
     "event_id": "a-corpo-libero-giada-ciccolini-festival-0848cecb",
     "start": "2026-11-05T16:00:00+01:00",
     "title": "A corpo libero, Giada Ciccolini - Festival les Enfants d'abord - 5 novembre à 16h",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "paris",
+    "end": "2026-11-06T17:00:00+01:00",
+    "event_id": "a-corpo-libero-giada-ciccolini-festival-90bfebde",
+    "start": "2026-11-06T16:00:00+01:00",
+    "title": "A corpo libero, Giada Ciccolini - Festival les Enfants d'abord 06.11 à 16h",
     "urgency": "book_soon",
     "verification_status": "confirmed",
     "why": "official source · distinctive: fair · happening within two weeks"
@@ -204,17 +204,6 @@
   ],
   "last_minute": [
    {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-10-25T16:00:00+01:00",
-    "event_id": "regular-guided-tour-the-luxembourg-story-cd7ba4e0",
-    "start": "2026-10-25T15:00:00+01:00",
-    "title": "Regular guided tour: The Luxembourg Story",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources · free"
-   },
-   {
     "category": "seasonal",
     "city": "paris",
     "end": "2026-10-28T16:30:00+01:00",
@@ -259,15 +248,26 @@
     "why": "official source · happening within two weeks · seen in 2 sources"
    },
    {
-    "category": "seasonal",
+    "category": "food",
     "city": "luxembourg",
-    "end": "2026-10-25T16:00:00+01:00",
-    "event_id": "die-grusel-loser-762b8eb9",
-    "start": "2026-10-25T14:00:00+01:00",
-    "title": "Die Grusel-Loser",
+    "end": "2026-10-25T17:00:00+01:00",
+    "event_id": "petrusse-casemates-guided-tour-631cc445",
+    "start": "2026-10-25T16:00:00+01:00",
+    "title": "Pétrusse Casemates - Guided Tour",
     "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources"
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "paris",
+    "end": "2027-07-17T23:59:00+02:00",
+    "event_id": "visite-contee-tout-petits-semons-nos-res-4580fad2",
+    "start": "2026-10-26T00:00:00+01:00",
+    "title": "Visite contée tout-petits « Semons nos résistances »",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · reservation required"
    }
   ],
   "new_openings": [
@@ -478,17 +478,6 @@
    {
     "category": "art",
     "city": "nyc",
-    "end": "2026-10-25T14:00:00-04:00",
-    "event_id": "exhibition-tour-the-lost-world-the-art-o-6430b9be",
-    "start": "2026-10-25T14:00:00-04:00",
-    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: limited · happening within two weeks"
-   },
-   {
-    "category": "art",
-    "city": "nyc",
     "end": "2026-10-25T15:00:00-04:00",
     "event_id": "exhibition-tour-roy-lichtenstein-like-ne-0de568a1",
     "start": "2026-10-25T15:00:00-04:00",
@@ -533,17 +522,6 @@
    {
     "category": "culture",
     "city": "paris",
-    "end": "2026-10-25T18:00:00+01:00",
-    "event_id": "musique-pour-l-ame-carlos-intrieri-ricci-600bad27",
-    "start": "2026-10-25T16:00:00+01:00",
-    "title": "Musique pour L' âme - Carlos Intrieri Ricci (Piano Soliste)",
-    "urgency": "monitor",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: gala · happening within two weeks · free"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
     "end": "2026-10-26T22:00:00+01:00",
     "event_id": "lajamdulundi-de-francois-constantin-513a3c78",
     "start": "2026-10-26T21:00:00+01:00",
@@ -562,6 +540,28 @@
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · distinctive: debut · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-27T21:00:00+01:00",
+    "event_id": "improv-theatre-6-week-course-for-beginne-30127962",
+    "start": "2026-10-27T19:00:00+01:00",
+    "title": "Improv Theatre: 6-week course for beginners",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "paris",
+    "end": "2026-10-27T21:00:00+01:00",
+    "event_id": "le-piano-de-margot-ef6a6edb",
+    "start": "2026-10-27T19:00:00+01:00",
+    "title": "Le piano de Margot",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: debut · happening within two weeks · registration required"
    }
   ],
   "tonight": [
@@ -634,17 +634,6 @@
   ],
   "top_today": [
    {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-10-25T16:00:00+01:00",
-    "event_id": "berthe-brincour-1879-1947-1a3361ef",
-    "start": "2026-10-25T15:00:00+01:00",
-    "title": "Berthe Brincour (1879-1947)",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: premiere · happening within two weeks"
-   },
-   {
     "category": "culture",
     "city": "luxembourg",
     "end": "2026-10-25T17:00:00+01:00",
@@ -687,6 +676,17 @@
     "urgency": "information_pending",
     "verification_status": "confirmed",
     "why": "official source · distinctive: opening · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-25T14:00:00-04:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-6430b9be",
+    "start": "2026-10-25T14:00:00-04:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
    }
   ]
  },
