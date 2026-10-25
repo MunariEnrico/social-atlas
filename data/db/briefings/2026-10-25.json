@@ -3,216 +3,43 @@
   "by_city": {
    "cortina": 2,
    "london": 38,
-   "luxembourg": 90,
+   "luxembourg": 89,
    "nyc": 25,
-   "paris": 134,
+   "paris": 14,
    "venice": 12
   },
-  "live_events": 301,
+  "live_events": 180,
   "signals_24h": 125
  },
  "date": "2026-10-25",
  "empty_note": null,
- "generated_at": "2026-10-25T15:24:08+00:00",
- "run_id": "20261025T152408Z-94b2",
+ "generated_at": "2026-10-25T15:33:04+00:00",
+ "run_id": "20261025T153304Z-76f3",
  "sections": {
   "booking_deadlines": [],
   "changes": [],
   "discovered_24h": [
    {
-    "category": "business",
-    "city": "paris",
-    "end": "2026-11-23T23:59:00+01:00",
-    "event_id": "vivant-e-un-festival-d-art-engage-pour-f-12ca77f7",
-    "start": "2026-11-19T00:00:00+01:00",
-    "title": "Vivant·e : un festival d'art engagé pour faire fleurir de nouveaux imaginaires !",
-    "urgency": "plan_ahead",
+    "category": "food",
+    "city": "london",
+    "end": "2026-11-08",
+    "event_id": "smokestak-manteca-present-xv-blok-party-22c3ffea",
+    "start": "2026-11-07",
+    "title": "SMOKESTAK + manteca present XV BLOK PARTY",
+    "urgency": "information_pending",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · worth a trip · free"
+    "why": "organiser/partner source · distinctive: one night · happening within two weeks"
    },
    {
     "category": "art",
-    "city": "paris",
-    "end": "2026-11-29T23:59:00+01:00",
-    "event_id": "les-rencontres-internationales-paris-ber-faf82fd2",
-    "start": "2026-11-23T00:00:00+01:00",
-    "title": "Les Rencontres Internationales Paris/Berlin 2026",
-    "urgency": "plan_ahead",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · worth a trip · free"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-11-22T23:59:00+01:00",
-    "event_id": "6e-edition-du-festival-des-fiertes-le-fe-072dfddc",
-    "start": "2026-11-06T00:00:00+01:00",
-    "title": "6e édition du Festival des Fiertés, le festival des cultures et identités LGBTQIA+",
-    "urgency": "book_soon",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · worth a trip · registration required"
-   },
-   {
-    "category": "business",
-    "city": "paris",
-    "end": "2026-11-04T20:30:00+01:00",
-    "event_id": "conference-les-midinettes-ces-grandes-ou-b4a7d3e7",
-    "start": "2026-11-04T19:00:00+01:00",
-    "title": "Conférence « Les midinettes, ces grandes oubliées du monde de la mode »",
-    "urgency": "book_soon",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: premiere · happening within two weeks · free"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-25T18:00:00+01:00",
-    "event_id": "musique-pour-l-ame-carlos-intrieri-ricci-600bad27",
-    "start": "2026-10-25T16:00:00+01:00",
-    "title": "Musique pour L' âme - Carlos Intrieri Ricci (Piano Soliste)",
+    "city": "luxembourg",
+    "end": "2026-11-15",
+    "event_id": "the-day-of-the-mantis-55b401ee",
+    "start": "2026-09-05",
+    "title": "The Day of the Mantis",
     "urgency": "monitor",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: gala · happening within two weeks · free"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-27T00:00:00+01:00",
-    "event_id": "tgbb-festival-2026-jour-1-b92e56ce",
-    "start": "2026-10-27T19:00:00+01:00",
-    "title": "TGBB Festival 2026 : Jour 1",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · happening within two weeks · reservation required"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-27T23:00:00+01:00",
-    "event_id": "fedia-amice-trio-cb50beb0",
-    "start": "2026-10-27T20:30:00+01:00",
-    "title": "Fedia amice trio",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · happening within two weeks · reservation required"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-11-04T20:00:00+01:00",
-    "event_id": "les-vents-francais-a-la-conquete-du-mond-91aed9e8",
-    "start": "2026-11-04T19:00:00+01:00",
-    "title": "Les vents français à la conquête du monde",
-    "urgency": "book_soon",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: premiere · happening within two weeks · reservation required"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-11-05T17:00:00+01:00",
-    "event_id": "a-corpo-libero-giada-ciccolini-festival-0848cecb",
-    "start": "2026-11-05T16:00:00+01:00",
-    "title": "A corpo libero, Giada Ciccolini - Festival les Enfants d'abord - 5 novembre à 16h",
-    "urgency": "book_soon",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-11-06T17:00:00+01:00",
-    "event_id": "a-corpo-libero-giada-ciccolini-festival-90bfebde",
-    "start": "2026-11-06T16:00:00+01:00",
-    "title": "A corpo libero, Giada Ciccolini - Festival les Enfants d'abord 06.11 à 16h",
-    "urgency": "book_soon",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · happening within two weeks"
-   }
-  ],
-  "discovered_24h_signals": [
-   {
-    "city": "paris",
-    "signal_id": "sig-fdb413ea2843",
-    "source": "The Art Newspaper",
-    "title": "What to expect from Centre Pompidou’s vast new conservation-focused site in the Parisian suburbs",
-    "url": "https://www.theartnewspaper.com/2026/10/23/what-to-expect-from-centre-pompidous-vast-new-conservation-focused-site-in-the-parisian-suburbs"
-   },
-   {
-    "city": "nyc",
-    "signal_id": "sig-fae84ce1a321",
-    "source": "Bing News — NYC openings",
-    "title": "Dua Lipa On Her Skincare Routine And Augustinus Bader Pop-Up In New York City",
-    "url": "https://www.forbes.com/sites/celiashatzman/2026/10/09/dua-lipa-on-her-skincare-routine-and-augustinus-bader-pop-up-in-nyc/"
-   },
-   {
-    "city": "nyc",
-    "signal_id": "sig-faba15d60bdb",
-    "source": "Bing News — NYC openings",
-    "title": "5 Hot New NYC Bar & Restaurant Openings: Noodles and Baked Goods Run the Scene",
-    "url": "https://diningout.com/new-york/nyc-bar-restaurant-openings-oct21-2026/"
-   },
-   {
-    "city": "london",
-    "signal_id": "sig-fa991793c2be",
-    "source": "Bing News — London private views",
-    "title": "Natural History Museum opens gallery locked in 1943",
-    "url": "https://www.msn.com/en-us/news/other/natural-history-museum-opens-gallery-locked-in-1943/ar-AA2chcXr"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-f45dd4457102",
-    "source": "Bing News — Paris vernissages",
-    "title": "La folle nuit de Madonna à Paris venue soutenir son fils Rocco Ritchie au vernissage de son exposition",
-    "url": "https://www.msn.com/fr-fr/actualite/other/la-folle-nuit-de-madonna-%C3%A0-paris-venue-soutenir-son-fils-rocco-ritchie-au-vernissage-de-son-exposition/ar-AA2fZbso"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-f382594b9914",
-    "source": "The Art Newspaper",
-    "title": "Rioting does not deter big-ticket sales at Art Basel Paris",
-    "url": "https://www.theartnewspaper.com/2026/10/21/riots-do-not-deter-big-ticket-sales-at-art-basel-paris"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-ef50821954d9",
-    "source": "Bing News — Paris ouvertures",
-    "title": "Nouveau restaurant, rooftop et chambres en plus : à Serris, l'hôtel Eklo s'agrandit",
-    "url": "https://actu.fr/ile-de-france/serris_77449/nouveau-restaurant-rooftop-et-chambres-en-plus-a-serris-lhotel-eklo-sagrandit_64894906.html"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-eed610dd44c9",
-    "source": "FashionUnited",
-    "title": "Galeries Lafayette’s Victoria Dartigues on SS27: 'We want joyful and sparkling fashion'",
-    "url": "https://fashionunited.com/news/fashion/galeries-lafayettes-victoria-dartigues-on-ss27-we-want-joyful-and-sparkling-fashion/2026102375268"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-ed6d3c303980",
-    "source": "Bing News — Paris vernissages",
-    "title": "Que faire à Paris ce week-end du 9, 10 et 11 octobre 2026 ?",
-    "url": "https://www.elle.fr/Loisirs/Sorties/News/Que-faire-a-Paris-ce-week-end-du-9-10-et-11-octobre-2026-4672283"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-ec29806c3a04",
-    "source": "Bing News — Paris vernissages",
-    "title": "Paris : 55 galeries réunies place de la Concorde pour une édition résolument internationale de Moderne Art Fair",
-    "url": "https://www.connaissancedesarts.com/marche-art/salons-foires/paris-55-galeries-reunies-place-de-la-concorde-pour-une-edition-resolument-internationale-de-moderne-art-fair-11217297/"
-   }
-  ],
-  "last_minute": [
-   {
-    "category": "seasonal",
-    "city": "paris",
-    "end": "2026-10-28T16:30:00+01:00",
-    "event_id": "atelier-de-sensibilisation-au-temps-de-d-ba1b9f81",
-    "start": "2026-10-28T15:00:00+01:00",
-    "title": "Atelier de sensibilisation au temps de dégradation des déchets",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · happening within two weeks · free"
+    "why": "official source · distinctive: biennale"
    },
    {
     "category": "culture",
@@ -248,6 +75,28 @@
     "why": "official source · happening within two weeks · seen in 2 sources"
    },
    {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-20",
+    "event_id": "luxembourg-art-week-2026-opening-night-t-798f2826",
+    "start": "2026-11-20",
+    "title": "Luxembourg Art Week 2026 - Opening Night -The Live Hearth Signal Room",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening"
+   },
+   {
+    "category": "food",
+    "city": "nyc",
+    "end": "2026-11-14",
+    "event_id": "ny-cider-festival-nyc-2026-4adfce8b",
+    "start": "2026-11-14",
+    "title": "NY Cider Festival NYC 2026",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "organiser/partner source · distinctive: festival"
+   },
+   {
     "category": "food",
     "city": "luxembourg",
     "end": "2026-10-25T17:00:00+01:00",
@@ -259,15 +108,166 @@
     "why": "official source · happening within two weeks"
    },
    {
-    "category": "art",
-    "city": "paris",
-    "end": "2027-07-17T23:59:00+02:00",
-    "event_id": "visite-contee-tout-petits-semons-nos-res-4580fad2",
-    "start": "2026-10-26T00:00:00+01:00",
-    "title": "Visite contée tout-petits « Semons nos résistances »",
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-26T18:00:00+01:00",
+    "event_id": "open-floor-breaking-cbb4fa41",
+    "start": "2026-10-26T18:00:00+01:00",
+    "title": "Open Floor: Breaking",
     "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · reservation required"
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-26T19:45:00+01:00",
+    "event_id": "mala-noche-cult-fiction-f35e11da",
+    "start": "2026-10-26T18:30:00+01:00",
+    "title": "Mala Noche (Cult Fiction)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "discovered_24h_signals": [
+   {
+    "city": "paris",
+    "signal_id": "sig-fd9cf0fdf173",
+    "source": "Bing News — Paris vernissages",
+    "title": "PARIS : Île Seguin – L’exposition « Moteur Imaginaire » fait dialoguer art et industrie",
+    "url": "https://presseagence.fr/paris-ile-seguin-lexposition-moteur-imaginaire-fait-dialoguer-art-et-industrie/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-e3874dcfdc4a",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Cyril Lignac ouvre son Coffee shop chocolat à Paris nommé Moko",
+    "url": "https://www.sortiraparis.com/hotel-restaurant/cafe-tea-time/articles/355201-cyril-lignac-ouvre-son-coffee-shop-chocolat-a-paris-nomme-moko"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-de6270ed663f",
+    "source": "Bing News — London private views",
+    "title": "Explore this pop-up library dedicated to queer creativity in London",
+    "url": "https://www.wallpaper.com/design-interiors/london-design-festival-brompton-reading-room-alex-tieghi-walker-books"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-de19380056d0",
+    "source": "Bing News — NYC openings",
+    "title": "New York is getting new Tropical Smoothie Cafes",
+    "url": "https://finance.yahoo.com/small-business/articles/york-getting-tropical-smoothie-cafes-155456179.html"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-dc901d6af736",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Dans le 3ᵉ arrondissement, cette toute petite adresse tibétaine encore méconnue sert des raviolis délicieux… Allez-y avant que tout Paris s’y presse !",
+    "url": "https://parissecret.com/restaurant-tibetain-paris-mofe/"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-d32faf41b355",
+    "source": "Bing News — NYC openings",
+    "title": "Bar Bas: A Cozy Hidden Cocktail Lounge Opens in Hell’s Kitchen",
+    "url": "https://www.broadwayworld.com/bwwfood-wine/article/Bar-Bas-A-Cozy-Hidden-Cocktail-Lounge-Opens-in-Hells-Kitchen-20261020"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-cff4dc95ecce",
+    "source": "Bing News — NYC gallery openings",
+    "title": "One Art Space Tribeca Opening of New Hunt Slonem Exhibition ‘Through the Looking Glass’",
+    "url": "https://www.tennessean.com/press-release/story/235641/one-art-space-tribeca-opening-of-new-hunt-slonem-exhibition-through-the-looking-glass/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-ccd663aeeef1",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Du pop-up à la boutique permanente : Fanatics s’installe définitivement à Paris !",
+    "url": "https://www.dazn.com/fr-FR/news/foot-us/fanatics-collectibles-boutique-permanente-paris-cartes-topps/1vswqb41jto671pk16e53lcavv"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-ccaaad7b01da",
+    "source": "Bing News — London private views",
+    "title": "Frieze London 2026 Cheat Sheet",
+    "url": "https://www.vogue.com/article/frieze-london-2026-cheat-sheet"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-cc4ace3975ea",
+    "source": "Bing News — London private views",
+    "title": "Pokémon announces London Science Museum pop-up",
+    "url": "https://www.nme.com/news/gaming-news/pokemon-london-science-museum-pop-up-dates-tickets-card-3970170"
+   }
+  ],
+  "last_minute": [
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-26T21:30:00+01:00",
+    "event_id": "wien-wien-nur-du-allein-81a8e28a",
+    "start": "2026-10-26T19:30:00+01:00",
+    "title": "Wien, Wien, nur du allein !",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-27T18:30:00+01:00",
+    "event_id": "luxembourg-sustainability-forum-2026-080be72e",
+    "start": "2026-10-27T12:00:00+01:00",
+    "title": "Luxembourg Sustainability Forum 2026",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-27T21:30:00+01:00",
+    "event_id": "somato-fa6b782f",
+    "start": "2026-10-27T20:00:00+01:00",
+    "title": "SoMaTo",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-28T15:00:00+01:00",
+    "event_id": "the-who-is-who-713687da",
+    "start": "2026-10-28T15:00:00+01:00",
+    "title": "The Who is Who",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-25T19:00:00+01:00",
+    "event_id": "connexion-ou-deconnexion-f0f2a00c",
+    "start": "2026-10-25T18:00:00+01:00",
+    "title": "Connexion ou Déconnexion",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-26T22:00:00+01:00",
+    "event_id": "dr-jekyll-and-mr-hyde-1941-e6817699",
+    "start": "2026-10-26T20:00:00+01:00",
+    "title": "Dr. Jekyll and Mr. Hyde (1941)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
    }
   ],
   "new_openings": [
@@ -397,17 +397,6 @@
     "why": "official source · distinctive: fair · worth a trip"
    },
    {
-    "category": "seasonal",
-    "city": "paris",
-    "end": "2026-11-22T17:00:00+01:00",
-    "event_id": "vivant-e-kids-un-festival-d-art-pour-fai-de1bf8ae",
-    "start": "2026-11-20T17:00:00+01:00",
-    "title": "Vivant·e KIDS : un festival d’art pour faire germer les artistes de 7-12 ans !",
-    "urgency": "plan_ahead",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · worth a trip · reservation required"
-   },
-   {
     "category": "sports",
     "city": "cortina",
     "end": null,
@@ -450,42 +439,20 @@
     "urgency": "plan_ahead",
     "verification_status": "announced_pending",
     "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "london",
+    "end": "2027-07-11",
+    "event_id": "ev-lo-wimbledon-2027",
+    "start": "2027-06-28",
+    "title": "The Championships, Wimbledon 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
    }
   ],
   "this_week": [
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-29T23:00:00+01:00",
-    "event_id": "festival-they-re-gonna-be-big-au-superso-2b27a64d",
-    "start": "2026-10-27T18:45:00+01:00",
-    "title": "Festival « They're Gonna Be Big » au Supersonic",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · worth a trip · reservation required"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-11-02T23:59:00+01:00",
-    "event_id": "ugc-fete-halloween-0fd1dc78",
-    "start": "2026-10-26T00:00:00+01:00",
-    "title": "UGC fête Halloween",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · worth a trip"
-   },
-   {
-    "category": "art",
-    "city": "nyc",
-    "end": "2026-10-25T15:00:00-04:00",
-    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-0de568a1",
-    "start": "2026-10-25T15:00:00-04:00",
-    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: limited · happening within two weeks"
-   },
    {
     "category": "food",
     "city": "luxembourg",
@@ -521,17 +488,6 @@
    },
    {
     "category": "culture",
-    "city": "paris",
-    "end": "2026-10-26T22:00:00+01:00",
-    "event_id": "lajamdulundi-de-francois-constantin-513a3c78",
-    "start": "2026-10-26T21:00:00+01:00",
-    "title": "#LaJamDuLundi de François Constantin",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · happening within two weeks · free"
-   },
-   {
-    "category": "culture",
     "city": "luxembourg",
     "end": "2026-10-27T21:45:00+01:00",
     "event_id": "kwaidan-great-restorations-d673e82e",
@@ -553,40 +509,62 @@
     "why": "official source · distinctive: limited · happening within two weeks"
    },
    {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-27T21:00:00+01:00",
-    "event_id": "le-piano-de-margot-ef6a6edb",
-    "start": "2026-10-27T19:00:00+01:00",
-    "title": "Le piano de Margot",
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-29",
+    "event_id": "clio-van-aerde-end-of-residency-symposiu-947bcf4c",
+    "start": "2026-10-29",
+    "title": "Clio Van Aerde – End-of-Residency Symposium",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: residency · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-25T12:00:00-04:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-be957bc9",
+    "start": "2026-10-25T12:00:00-04:00",
+    "title": "A Closer Look: Guided Close-Looking Through Dialogue",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-25T13:00:00-04:00",
+    "event_id": "exhibition-tour-untitled-america-ba6d11e3",
+    "start": "2026-10-25T13:00:00-04:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-26T13:30:00+01:00",
+    "event_id": "cours-particulier-one-to-one-4ac168b8",
+    "start": "2026-10-26T10:30:00+01:00",
+    "title": "Cours Particulier - One to One",
     "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: debut · happening within two weeks · registration required"
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-26T17:30:00+01:00",
+    "event_id": "yoga-art-a-unique-experience-c9e34b98",
+    "start": "2026-10-26T17:30:00+01:00",
+    "title": "Yoga & Art: A Unique Experience",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
    }
   ],
   "tonight": [
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-25T21:00:00+01:00",
-    "event_id": "bpd-bingo-psychotherapeutique-du-dimanch-32c7969c",
-    "start": "2026-10-25T18:00:00+01:00",
-    "title": "BPD* (*Bingo Psychothérapeutique du Dimanche)",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "paris",
-    "end": "2026-10-25T23:00:00+01:00",
-    "event_id": "sunday-tribute-oasis-b1829dc0",
-    "start": "2026-10-25T19:00:00+01:00",
-    "title": "Sunday Tribute - Oasis",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · happening within two weeks · free"
-   },
    {
     "category": "food",
     "city": "luxembourg",
@@ -630,6 +608,28 @@
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-25T19:00:00+01:00",
+    "event_id": "concert-des-laureats-avec-l-ocl-d604916e",
+    "start": "2026-10-25T17:00:00+01:00",
+    "title": "CONCERT DES LAURÉATS AVEC L'OCL",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "culture",
+    "city": "nyc",
+    "end": "2026-10-25T17:00:00-04:00",
+    "event_id": "wayfinding-senas-del-camino-e197f19c",
+    "start": "2026-10-25T17:00:00-04:00",
+    "title": "Wayfinding: Señas del Camino",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
    }
   ],
   "top_today": [
@@ -667,23 +667,23 @@
     "why": "official source · distinctive: festival · happening within two weeks"
    },
    {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-25T16:30:00+01:00",
-    "event_id": "free-trial-lesson-coding-and-robotics-fo-9a49a71e",
-    "start": "2026-10-25T10:00:00+01:00",
-    "title": "Free trial lesson: coding and robotics for ages 4 to 13",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: opening · happening within two weeks"
-   },
-   {
     "category": "art",
     "city": "nyc",
     "end": "2026-10-25T14:00:00-04:00",
     "event_id": "exhibition-tour-the-lost-world-the-art-o-6430b9be",
     "start": "2026-10-25T14:00:00-04:00",
     "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-25T15:00:00-04:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-0de568a1",
+    "start": "2026-10-25T15:00:00-04:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
     "urgency": "information_pending",
     "verification_status": "confirmed",
     "why": "official source · distinctive: limited · happening within two weeks"

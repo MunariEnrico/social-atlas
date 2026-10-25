@@ -207,7 +207,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.fr/d/luxembourg--luxembourg/events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [luxembourg, kirchberg, esch, belval, strassen, howald, hesperange, bertrange, leudelange]
     categories: [business, culture]
@@ -359,7 +360,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.it/d/italy--venezia/events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [venezia, venice, venedig, venise, venedik, mestre, lido, murano, burano, giudecca, marghera]
     categories: []
@@ -467,7 +469,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.it/d/italy--cortina-d'ampezzo/events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [cortina]
     categories: []
@@ -480,7 +483,8 @@ sources:
     type: official_institution
     reliability: 1
     url: https://quefaire.paris.fr/
-    method: paris_opendata
+    method: manual
+    reason: "robots.txt on opendata.paris.fr disallows /api/ for every agent except Googlebot; re-enable (method: paris_opendata) only if the City allows it"
     api: https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records
     max_items: 120
     tag_allowlist: [Expo, Art contemporain, Photographie, Design, Mode, Gastronomie, Concert, Musique, Festival, Salon, Conférence, Innovation, Danse, Théâtre, Cinéma, Littérature, Histoire, Street-art, Nature]
@@ -614,7 +618,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.fr/d/france--paris/business--events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [paris]
     categories: [business]
@@ -749,7 +754,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.com/d/ny--new-york/business--events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [new york, brooklyn, queens, bronx, staten island, manhattan, long island city]
     categories: [business]
@@ -761,7 +767,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.com/d/ny--new-york/food-and-drink--events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [new york, brooklyn, queens, bronx, staten island, manhattan, long island city]
     categories: [food]
@@ -882,7 +889,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.co.uk/d/united-kingdom--london/business--events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [london]
     categories: [business]
@@ -894,7 +902,8 @@ sources:
     type: ticketing_platform
     reliability: 2
     url: "https://www.eventbrite.co.uk/d/united-kingdom--london/food-and-drink--events/"
-    method: jsonld_page
+    method: manual
+    reason: "Eventbrite answers HTTP 405 to GitHub's servers (it worked from other networks on 2026-10-25)"
     booking_platform: true
     require_locality: [london]
     categories: [food]

@@ -83,15 +83,19 @@ class Fetcher:
                 if r.status_code in (401, 403):
                     # robots.txt itself forbidden: treat as disallow-all per RFC 9309 guidance
                     rp.parse(["User-agent: *", "Disallow: /"])
+                elif r.status_code >= 500:
+                    rp = None  # server error: treat as unreachable (disallow this run)
                 elif r.status_code >= 400:
                     rp.parse([])  # no robots.txt -> everything allowed
                 else:
                     rp.parse(r.text.splitlines())
             except requests.RequestException:
-                rp = None  # unreachable robots: be permissive but the page fetch will likely fail too
+                # RFC 9309: if robots.txt cannot be reached, assume everything is disallowed.
+                # The source is skipped for this run and retried on the next one.
+                rp = None
             self._robots[base] = rp
         rp = self._robots[base]
-        return True if rp is None else rp.can_fetch(ROBOTS_AGENT, url)
+        return False if rp is None else rp.can_fetch(ROBOTS_AGENT, url)
 
     # -- fetch ----------------------------------------------------------
     def get(self, url: str, params: dict | None = None, accept_json: bool = False) -> FetchResult:
@@ -105,7 +109,8 @@ class Fetcher:
                 res.error = f"robots check failed: {exc}"
                 return res
             if res.robots_allowed is False:
-                res.error = "disallowed by robots.txt"
+                base = f"{urlparse(url).scheme}://{urlparse(url).netloc}"
+                res.error = "robots.txt unreachable — skipped this run" if self._robots.get(base) is None else "disallowed by robots.txt"
                 return res
             t0 = time.monotonic()
             for attempt in range(self.retries + 1):

@@ -106,15 +106,15 @@ Rules enforced in code: "available" or "sold out" only from an official source's
 
 ## 5. Sources
 
-`data/sources.yaml` holds 78 sources (57 collected automatically, 21 manual with the reason recorded) across the six cities plus multi-city publications. Every entry was probed on 2026-10-25 (status, robots.txt, structure) and records the result. Methods:
+`data/sources.yaml` holds 78 sources (48 collected automatically, 30 manual with the reason recorded) across the six cities plus multi-city publications. Every entry was probed on 2026-10-25 (status, robots.txt, structure) and records the result. Methods:
 
 | Method | Used for | Examples |
 |---|---|---|
 | `jsonld_detail` | Official listings whose event pages carry schema.org data | Luxembourg City Tourist Office, Casino Luxembourg, Whitney Museum, V&A |
-| `jsonld_page` + `require_locality` | Organisers' pages on Eventbrite (city listings; venues outside the city are dropped) | Luxembourg, Venice, Cortina, Paris/NYC/London business and food & drink |
+| `jsonld_page` + `require_locality` | Organisers' pages on Eventbrite (city listings; venues outside the city are dropped) — **currently off**: Eventbrite answers HTTP 405 to GitHub's servers | Luxembourg, Venice, Cortina, Paris/NYC/London business and food & drink |
 | `rss_events` | Official feeds where each item is an event | Ville de Luxembourg agenda |
 | `tribe_api` | Organiser calendars on WordPress | LHoFT (Luxembourg fintech) |
-| `paris_opendata` | City open data | Que faire à Paris (Ville de Paris) |
+| `paris_opendata` | City open data — **currently off**: opendata.paris.fr's robots.txt disallows `/api/` for all agents except Googlebot | Que faire à Paris (Ville de Paris) |
 | `rss_news` | Press and newsletters → leads | The Skint, Eater NY, Londonist, Le Monde, Vogue France, VeneziaToday, The Art Newspaper, Dezeen, WWD… |
 | `bing_news` | Short multilingual news searches per city → leads | "Venezia nuovo ristorante", "London private view exhibition"… |
 | `curated` | Marquee events researched by hand with evidence | Biennale, La Fenice, fashion weeks, Grand Slams, World Cup… |
@@ -197,7 +197,7 @@ There is no paid API, no paid LLM call and no paid flight API anywhere in the co
 
 ## 9. What is automated vs manual
 
-**Fully automated, daily:** collection from 57 monitored sources; extraction and normalisation; de-duplication; verification status; past-event archiving; weekly official-link re-checks; scoring, urgency and radar buckets; daily briefing; run log and source health; deployment; URL submission processing.
+**Fully automated, daily:** collection from 48 monitored sources; extraction and normalisation; de-duplication; verification status; past-event archiving; weekly official-link re-checks; scoring, urgency and radar buckets; daily briefing; run log and source health; deployment; URL submission processing.
 
 **Needs a person:** researching marquee events into `data/curated/` (Claude can do this in a maintenance session); confirming events the pipeline marks `needs_review` or `announced_pending` (via `overrides.yaml`); checking Instagram/Facebook/X accounts and submitting interesting posts' URLs; marking events booked; adding sources.
 
@@ -221,7 +221,8 @@ There is no paid API, no paid LLM call and no paid flight API anywhere in the co
 - **Personal data** (My Events, trips) lives in one browser; use export/import to move it.
 - **Bing News RSS** is an unofficial-but-public endpoint and could change; failures will show in System Health.
 - **The first data in this repository** was collected from a development sandbox on 2026-10-25 (run log: 57 of 57 sources answered, 304 upcoming events, 232 leads, about 5 minutes), not from GitHub Actions. Some sites answer differently to GitHub's datacenter IPs (blocks, rate limits); those show up as failing sources in System Health. The workflows pass `actionlint` but can only be proven by their first run in your repository.
-- **Eventbrite** listings are organiser-published; quality varies, and their relevance score is usually lower than official venues'.
+- **Eventbrite** (HTTP 405 to GitHub's runners) and **Paris open data** (robots.txt disallows its API) were switched to manual after the first GitHub run; Paris now relies on press leads, Station F/fashion/tennis research and submitted URLs.
+- robots.txt is enforced strictly: if it cannot be fetched, the source is skipped for that run (RFC 9309).
 - Scheduled GitHub runs can start late under load and are best-effort.
 
 ## 12. Tests

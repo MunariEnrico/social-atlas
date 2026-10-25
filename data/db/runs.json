@@ -1494,5 +1494,32 @@
   "status": "partial",
   "submissions_processed": 0,
   "trigger": "manual"
+ },
+ {
+  "duplicates_merged": 0,
+  "errors": [],
+  "events_extracted": 0,
+  "events_new": 0,
+  "events_updated": 0,
+  "finished_at": "2026-10-25T15:33:06+00:00",
+  "github_run_url": null,
+  "link_checks": 0,
+  "mode": "reprocess",
+  "per_source": [],
+  "possible_duplicates": 0,
+  "requests": 0,
+  "run_id": "20261025T153304Z-76f3",
+  "runner": "local",
+  "signals_extracted": 0,
+  "signals_new": 0,
+  "sources_attempted": 0,
+  "sources_failed": 0,
+  "sources_manual": 30,
+  "sources_ok": 0,
+  "sources_skipped": 0,
+  "started_at": "2026-10-25T15:33:04+00:00",
+  "status": "success",
+  "submissions_processed": 0,
+  "trigger": "manual"
  }
 ]
