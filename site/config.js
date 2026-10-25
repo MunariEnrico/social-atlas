@@ -2,7 +2,7 @@
 window.ATLAS_CONFIG = {
   // "owner/repository" on GitHub. Used only to build links to Actions, Issues and the
   // overrides file (all of which require you to be signed in to GitHub). Leave empty to hide.
-  repo: "",
+  repo: "MunariEnrico/social-atlas",
   branch: "main",
   // Where the pipeline output lives relative to index.html.
   dataPath: "data/",
