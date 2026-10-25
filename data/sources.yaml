@@ -1,0 +1,972 @@
+# SOCIAL ATLAS — Source registry
+#
+# Every source here was probed from a development sandbox on 2026-10-25 with
+# scripts/probe_source.py (HTTP status + robots.txt + structure). "probe" records
+# what that check found. The pipeline keeps its own live status per source in
+# data/db/source_state.json — that file, not this one, is the truth about whether a
+# source is currently being monitored successfully.
+#
+# reliability: 1 = official organiser/venue/institution/tourism office
+#              2 = official booking/ticketing page or organiser-run calendar (e.g. an organiser's Eventbrite page)
+#              3 = reputable publication / newsletter
+#              4 = search aggregator, social or community signal
+# method (see pipeline/collectors):
+#   jsonld_detail  listing page -> follow event links -> schema.org Event JSON-LD
+#   jsonld_page    a single page that embeds schema.org Event JSON-LD
+#   rss_events     RSS where each item is an event and pubDate is the start time
+#   rss_news       RSS/Atom of articles -> "signals" (never auto-promoted to confirmed events)
+#   bing_news      Bing News RSS search for a list of short queries -> signals
+#   tribe_api      WordPress "The Events Calendar" REST API
+#   paris_opendata Ville de Paris "Que faire à Paris" open data API
+#   ical           iCalendar feed
+#   manual         cannot be collected automatically (login wall, robots.txt, 403);
+#                  kept for manual checking and URL submission
+#
+# Optional per source: frequency_days (default 1), max_items, keywords (signals must
+# match at least one), city_keywords (for multi-city feeds), require_locality (venue text
+# must name one of these places), booking_platform (listing page = ticket page), enabled.
+
+defaults:
+  frequency_days: 1
+  max_items: 60
+
+sources:
+  # ------------------------------------------------------------------ LUXEMBOURG
+  - id: lu-vdl-agenda
+    name: Ville de Luxembourg — Agenda
+    city: luxembourg
+    type: official_institution
+    reliability: 1
+    url: https://www.vdl.lu/en/whats-on
+    method: rss_events
+    feed: https://www.vdl.lu/en/agenda/rss.xml
+    language: fr
+    categories: [culture, art, seasonal, sports]
+    probe: "200 · RSS · 30 items, pubDate = event start · robots OK"
+
+  - id: lu-lcto-whats-on
+    name: Luxembourg City Tourist Office — What's On
+    city: luxembourg
+    type: tourism_board
+    reliability: 1
+    url: https://www.luxembourg-city.com/en/what-s-on
+    method: jsonld_detail
+    link_pattern: "/en/what-s-on/event/"
+    max_details: 60
+    language: en
+    categories: [culture, art, food, nightlife, seasonal]
+    probe: "200 · listing has 95 event links · detail pages carry schema.org Event"
+
+  - id: lu-casino-agenda
+    name: Casino Luxembourg — Forum d'art contemporain
+    city: luxembourg
+    type: official_venue
+    reliability: 1
+    url: https://www.casino-luxembourg.lu/en/agenda
+    method: jsonld_detail
+    link_pattern: "/en/agenda/[a-z0-9-]+$"
+    max_details: 12
+    language: en
+    categories: [art]
+    probe: "200 · detail pages carry schema.org Event (no offers)"
+
+  - id: lu-lhoft-events
+    name: LHoFT — Luxembourg House of Financial Technology events
+    city: luxembourg
+    type: organizer
+    reliability: 1
+    url: https://www.lhoft.com/en/events
+    method: tribe_api
+    api: https://lhoft.com/wp-json/tribe/events/v1/events
+    language: en
+    categories: [business]
+    probe: "200 · The Events Calendar REST API · cost field present"
+
+  - id: lu-vdl-news
+    name: Ville de Luxembourg — News
+    city: luxembourg
+    type: official_institution
+    reliability: 1
+    url: https://www.vdl.lu/en/news
+    method: rss_news
+    feed: https://www.vdl.lu/en/news/rss.xml
+    language: en
+    probe: "200 · RSS"
+
+  - id: lu-wort
+    name: Luxemburger Wort
+    city: luxembourg
+    type: publication
+    reliability: 3
+    url: https://www.wort.lu
+    method: rss_news
+    feed: https://www.wort.lu/rss
+    language: de
+    keywords: [restaurant, eröffn, opening, ouvre, ouverture, ausstellung, exposition, vernissage, festival, konzert, bar, pop-up, kirchberg, gare, grund, clausen]
+    probe: "200 · RSS · general news, keyword-filtered"
+
+  - id: lu-lhoft-news
+    name: LHoFT — Insights
+    city: luxembourg
+    type: organizer
+    reliability: 1
+    url: https://lhoft.com/insights
+    method: rss_news
+    feed: https://lhoft.com/feed/
+    language: en
+    categories: [business]
+    probe: "200 · WordPress RSS"
+
+  - id: lu-bing-openings
+    name: Bing News — Luxembourg openings
+    city: luxembourg
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Luxembourg nouveau restaurant"
+      - "Luxembourg new restaurant opening"
+      - "Luxembourg nouveau bar ouverture"
+      - "Luxembourg pop-up"
+    lang: fr
+    probe: "200 · RSS"
+
+  - id: lu-bing-culture
+    name: Bing News — Luxembourg exhibitions & culture
+    city: luxembourg
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Luxembourg vernissage"
+      - "Luxembourg exposition inauguration"
+      - "Luxembourg festival"
+    lang: fr
+    probe: "200 · RSS"
+
+  - id: lu-bing-business
+    name: Bing News — Luxembourg fintech & business events
+    city: luxembourg
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Luxembourg fintech event"
+      - "Luxembourg startup conference"
+      - "Luxembourg networking event"
+    lang: en
+    probe: "200 · RSS"
+
+  - id: lu-rotondes
+    name: Rotondes
+    city: luxembourg
+    type: official_venue
+    reliability: 1
+    url: https://www.rotondes.lu/en/agenda
+    method: manual
+    reason: "robots.txt disallows automated access to the agenda"
+    categories: [culture, nightlife]
+
+  - id: lu-philharmonie
+    name: Philharmonie Luxembourg
+    city: luxembourg
+    type: official_venue
+    reliability: 1
+    url: https://www.philharmonie.lu/en/programme
+    method: manual
+    reason: "programme pages render without structured event data; check manually or submit URLs"
+    categories: [culture]
+
+  - id: lu-mudam
+    name: Mudam Luxembourg
+    city: luxembourg
+    type: official_venue
+    reliability: 1
+    url: https://www.mudam.com/events
+    method: manual
+    reason: "event detail URLs returned redirect loops to the probe"
+    categories: [art]
+
+  - id: lu-paperjam
+    name: Paperjam (Foodzilla & events)
+    city: luxembourg
+    type: publication
+    reliability: 3
+    url: https://en.paperjam.lu/sector/lifestyle/foodzilla
+    method: manual
+    reason: "no public RSS feed found"
+    categories: [food, business]
+
+
+  - id: lu-eventbrite
+    name: Eventbrite — Luxembourg
+    city: luxembourg
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.fr/d/luxembourg--luxembourg/events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [luxembourg, kirchberg, esch, belval, strassen, howald, hesperange, bertrange, leudelange]
+    categories: [business, culture]
+    probe: "200 · ~35 schema.org events on the listing page · organiser-published"
+
+  # ------------------------------------------------------------------ VENICE
+  - id: ve-veneziatoday
+    name: VeneziaToday
+    city: venice
+    type: publication
+    reliability: 3
+    url: https://www.veneziatoday.it
+    method: rss_news
+    feed: https://www.veneziatoday.it/rss
+    language: it
+    keywords: [ristorante, apre, apertura, inaugura, mostra, evento, festival, concerto, bar, cocktail, biennale, fenice, carnevale, pop-up, cena, degustazione, sfilata, design]
+    probe: "200 · RSS · local news, keyword-filtered"
+
+  - id: ve-gazzettino
+    name: Il Gazzettino — Venezia
+    city: venice
+    type: publication
+    reliability: 3
+    url: https://www.ilgazzettino.it/venezia/
+    method: rss_news
+    feed: https://www.ilgazzettino.it/rss/venezia.xml
+    language: it
+    keywords: [ristorante, apre, apertura, inaugura, mostra, evento, festival, concerto, bar, biennale, fenice, carnevale, pop-up, sfilata]
+    probe: "200 · RSS"
+
+  - id: ve-cini
+    name: Fondazione Giorgio Cini
+    city: venice
+    type: official_institution
+    reliability: 1
+    url: https://www.cini.it/en/events
+    method: rss_news
+    feed: https://www.cini.it/en/feed/
+    language: en
+    categories: [art, culture]
+    probe: "200 · WordPress RSS"
+
+  - id: ve-bing-openings
+    name: Bing News — Venezia aperture
+    city: venice
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Venezia nuovo ristorante"
+      - "Venezia apre cocktail bar"
+      - "Venezia inaugura locale"
+      - "Venezia pop-up"
+    lang: it
+    probe: "200 · RSS · returned recent openings (e.g. new cocktail bars) on probe"
+
+  - id: ve-bing-art
+    name: Bing News — Venezia mostre e design
+    city: venice
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Venezia inaugurazione mostra"
+      - "Venezia vernissage"
+      - "Venezia installazione design"
+    lang: it
+    probe: "200 · RSS"
+
+  - id: ve-bing-business
+    name: Bing News — Venice business & fashion events
+    city: venice
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Venezia conferenza evento"
+      - "Venezia sfilata moda"
+      - "Ca' Foscari evento"
+    lang: it
+    probe: "200 · RSS"
+
+  - id: ve-biennale
+    name: La Biennale di Venezia
+    city: venice
+    type: official_institution
+    reliability: 1
+    url: https://www.labiennale.org/en/calendar
+    method: manual
+    reason: "no structured event data or feed; key editions are researched into data/curated"
+    categories: [art, culture]
+
+  - id: ve-fenice
+    name: Teatro La Fenice
+    city: venice
+    type: official_venue
+    reliability: 1
+    url: https://www.teatrolafenice.it/en/
+    method: manual
+    reason: "event pages have no structured data; REST API returns 403"
+    categories: [culture]
+
+  - id: ve-guggenheim
+    name: Peggy Guggenheim Collection
+    city: venice
+    type: official_venue
+    reliability: 1
+    url: https://www.guggenheim-venice.it/en/whats-on/
+    method: manual
+    reason: "no structured event data"
+    categories: [art]
+
+  - id: ve-carnevale
+    name: Carnevale di Venezia (official)
+    city: venice
+    type: organizer
+    reliability: 1
+    url: https://www.carnevale.venezia.it/
+    method: manual
+    reason: "programme published seasonally; checked manually"
+    categories: [seasonal]
+
+  - id: ve-veneziaunica
+    name: Venezia Unica — events
+    city: venice
+    type: tourism_board
+    reliability: 1
+    url: https://www.veneziaunica.it/en/events
+    method: manual
+    reason: "robots.txt disallows automated access"
+
+  - id: ve-palazzograssi
+    name: Pinault Collection — Palazzo Grassi / Punta della Dogana
+    city: venice
+    type: official_venue
+    reliability: 1
+    url: https://www.pinaultcollection.com/palazzograssi/en
+    method: manual
+    reason: "robots.txt disallows automated access"
+    categories: [art]
+
+
+  - id: ve-eventbrite
+    name: Eventbrite — Venezia
+    city: venice
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.it/d/italy--venezia/events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [venezia, venice, venedig, venise, venedik, mestre, lido, murano, burano, giudecca, marghera]
+    categories: []
+    probe: "200 · ~20 schema.org events · organiser-published"
+
+  # ------------------------------------------------------------------ CORTINA
+  - id: co-skiworldcup
+    name: Cortina Ski World Cup (organising committee)
+    city: cortina
+    type: organizer
+    reliability: 1
+    url: https://www.cortinaskiworldcup.com/
+    method: rss_news
+    feed: https://www.cortinaskiworldcup.com/feed/
+    language: it
+    categories: [sports]
+    probe: "200 · WordPress RSS"
+
+  - id: co-gazzettino-belluno
+    name: Il Gazzettino — Belluno
+    city: cortina
+    type: publication
+    reliability: 3
+    url: https://www.ilgazzettino.it/belluno/
+    method: rss_news
+    feed: https://www.ilgazzettino.it/rss/belluno.xml
+    language: it
+    keywords: [cortina, ampezzo, tofane, faloria, cristallo, dolomiti, rifugio]
+    probe: "200 · RSS · provincial news, filtered to Cortina keywords"
+
+  - id: co-bing-events
+    name: Bing News — Cortina eventi
+    city: cortina
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Cortina d'Ampezzo evento"
+      - "Cortina festival"
+      - "Cortina inaugurazione"
+    lang: it
+    probe: "200 · RSS"
+
+  - id: co-bing-hospitality
+    name: Bing News — Cortina ristoranti e hotel
+    city: cortina
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Cortina nuovo ristorante"
+      - "Cortina hotel apertura"
+      - "Cortina rifugio chef"
+    lang: it
+    probe: "200 · RSS"
+
+  - id: co-bing-ski
+    name: Bing News — Cortina ski season
+    city: cortina
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Cortina apertura impianti"
+      - "Coppa del Mondo Cortina"
+    lang: it
+    probe: "200 · RSS"
+
+  - id: co-dmo
+    name: Cortina Dolomiti — official tourism events
+    city: cortina
+    type: tourism_board
+    reliability: 1
+    url: https://www.cortina.dolomiti.it/en/events
+    method: manual
+    reason: "connection failed from the probe environment; re-test from GitHub Actions"
+
+  - id: co-dolomitisuperski
+    name: Dolomiti Superski
+    city: cortina
+    type: organizer
+    reliability: 1
+    url: https://www.dolomitisuperski.com/en
+    method: manual
+    reason: "HTTP 403 to automated clients"
+    categories: [sports, seasonal]
+
+  - id: co-montagna-libri
+    name: Una Montagna di Libri
+    city: cortina
+    type: organizer
+    reliability: 1
+    url: https://www.unamontagnadilibri.it/
+    method: manual
+    reason: "robots.txt disallows automated access"
+    categories: [culture]
+
+
+  - id: co-eventbrite
+    name: Eventbrite — Cortina d'Ampezzo
+    city: cortina
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.it/d/italy--cortina-d'ampezzo/events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [cortina]
+    categories: []
+    probe: "200 · regional listing; only venues naming Cortina are kept"
+
+  # ------------------------------------------------------------------ PARIS
+  - id: pa-quefaire-opendata
+    name: Ville de Paris — Que faire à Paris (open data)
+    city: paris
+    type: official_institution
+    reliability: 1
+    url: https://quefaire.paris.fr/
+    method: paris_opendata
+    api: https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records
+    max_items: 120
+    tag_allowlist: [Expo, Art contemporain, Photographie, Design, Mode, Gastronomie, Concert, Musique, Festival, Salon, Conférence, Innovation, Danse, Théâtre, Cinéma, Littérature, Histoire, Street-art, Nature]
+    language: fr
+    probe: "200 on first probe, later connection resets from the sandbox proxy · ~2,100 upcoming records"
+
+  - id: pa-lemonde-gastro
+    name: Le Monde — M Gastronomie
+    city: paris
+    type: publication
+    reliability: 3
+    url: https://www.lemonde.fr/m-gastronomie/
+    method: rss_news
+    feed: https://www.lemonde.fr/m-gastronomie/rss_full.xml
+    language: fr
+    city_keywords: [paris]
+    probe: "200 · RSS"
+
+  - id: pa-lemonde-arts
+    name: Le Monde — Arts
+    city: paris
+    type: publication
+    reliability: 3
+    url: https://www.lemonde.fr/arts/
+    method: rss_news
+    feed: https://www.lemonde.fr/arts/rss_full.xml
+    language: fr
+    keywords: [exposition, vernissage, galerie, musée, foire, paris, fondation]
+    probe: "200 · RSS"
+
+  - id: pa-connaissance-arts
+    name: Connaissance des Arts
+    city: paris
+    type: publication
+    reliability: 3
+    url: https://www.connaissancedesarts.com/
+    method: rss_news
+    feed: https://www.connaissancedesarts.com/feed/
+    language: fr
+    keywords: [paris, exposition, vernissage, galerie]
+    probe: "200 · RSS"
+
+  - id: pa-vogue-fr
+    name: Vogue France
+    city: paris
+    type: publication
+    reliability: 3
+    url: https://www.vogue.fr/
+    method: rss_news
+    feed: https://www.vogue.fr/feed/rss
+    language: fr
+    keywords: [paris, défilé, pop-up, ouverture, boutique, exposition, fashion week]
+    probe: "200 · RSS"
+
+  - id: pa-bing-openings
+    name: Bing News — Paris ouvertures
+    city: paris
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Paris nouveau restaurant"
+      - "Paris nouveau bar cocktail"
+      - "Paris ouverture éphémère"
+      - "Paris pop-up store"
+    lang: fr
+    probe: "200 · RSS"
+
+  - id: pa-bing-art
+    name: Bing News — Paris vernissages
+    city: paris
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Paris vernissage galerie"
+      - "Paris exposition ouverture"
+      - "Paris installation éphémère"
+    lang: fr
+    probe: "200 · RSS"
+
+  - id: pa-bing-business
+    name: Bing News — Paris fintech & tech events
+    city: paris
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "Paris fintech événement"
+      - "Station F événement"
+      - "Paris conférence tech"
+    lang: fr
+    probe: "200 · RSS"
+
+  - id: pa-fhcm
+    name: Fédération de la Haute Couture et de la Mode
+    city: paris
+    type: organizer
+    reliability: 1
+    url: https://www.fhcm.paris/en/next-dates
+    method: manual
+    reason: "season dates change twice a year; researched into data/curated"
+    categories: [fashion]
+
+  - id: pa-parisjetaime
+    name: Paris je t'aime (Office de Tourisme)
+    city: paris
+    type: tourism_board
+    reliability: 1
+    url: https://parisjetaime.com/
+    method: manual
+    reason: "HTTP 403 to automated clients"
+
+  - id: pa-flv
+    name: Fondation Louis Vuitton
+    city: paris
+    type: official_venue
+    reliability: 1
+    url: https://www.fondationlouisvuitton.fr/en/events
+    method: manual
+    reason: "robots.txt disallows automated access"
+    categories: [art]
+
+
+  - id: pa-eventbrite-business
+    name: Eventbrite — Paris business
+    city: paris
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.fr/d/france--paris/business--events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [paris]
+    categories: [business]
+    probe: "200 · schema.org events · organiser-published"
+
+  # ------------------------------------------------------------------ NEW YORK
+  - id: ny-theskint
+    name: The Skint
+    city: nyc
+    type: newsletter
+    reliability: 3
+    url: https://www.theskint.com/
+    method: rss_news
+    feed: https://www.theskint.com/feed/
+    language: en
+    probe: "200 · RSS · daily free/cheap events roundup"
+
+  - id: ny-eater
+    name: Eater New York
+    city: nyc
+    type: publication
+    reliability: 3
+    url: https://ny.eater.com/
+    method: rss_news
+    feed: https://ny.eater.com/rss/index.xml
+    language: en
+    probe: "200 · Atom"
+
+  - id: ny-gothamist
+    name: Gothamist
+    city: nyc
+    type: publication
+    reliability: 3
+    url: https://gothamist.com/
+    method: rss_news
+    feed: https://gothamist.com/feed
+    language: en
+    keywords: [opening, opens, festival, exhibit, gallery, restaurant, bar, pop-up, parade, marathon, concert, market, holiday]
+    probe: "200 · RSS · general news, keyword-filtered"
+
+  - id: ny-6sqft
+    name: 6sqft
+    city: nyc
+    type: publication
+    reliability: 3
+    url: https://www.6sqft.com/
+    method: rss_news
+    feed: https://www.6sqft.com/feed/
+    language: en
+    keywords: [opening, opens, event, exhibit, market, holiday, festival, restaurant, pop-up]
+    probe: "200 · RSS"
+
+  - id: ny-whitney
+    name: Whitney Museum of American Art — Events
+    city: nyc
+    type: official_venue
+    reliability: 1
+    url: https://whitney.org/events
+    method: jsonld_detail
+    link_pattern: "whitney.org/events/[a-z0-9-]+$"
+    max_details: 15
+    language: en
+    categories: [art]
+    probe: "200 · detail pages carry schema.org Event"
+
+  - id: ny-bing-openings
+    name: Bing News — NYC openings
+    city: nyc
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "New York restaurant opening"
+      - "NYC new bar opens"
+      - "NYC listening bar"
+      - "NYC pop-up"
+    lang: en-us
+    probe: "200 · RSS"
+
+  - id: ny-bing-art
+    name: Bing News — NYC gallery openings
+    city: nyc
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "New York gallery opening"
+      - "NYC exhibition opening"
+      - "NYC art pop-up"
+    lang: en-us
+    probe: "200 · RSS"
+
+  - id: ny-bing-business
+    name: Bing News — NYC fintech events
+    city: nyc
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "New York fintech event"
+      - "NYC fintech conference"
+      - "NYC startup networking"
+    lang: en-us
+    probe: "200 · RSS"
+
+  - id: ny-moma
+    name: MoMA — Calendar
+    city: nyc
+    type: official_venue
+    reliability: 1
+    url: https://www.moma.org/calendar/
+    method: manual
+    reason: "HTTP 403 to automated clients"
+    categories: [art]
+
+  - id: ny-nycparks
+    name: NYC Parks — Events
+    city: nyc
+    type: official_institution
+    reliability: 1
+    url: https://www.nycgovparks.org/events
+    method: manual
+    reason: "HTTP 403 to automated clients"
+
+
+  - id: ny-eventbrite-business
+    name: Eventbrite — New York business
+    city: nyc
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.com/d/ny--new-york/business--events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [new york, brooklyn, queens, bronx, staten island, manhattan, long island city]
+    categories: [business]
+    probe: "200 · schema.org events"
+
+  - id: ny-eventbrite-food
+    name: Eventbrite — New York food & drink
+    city: nyc
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.com/d/ny--new-york/food-and-drink--events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [new york, brooklyn, queens, bronx, staten island, manhattan, long island city]
+    categories: [food]
+    probe: "200 · schema.org events; out-of-city venues (e.g. Jersey City) are dropped"
+
+  # ------------------------------------------------------------------ LONDON
+  - id: lo-hotdinners
+    name: Hot Dinners
+    city: london
+    type: publication
+    reliability: 3
+    url: https://www.hot-dinners.com/
+    method: manual
+    reason: "feed sits behind a JavaScript bot challenge (HTTP 307 to an interstitial) — not collectable without a browser"
+    language: en
+    categories: [food]
+
+  - id: lo-londonist
+    name: Londonist
+    city: london
+    type: publication
+    reliability: 3
+    url: https://londonist.com/
+    method: rss_news
+    feed: https://londonist.com/feed
+    language: en
+    probe: "200 · RSS"
+
+  - id: lo-standard-goingout
+    name: Evening Standard — Going Out
+    city: london
+    type: publication
+    reliability: 3
+    url: https://www.standard.co.uk/going-out
+    method: rss_news
+    feed: https://www.standard.co.uk/going-out/rss
+    language: en
+    probe: "200 · RSS"
+
+  - id: lo-vam
+    name: V&A — What's on
+    city: london
+    type: official_venue
+    reliability: 1
+    url: https://www.vam.ac.uk/whatson
+    method: jsonld_detail
+    link_pattern: "vam.ac.uk/(exhibitions|event)/[A-Za-z0-9-]+"
+    max_details: 20
+    language: en
+    categories: [art, fashion, design]
+    probe: "200 · detail pages carry schema.org Event with offers"
+
+  - id: lo-bing-openings
+    name: Bing News — London openings
+    city: london
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "London restaurant opening"
+      - "London new bar opens"
+      - "London supper club"
+      - "London pop-up restaurant"
+    lang: en
+    probe: "200 · RSS"
+
+  - id: lo-bing-art
+    name: Bing News — London private views
+    city: london
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "London gallery opening"
+      - "London private view exhibition"
+      - "London art pop-up"
+    lang: en
+    probe: "200 · RSS"
+
+  - id: lo-bing-business
+    name: Bing News — London fintech events
+    city: london
+    type: search_aggregator
+    reliability: 4
+    url: https://www.bing.com/news
+    method: bing_news
+    queries:
+      - "London fintech event"
+      - "London fintech conference"
+      - "London startup networking"
+    lang: en
+    probe: "200 · RSS"
+
+  - id: lo-southbank
+    name: Southbank Centre
+    city: london
+    type: official_venue
+    reliability: 1
+    url: https://www.southbankcentre.co.uk/whats-on
+    method: manual
+    reason: "HTTP 403 to automated clients"
+
+  - id: lo-barbican
+    name: Barbican
+    city: london
+    type: official_venue
+    reliability: 1
+    url: https://www.barbican.org.uk/whats-on
+    method: manual
+    reason: "detail pages have no structured event data"
+
+
+  - id: lo-eventbrite-business
+    name: Eventbrite — London business
+    city: london
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.co.uk/d/united-kingdom--london/business--events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [london]
+    categories: [business]
+    probe: "200 · schema.org events"
+
+  - id: lo-eventbrite-food
+    name: Eventbrite — London food & drink
+    city: london
+    type: ticketing_platform
+    reliability: 2
+    url: "https://www.eventbrite.co.uk/d/united-kingdom--london/food-and-drink--events/"
+    method: jsonld_page
+    booking_platform: true
+    require_locality: [london]
+    categories: [food]
+    probe: "200 · schema.org events"
+
+  # ------------------------------------------------------------------ MULTI-CITY
+  - id: mx-artnewspaper
+    name: The Art Newspaper
+    city: multi
+    type: publication
+    reliability: 3
+    url: https://www.theartnewspaper.com/
+    method: rss_news
+    feed: https://www.theartnewspaper.com/rss.xml
+    language: en
+    categories: [art]
+    probe: "200 · RSS · items kept only when a tracked city is named"
+
+  - id: mx-dezeen
+    name: Dezeen
+    city: multi
+    type: publication
+    reliability: 3
+    url: https://www.dezeen.com/
+    method: rss_news
+    feed: https://www.dezeen.com/feed/
+    language: en
+    categories: [design]
+    probe: "200 · RSS"
+
+  - id: mx-wallpaper
+    name: Wallpaper*
+    city: multi
+    type: publication
+    reliability: 3
+    url: https://www.wallpaper.com/
+    method: rss_news
+    feed: https://www.wallpaper.com/feeds/all
+    language: en
+    categories: [design, food, fashion]
+    probe: "200 · RSS"
+
+  - id: mx-wwd
+    name: WWD
+    city: multi
+    type: publication
+    reliability: 3
+    url: https://wwd.com/
+    method: rss_news
+    feed: https://wwd.com/feed/
+    language: en
+    categories: [fashion]
+    probe: "200 · RSS"
+
+  - id: mx-fashionunited
+    name: FashionUnited
+    city: multi
+    type: publication
+    reliability: 3
+    url: https://fashionunited.com/
+    method: rss_news
+    feed: https://fashionunited.com/rss-news
+    language: en
+    categories: [fashion]
+    probe: "200 · RSS"
+
+  # ------------------------------------------------------------------ RESEARCH LAYER
+  - id: curated-research
+    name: Manual research (data/curated)
+    city: multi
+    type: research
+    reliability: 2
+    url: https://github.com/
+    method: curated
+    reason: "Events researched by hand from official or named sources, each with its own evidence URL and verification date"

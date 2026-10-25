@@ -1,0 +1,101 @@
+name: Collect
+
+# Daily data collection. Runs on GitHub's servers: neither Claude nor your computer needs
+# to be on. Results (data + run log) are committed back to the repository, then the site
+# is redeployed.
+on:
+  schedule:
+    # 05:17 UTC every day = 06:17 in Luxembourg/Venice in winter, 07:17 in summer.
+    # GitHub may start scheduled runs late under load, and disables schedules in public
+    # repositories after 60 days without repository activity (the daily data commit counts).
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal | force (ignore per-source frequency) | retry-failed | reprocess (no network)"
+        required: false
+        default: normal
+        type: choice
+        options: [normal, force, retry-failed, reprocess]
+      sources:
+        description: "Optional: comma-separated source ids to refresh (see data/sources.yaml)"
+        required: false
+        default: ""
+
+# Never run two collections at once; a second trigger waits for the first to finish.
+concurrency:
+  group: atlas-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      status: ${{ steps.pipeline.outcome }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Offline tests (block the run if the pipeline is broken)
+        run: python -m pytest pipeline/tests -q
+
+      - name: Run pipeline
+        id: pipeline
+        continue-on-error: true   # a failed run is still recorded and published
+        env:
+          ATLAS_TRIGGER: ${{ github.event_name == 'schedule' && 'schedule' || 'manual' }}
+          MODE: ${{ inputs.mode || 'normal' }}
+          SOURCES: ${{ inputs.sources || '' }}
+        run: |
+          args=()
+          case "$MODE" in
+            force) args+=(--force) ;;
+            retry-failed) args+=(--retry-failed) ;;
+            reprocess) args+=(--reprocess) ;;
+          esac
+          if [ -n "$SOURCES" ]; then
+            # only letters, digits, dashes and commas are accepted as source ids
+            if ! [[ "$SOURCES" =~ ^[a-z0-9,-]+$ ]]; then echo "invalid sources input"; exit 2; fi
+            args+=(--sources "$SOURCES")
+          fi
+          python -m pipeline.run "${args[@]}"
+
+      - name: Commit data and run log
+        if: always()
+        run: |
+          git config user.name "social-atlas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/db site/data
+          if git diff --cached --quiet; then echo "No data changes"; exit 0; fi
+          git commit -m "data: collection run $(date -u +%Y-%m-%dT%H:%MZ) (${{ steps.pipeline.outcome }})"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Could not push data after 3 attempts"; exit 1
+
+      - name: Mark the job failed if the pipeline failed
+        if: steps.pipeline.outcome == 'failure'
+        run: |
+          echo "::error::The pipeline reported a failed run. See System Health or the step log above."
+          exit 1
+
+  deploy:
+    needs: collect
+    if: always()
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

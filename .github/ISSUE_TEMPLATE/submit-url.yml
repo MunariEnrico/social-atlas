@@ -1,0 +1,27 @@
+name: Submit a URL
+description: Add an event page, venue, article or public post to Social Atlas.
+title: "Submit: "
+labels: [submission]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: A public http(s) address. Pages behind a login (e.g. Instagram) cannot be read; paste the organiser's own page if there is one.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: city
+    attributes:
+      label: City
+      options: [luxembourg, venice, cortina, paris, nyc, london]
+    validations:
+      required: false
+  - type: input
+    id: note
+    attributes:
+      label: Note
+      description: Where you saw it, or why it matters.
+    validations:
+      required: false

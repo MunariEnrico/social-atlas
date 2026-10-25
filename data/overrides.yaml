@@ -1,0 +1,12 @@
+# Manual corrections and verifications, applied on every pipeline run.
+# Edit this file in the GitHub web editor, commit, and the next run applies it.
+#
+# events:
+#   <event-id>:                    # the id shown on the event page / in events.json
+#     verification_status: confirmed   # confirmed | announced_pending | expected | needs_review | postponed | cancelled
+#     checked_at: "2026-11-02T10:00:00+01:00"
+#     note: "Confirmed by phone with the venue"
+#     set: {venue_name: "…", start: "2026-11-20T19:00:00+01:00"}
+#     booking: {reservation: required, reservation_url: "https://…"}
+#     hide: true                   # remove from all views (kept in the database)
+events: {}

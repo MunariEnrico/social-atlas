@@ -1,0 +1,799 @@
+# Researched events — batch of 2026-10-25
+#
+# Each entry was checked by hand against the evidence URL(s) listed, on the date in
+# `checked_at`. Descriptions are written in our own words. Rules followed:
+#   * verification_status "confirmed" only when an official organiser/venue/institution
+#     page states the dates; "announced_pending" when the dates come from a named
+#     publication or partner and the organiser page was not checked;
+#     "expected" when no current-edition dates were found at all.
+#   * Booking fields stay "unknown" unless a source states them. Anything we derived
+#     instead of reading is listed in booking.inferred with the reason.
+#   * Prices appear only when the cited page states them.
+
+checked_at_default: "2026-10-25T14:30:00+01:00"
+
+events:
+  # ---------------------------------------------------------------- LUXEMBOURG
+  - id: lu-art-week-2026
+    title: Luxembourg Art Week 2026
+    city: luxembourg
+    neighborhood: Limpertsberg
+    venue_name: Champ du Glacis
+    category: art
+    subcategory: art_fair
+    start: "2026-11-20"
+    end: "2026-11-22"
+    all_day: true
+    description: The country's contemporary art fair returns for its 12th edition with 78 galleries in a temporary pavilion on the Glacis; this year's focus is painting.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.luxembourgartweek.lu/en
+        publisher: Luxembourg Art Week (official)
+        reliability: 1
+        note: "Official site states 20–22 November 2026, 12th edition, 78 galleries. Ticketing not checked."
+      - url: https://www.justarrived.lu/en/evenements/luxembourg-art-week
+        publisher: Just Arrived (Luxembourg)
+        reliability: 3
+        note: "States 20–22 November 2026 and the Glacis venue. Its calendar widget also shows 25 Dec 2026 — inconsistent; official site not yet checked."
+    official_url: https://www.luxembourgartweek.lu/en
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: public
+      inferred: ["access: the listing describes the fair as open to the general public"]
+    tags: [art fair, galleries, vernissage]
+    trip_suitable: true
+
+  - id: lu-internet-days-2026
+    title: Luxembourg Internet Days 2026
+    city: luxembourg
+    neighborhood: Kirchberg
+    venue_name: Chambre de Commerce Luxembourg
+    venue_address: 7 Rue Alcide de Gasperi, L-1615 Luxembourg
+    category: business
+    subcategory: conference
+    start: "2026-11-17"
+    end: "2026-11-18"
+    all_day: true
+    description: Two-day conference on the internet economy, digital infrastructure and cybersecurity, organised around the LU-CIX community and co-promoted by the banking association.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.abbl.lu/events/luxembourg-internet-days-2026/
+        publisher: ABBL — Luxembourg Bankers' Association (event partner)
+        reliability: 2
+        note: "Dates, venue, free attendance and online registration stated."
+      - url: https://www.lu-cix.lu/2026/07/28/luxembourg-internet-days-2026/
+        publisher: LU-CIX (organiser)
+        reliability: 1
+        note: "Organiser announcement found in search; not opened."
+    official_url: https://www.lu-cix.lu/2026/07/28/luxembourg-internet-days-2026/
+    booking:
+      reservation: not_required
+      registration: required
+      tickets: free_registration
+      access: public
+      price: {amount: 0, currency: EUR, display: "Free", source_url: "https://www.abbl.lu/events/luxembourg-internet-days-2026/"}
+      registration_url: https://www.abbl.lu/events/luxembourg-internet-days-2026/
+    tags: [internet, cybersecurity, fintech, networking]
+    trip_suitable: false
+
+  # ---------------------------------------------------------------- VENICE
+  - id: ve-biennale-arte-2026
+    title: Biennale Arte 2026 — final weeks
+    city: venice
+    neighborhood: Castello (Giardini & Arsenale)
+    venue_name: Giardini della Biennale and Arsenale
+    category: art
+    subcategory: biennale
+    start: "2026-05-09"
+    end: "2026-11-22"
+    all_day: true
+    description: The 61st International Art Exhibition closes on 22 November. Autumn hours are 10:00–18:00; venues are closed on Mondays except 16 November.
+    verification_status: confirmed
+    evidence:
+      - url: https://labiennale.org/en/art/2026/prepare-your-visit
+        publisher: La Biennale di Venezia
+        reliability: 1
+        note: "Dates, autumn hours and Monday exceptions stated; prices are on the tickets page (not checked)."
+    official_url: https://labiennale.org/en/art/2026/prepare-your-visit
+    booking:
+      reservation: unknown
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      ticket_url: https://www.labiennale.org/en/art/2026/information#tickets
+      access_notes: "Last admission 17:45 in autumn. Closed Mondays except 16 Nov."
+    tags: [biennale, contemporary art, closing soon]
+    trip_suitable: true
+
+  - id: ve-fenice-fedora-2026
+    title: "Fedora — La Fenice season opening"
+    city: venice
+    neighborhood: San Marco
+    venue_name: Teatro La Fenice
+    venue_address: Campo San Fantin 1965, 30124 Venezia
+    category: culture
+    subcategory: opera
+    start: "2026-11-13"
+    end: "2026-11-22"
+    all_day: true
+    occurrences: ["2026-11-13", "2026-11-14", "2026-11-15", "2026-11-17", "2026-11-18", "2026-11-19", "2026-11-20", "2026-11-22"]
+    description: Giordano's Fedora opens the 2026–27 season in a new staging by Hugo de Ana, conducted by Donato Renzetti — eight performances.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.teatrolafenice.it/wp-content/uploads/2026/06/comunicato-generale-nuova-stagione-2026-2027.pdf
+        publisher: Teatro La Fenice (season press release)
+        reliability: 1
+        note: "Opening title and the eight performance dates stated. Curtain times and prices not in the release."
+    official_url: https://www.teatrolafenice.it/en/
+    booking:
+      reservation: unknown
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      ticket_url: https://www.teatrolafenice.it/en/
+    tags: [opera, season opening, premiere]
+    trip_suitable: true
+
+  - id: ve-fenice-etoiles-2026
+    title: "Les Étoiles — dance gala at La Fenice"
+    city: venice
+    neighborhood: San Marco
+    venue_name: Teatro La Fenice
+    venue_address: Campo San Fantin 1965, 30124 Venezia
+    category: culture
+    subcategory: dance
+    start: "2026-12-12"
+    end: "2026-12-12"
+    all_day: true
+    description: The gala that opens La Fenice's five-programme dance season.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.teatrolafenice.it/wp-content/uploads/2026/06/comunicato-generale-nuova-stagione-2026-2027.pdf
+        publisher: Teatro La Fenice (season press release)
+        reliability: 1
+        note: "12 December 2026 stated as the start of the dance programme with Les Étoiles."
+    official_url: https://www.teatrolafenice.it/en/
+    booking:
+      reservation: unknown
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      ticket_url: https://www.teatrolafenice.it/en/
+    tags: [ballet, gala]
+    trip_suitable: false
+
+  - id: ve-festa-salute-2026
+    title: Festa della Madonna della Salute
+    city: venice
+    neighborhood: Dorsoduro
+    venue_name: Basilica di Santa Maria della Salute
+    category: seasonal
+    subcategory: tradition
+    start: "2026-11-21"
+    end: "2026-11-21"
+    all_day: true
+    description: Venice's most heartfelt civic feast — a temporary votive bridge on boats crosses the Grand Canal to the Salute. 21 November is the traditional fixed date; this year's programme has not been checked.
+    verification_status: expected
+    date_basis: "Fixed traditional date (21 November); 2026 programme not verified"
+    evidence:
+      - url: https://www.venicewelcome.com/info/events_of_venice/festa-madonna-della-salute.htm
+        publisher: Venice Welcome (guide)
+        reliability: 4
+        note: "Describes the annual feast and votive bridge; not specific to 2026."
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: unknown
+    tags: [tradition, local, free]
+    trip_suitable: false
+
+  - id: ve-biennale-architettura-2027
+    title: Biennale Architettura 2027
+    city: venice
+    neighborhood: Castello (Giardini & Arsenale)
+    venue_name: Giardini della Biennale and Arsenale
+    category: art
+    subcategory: biennale
+    start: "2027-05-08"
+    end: "2027-11-21"
+    all_day: true
+    description: The 20th International Architecture Exhibition, curated by Wang Shu and Lu Wenyu. Preview days not yet published.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.labiennale.org/en/architecture/2027/information
+        publisher: La Biennale di Venezia
+        reliability: 1
+        note: "8 May – 21 November 2027 and curators stated."
+    official_url: https://www.labiennale.org/en/architecture/2027/information
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: public_ticketed
+      inferred: ["access: Biennale exhibitions are ticketed public exhibitions; 2027 ticketing not yet published"]
+    tags: [architecture, biennale, worth a trip]
+    trip_suitable: true
+
+  - id: ve-carnevale-2027
+    title: Carnevale di Venezia 2027
+    city: venice
+    neighborhood: Citywide (San Marco focus)
+    category: seasonal
+    subcategory: festival
+    start: null
+    end: "2027-02-09"
+    all_day: true
+    description: Carnival culminates on Shrove Tuesday, which falls on 9 February 2027. Official dates and programme have not been announced; the opening weekend is usually about ten days earlier.
+    verification_status: expected
+    date_basis: "Shrove Tuesday 2027 = 9 February (calendar fact). Start date not announced."
+    expected_window: {from: "2027-01-30", to: "2027-02-09", basis: "historical pattern, estimate"}
+    evidence:
+      - url: https://www.carnevale.venezia.it/
+        publisher: Carnevale di Venezia (official)
+        reliability: 1
+        note: "Checked for 2027 dates on 2026-10-25 via search results: none published."
+    official_url: https://www.carnevale.venezia.it/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: unknown
+    tags: [carnival, masks, balls]
+    trip_suitable: true
+
+  # ---------------------------------------------------------------- CORTINA
+  - id: co-ski-world-cup-2027
+    title: "Ski World Cup — women's speed races, Cortina"
+    city: cortina
+    neighborhood: Olympia delle Tofane
+    venue_name: Pista Olympia delle Tofane
+    category: sports
+    subcategory: ski_world_cup
+    start: "2027-01-15"
+    end: "2027-01-17"
+    all_day: true
+    description: Two downhills and a super-G on the Olympia delle Tofane, Cortina's classic women's World Cup weekend.
+    verification_status: announced_pending
+    evidence:
+      - url: https://sport.sky.it/altri-sport/sci/calendario-sci-2026-2027-coppa-mondo-mondiali-gare-date
+        publisher: Sky Sport Italia (season calendar)
+        reliability: 3
+        note: "Lists Cortina 15–17 January 2027: 2 downhills + super-G. FIS / organising committee not yet checked."
+    official_url: https://www.cortinaskiworldcup.com/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: unknown
+    tags: [alpine skiing, world cup, dolomites]
+    trip_suitable: true
+
+  - id: co-ski-season-2026
+    title: "Ski season opens across Dolomiti Superski"
+    city: cortina
+    neighborhood: Dolomites
+    category: sports
+    subcategory: season_opening
+    start: "2026-11-28"
+    end: null
+    all_day: true
+    description: The Dolomiti Superski carousel opens on 28 November. Cortina's own lift opening is still marked "being updated", so treat the Cortina date as pending.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.dolomiti.it/it/dolomiti/news/dolomiti-superski-al-via-la-stagione-sciistica
+        publisher: Dolomiti.it (tourism portal)
+        reliability: 3
+        note: "Season start 28 Nov 2026; Cortina listed as 'in aggiornamento'."
+      - url: https://www.dolomitisuperski.com/dam/jcr:92f51c2d-ec03-4c05-9a48-8cf67db8e301/Dolomiti_Superski_Comunicato_Stampa_Inverno_2026_27_Novita_Prezzi.pdf
+        publisher: Dolomiti Superski (press release)
+        reliability: 1
+        note: "Adult day pass, high season: €89.00."
+    official_url: https://www.dolomitisuperski.com/en
+    booking:
+      reservation: not_required
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      price: {amount: 89, currency: EUR, per_person: true, display: "€89 adult day pass (high season)", source_url: "https://www.dolomitisuperski.com/dam/jcr:92f51c2d-ec03-4c05-9a48-8cf67db8e301/Dolomiti_Superski_Comunicato_Stampa_Inverno_2026_27_Novita_Prezzi.pdf"}
+      ticket_url: https://www.dolomitisuperski.com/en
+      inferred: ["reservation/registration: lift passes are bought, not reserved"]
+    tags: [skiing, season opening]
+    trip_suitable: true
+
+  # ---------------------------------------------------------------- PARIS
+  - id: pa-salon-chocolat-2026
+    title: Salon du Chocolat Paris 2026
+    city: paris
+    neighborhood: 15e — Porte de Versailles
+    venue_name: Paris Expo Porte de Versailles, Pavillon 5
+    venue_address: 1 Place de la Porte de Versailles, 75015 Paris
+    category: food
+    subcategory: festival
+    start: "2026-10-28T10:00:00+01:00"
+    end: "2026-11-01T19:00:00+01:00"
+    all_day: false
+    description: The big chocolate and pastry show — chocolatiers, pastry demonstrations and tastings, open daily 10:00–19:00.
+    verification_status: confirmed
+    evidence:
+      - url: https://salon-du-chocolat.com/en/paris/practical-info/dates-access-map
+        publisher: Salon du Chocolat (official)
+        reliability: 1
+        note: "Dates, hours and Pavilion 5 stated. Ticket prices not shown on that page."
+    official_url: https://salon-du-chocolat.com/en/paris/practical-info/dates-access-map
+    booking:
+      reservation: unknown
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      ticket_url: https://salon-du-chocolat.com/en/paris/practical-info/dates-access-map
+      access_notes: "No suitcases or large bags; cloakroom €2 per item."
+    tags: [chocolate, pastry, tasting]
+    trip_suitable: false
+
+  - id: pa-paris-photo-2026
+    title: Paris Photo 2026
+    city: paris
+    neighborhood: 8e — Champs-Élysées
+    venue_name: Grand Palais
+    venue_address: 3 Avenue du Général Eisenhower, 75008 Paris
+    category: art
+    subcategory: art_fair
+    start: "2026-11-12"
+    end: "2026-11-15"
+    all_day: true
+    description: The leading international photography fair, back under the restored glass roof of the Grand Palais.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.parisphoto.com/fr-fr.html
+        publisher: Paris Photo (official)
+        reliability: 1
+        note: "Official homepage states 12–15 novembre 2026."
+      - url: https://www.sortiraparis.com/en/what-to-do-in-paris/shows-and-fairs/articles/54626-paris-photo-2022-returns-to-the-grand-palais-ephemere
+        publisher: Sortir à Paris
+        reliability: 3
+        note: "Dates and venue stated. Its price list carries a stale 2022 note, so prices are not used."
+    official_url: https://www.parisphoto.com/fr-fr.html
+    booking:
+      reservation: unknown
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      ticket_url: https://www.parisphoto.com/fr-fr/info/billetterie.html
+    tags: [photography, art fair, worth a trip]
+    trip_suitable: true
+
+  - id: pa-champs-elysees-lights-2026
+    title: Champs-Élysées Christmas illuminations
+    city: paris
+    neighborhood: 8e — Champs-Élysées
+    venue_name: Avenue des Champs-Élysées
+    category: seasonal
+    subcategory: lights
+    start: "2026-11-22"
+    end: "2027-01-03"
+    all_day: true
+    description: The avenue's festive lights are switched on at a public launch evening and stay lit into early January.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.sortiraparis.com/en/news/in-paris/articles/45753-champs-elysees-christmas-lights-2026-find-out-the-launch-date
+        publisher: Sortir à Paris
+        reliability: 3
+        note: "Launch 22 Nov 2026; through 3 Jan 2027; free. Launch time not published."
+    booking:
+      reservation: not_required
+      registration: not_required
+      tickets: free_entry
+      access: public
+      price: {amount: 0, currency: EUR, display: "Free", source_url: "https://www.sortiraparis.com/en/news/in-paris/articles/45753-champs-elysees-christmas-lights-2026-find-out-the-launch-date"}
+    tags: [christmas, lights, free]
+    trip_suitable: false
+
+  - id: pa-pfw-men-fw27
+    title: "Paris Fashion Week — Menswear FW 2027-28"
+    city: paris
+    neighborhood: Citywide
+    category: fashion
+    subcategory: fashion_week
+    start: "2027-01-19"
+    end: "2027-01-24"
+    all_day: true
+    description: Official menswear week. Runway shows are for invited press and buyers; the city still fills with presentations, showroom events and brand activations.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.fhcm.paris/en/next-dates
+        publisher: Fédération de la Haute Couture et de la Mode
+        reliability: 1
+        note: "19–24 January 2027 stated."
+    official_url: https://www.fhcm.paris/en/next-dates
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: industry_only
+      inferred: ["access: official calendar shows are attended by invitation (industry); public side events vary"]
+    tags: [fashion week, menswear]
+    trip_suitable: true
+
+  - id: pa-couture-ss27
+    title: "Haute Couture Week — Spring/Summer 2027"
+    city: paris
+    neighborhood: Citywide
+    category: fashion
+    subcategory: fashion_week
+    start: "2027-01-25"
+    end: "2027-01-28"
+    all_day: true
+    description: The couture shows follow straight on from menswear — the most exclusive week of the fashion calendar.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.fhcm.paris/en/next-dates
+        publisher: Fédération de la Haute Couture et de la Mode
+        reliability: 1
+        note: "25–28 January 2027 stated."
+    official_url: https://www.fhcm.paris/en/next-dates
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: invitation_only
+      inferred: ["access: couture shows are by invitation"]
+    tags: [haute couture]
+    trip_suitable: true
+
+  - id: pa-pfw-women-fw27
+    title: "Paris Fashion Week — Womenswear FW 2027-28"
+    city: paris
+    neighborhood: Citywide
+    category: fashion
+    subcategory: fashion_week
+    start: "2027-03-01"
+    end: "2027-03-09"
+    all_day: true
+    description: The womenswear shows that close the international fashion month.
+    verification_status: confirmed
+    evidence:
+      - url: https://www.fhcm.paris/en/next-dates
+        publisher: Fédération de la Haute Couture et de la Mode
+        reliability: 1
+        note: "1–9 March 2027 stated."
+    official_url: https://www.fhcm.paris/en/next-dates
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: industry_only
+      inferred: ["access: official calendar shows are attended by invitation (industry); public side events vary"]
+    tags: [fashion week, womenswear]
+    trip_suitable: true
+
+  - id: pa-roland-garros-2027
+    title: Roland-Garros 2027
+    city: paris
+    neighborhood: 16e — Porte d'Auteuil
+    venue_name: Stade Roland-Garros
+    category: sports
+    subcategory: tennis
+    start: "2027-05-23"
+    end: "2027-06-06"
+    all_day: true
+    description: Main draw 23 May – 6 June, after qualifying week (17–21 May). Dates are described as provisional.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.lta.org.uk/fan-zone/grand-slam/roland-garros/news/2027/what-is-the-schedule/
+        publisher: LTA (British tennis federation)
+        reliability: 2
+        note: "Provisional schedule; FFT official site not checked."
+    official_url: https://www.rolandgarros.com/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: ticketed
+      access: public_ticketed
+      inferred: ["tickets/access: Grand Slam sessions are ticketed; 2027 sale dates unknown"]
+    tags: [tennis, grand slam]
+    trip_suitable: true
+
+  - id: pa-vivatech-2027
+    title: VivaTech 2027
+    city: paris
+    neighborhood: 15e — Porte de Versailles
+    venue_name: Paris Expo Porte de Versailles
+    venue_address: 1 Place de la Porte de Versailles, 75015 Paris
+    category: business
+    subcategory: conference
+    start: "2027-06-16"
+    end: "2027-06-19"
+    all_day: true
+    description: Europe's largest startup and tech show — four days, with one day open to the general public.
+    verification_status: confirmed
+    evidence:
+      - url: https://parisjetaime.com/eng/event/viva-technology-e198
+        publisher: Paris je t'aime — Office de Tourisme
+        reliability: 1
+        note: "16–19 June 2027 and venue stated; prices not listed."
+    official_url: https://parisjetaime.com/eng/event/viva-technology-e198
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: ticketed
+      access: public_ticketed
+      inferred: ["tickets: trade-show passes are sold; 2027 prices not checked"]
+    tags: [tech, startups, fintech, networking]
+    trip_suitable: true
+
+  # ---------------------------------------------------------------- NEW YORK
+  - id: ny-marathon-2026
+    title: TCS New York City Marathon 2026
+    city: nyc
+    neighborhood: Five boroughs — finish in Central Park
+    venue_name: Staten Island to Central Park
+    category: sports
+    subcategory: marathon
+    start: "2026-11-01T08:00:00-05:00"
+    end: null
+    all_day: false
+    description: The world's largest marathon crosses all five boroughs; spectating along First Avenue or in Central Park is free.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.goodsports.org/event/2026-tcs-new-york-city-marathon/
+        publisher: Good Sports (charity partner page)
+        reliability: 4
+        note: "1 November 2026, 8:00 AM start. NYRR not checked."
+    official_url: https://www.nyrr.org/
+    booking:
+      reservation: not_required
+      registration: not_required
+      tickets: free_entry
+      access: public
+      inferred: ["spectating is free along the public course; race entry closed long ago"]
+    tags: [running, marathon]
+    trip_suitable: true
+
+  - id: ny-tree-lighting-2026
+    title: Rockefeller Center Christmas Tree Lighting
+    city: nyc
+    neighborhood: Midtown
+    venue_name: Rockefeller Center
+    category: seasonal
+    subcategory: lights
+    start: "2026-12-02"
+    end: "2026-12-02"
+    all_day: true
+    description: The annual lighting ceremony, broadcast live; performers not yet announced.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.timeout.com/newyork/news/the-2026-rockefeller-center-christmas-tree-lighting-has-officially-been-announced-and-its-happening-earlier-than-you-think-092926
+        publisher: Time Out New York
+        reliability: 3
+        note: "Wednesday 2 December 2026; start time not given."
+    official_url: https://www.rockefellercenter.com/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: unknown
+    tags: [christmas, holiday]
+    trip_suitable: true
+
+  - id: ny-us-open-2027
+    title: US Open 2027
+    city: nyc
+    neighborhood: Queens — Flushing Meadows
+    venue_name: USTA Billie Jean King National Tennis Center
+    category: sports
+    subcategory: tennis
+    start: "2027-08-30"
+    end: "2027-09-12"
+    all_day: true
+    description: Main draw expected 30 August – 12 September 2027, preceded by Fan Week. Dates come from a ticketing site, not the USTA.
+    verification_status: expected
+    date_basis: "Third-party schedule; USTA confirmation not found"
+    evidence:
+      - url: https://www.basket-mag.com/us/us-open-2027-dates-tickets-prices/
+        publisher: Basket-Mag (ticket guide)
+        reliability: 4
+        note: "Cites no USTA source."
+    official_url: https://www.usopen.org/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: unknown
+    tags: [tennis, grand slam]
+    trip_suitable: true
+
+  - id: ny-nyfw-feb-2027
+    title: New York Fashion Week — February 2027
+    city: nyc
+    neighborhood: Citywide
+    category: fashion
+    subcategory: fashion_week
+    start: null
+    end: null
+    all_day: true
+    description: The autumn/winter 2027 shows normally run in mid-February. The CFDA has not published dates yet.
+    verification_status: expected
+    date_basis: "Historical pattern (mid-February); no 2027 dates found"
+    expected_window: {from: "2027-02-10", to: "2027-02-17", basis: "historical pattern, estimate"}
+    evidence:
+      - url: https://fashionunited.com/news/fashion/cfda-unveils-nyfw-schedule-with-new-additions-returning-brands-and-fur-free-debut/2026070173269
+        publisher: FashionUnited
+        reliability: 3
+        note: "Covers the September 2026 edition only."
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: industry_only
+      inferred: ["access: runway shows are by invitation"]
+    tags: [fashion week]
+    trip_suitable: true
+
+  # ---------------------------------------------------------------- LONDON
+  - id: lo-winter-wonderland-2026
+    title: Hyde Park Winter Wonderland 2026
+    city: london
+    neighborhood: Hyde Park
+    venue_name: Hyde Park
+    category: seasonal
+    subcategory: christmas_market
+    start: "2026-11-19"
+    end: "2027-01-03"
+    all_day: true
+    description: London's giant Christmas fair — markets, rides, ice rink and shows. Open daily except Christmas Day, with hourly timed-entry slots.
+    verification_status: confirmed
+    evidence:
+      - url: https://hydeparkwinterwonderland.com/tickets-guide/
+        publisher: Hyde Park Winter Wonderland (official)
+        reliability: 1
+        note: "Dates, timed entry, slot prices and hours stated. The same page also says off-peak slots are free — check at booking."
+    official_url: https://hydeparkwinterwonderland.com/tickets-guide/
+    booking:
+      reservation: recommended
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+      price: {min: 1.0, max: 8.25, currency: GBP, per_person: true, display: "£1.00–£8.25 entry per person (off-peak / standard / peak); rides extra", source_url: "https://hydeparkwinterwonderland.com/tickets-guide/"}
+      ticket_url: https://hydeparkwinterwonderland.com/tickets-guide/
+      booking_deadline_note: "Advance prices end at 23:59 the day before your visit"
+      access_notes: "Everyone including children needs an entry ticket. Last entry 21:30. Closed 25 December."
+    tags: [christmas, market, ice rink]
+    trip_suitable: true
+
+  - id: lo-jazz-festival-2026
+    title: EFG London Jazz Festival 2026
+    city: london
+    neighborhood: Citywide (Southbank, Barbican, KOKO, Union Chapel…)
+    category: culture
+    subcategory: music_festival
+    start: "2026-11-13"
+    end: "2026-11-22"
+    all_day: true
+    description: Ten days of jazz across London's stages, including a Miles Davis centenary strand; tickets are sold per concert.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.clashmusic.com/?p=449178
+        publisher: Clash Magazine
+        reliability: 3
+        note: "13–22 November 2026; tickets on sale per the article."
+    official_url: https://efglondonjazzfestival.org.uk/
+    booking:
+      reservation: not_required
+      registration: not_required
+      tickets: ticketed
+      access: public_ticketed
+    tags: [jazz, festival]
+    trip_suitable: true
+
+  - id: lo-lord-mayors-show-2026
+    title: The Lord Mayor's Show 2026
+    city: london
+    neighborhood: City of London
+    venue_name: Mansion House → Royal Courts of Justice
+    category: seasonal
+    subcategory: parade
+    start: "2026-11-14T08:30:00+00:00"
+    end: null
+    all_day: false
+    description: An 800-year-old procession, this year opening with a river pageant on the Thames (08:30) before the main procession leaves Mansion House at 11:00. Free to watch.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.ianvisits.co.uk/articles/londons-lord-mayors-show-returns-to-its-river-roots-with-thames-pageant-93434/
+        publisher: ianVisits
+        reliability: 3
+        note: "Date, 08:30 river pageant, 11:00 procession, free to watch."
+    official_url: https://lordmayorsshow.london/
+    booking:
+      reservation: not_required
+      registration: not_required
+      tickets: free_entry
+      access: public
+      price: {amount: 0, currency: GBP, display: "Free to watch", source_url: "https://www.ianvisits.co.uk/articles/londons-lord-mayors-show-returns-to-its-river-roots-with-thames-pageant-93434/"}
+    tags: [parade, tradition, free]
+    trip_suitable: false
+
+  - id: lo-wimbledon-2027
+    title: The Championships, Wimbledon 2027
+    city: london
+    neighborhood: Wimbledon
+    venue_name: All England Lawn Tennis Club
+    category: sports
+    subcategory: tennis
+    start: "2027-06-28"
+    end: "2027-07-11"
+    all_day: true
+    description: Main draw 28 June – 11 July, finals on 10–11 July; qualifying 22–25 June at Roehampton.
+    verification_status: announced_pending
+    evidence:
+      - url: https://www.lta.org.uk/fan-zone/wimbledon-championships/news/preview-player-list-draw-order-of-play-scores-and-how-to-watch
+        publisher: LTA (British tennis federation)
+        reliability: 2
+        note: "Dates stated; AELTC ticketing (ballot) not checked."
+    official_url: https://www.wimbledon.com/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: ticketed
+      access: public_ticketed
+      inferred: ["tickets: Wimbledon sessions are ticketed; 2027 ballot dates unknown"]
+    tags: [tennis, grand slam, worth a trip]
+    trip_suitable: true
+
+  - id: lo-lfw-feb-2027
+    title: London Fashion Week — February 2027
+    city: london
+    neighborhood: Citywide
+    category: fashion
+    subcategory: fashion_week
+    start: null
+    end: null
+    all_day: true
+    description: The February season normally falls between New York and Milan. The British Fashion Council has not announced 2027 dates.
+    verification_status: expected
+    date_basis: "Historical pattern (mid/late February); no 2027 dates found"
+    expected_window: {from: "2027-02-18", to: "2027-02-24", basis: "historical pattern, estimate"}
+    evidence:
+      - url: https://fashionunited.uk/news/fashion/lfw-ss27-bfc-announces-provisional-schedule/2026072089310
+        publisher: FashionUnited
+        reliability: 3
+        note: "Covers the September 2026 (SS27) season only."
+    official_url: https://londonfashionweek.co.uk/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: industry_only
+      inferred: ["access: runway shows are by invitation"]
+    tags: [fashion week]
+    trip_suitable: true
+
+  - id: lo-tech-week-2027
+    title: London Tech Week 2027
+    city: london
+    neighborhood: Kensington — Olympia
+    venue_name: Olympia London
+    venue_address: Hammersmith Rd, London W14 8UX
+    category: business
+    subcategory: conference
+    start: "2027-06-07T09:00:00Z"
+    end: "2027-06-11T17:00:00Z"
+    all_day: false
+    description: The UK's flagship tech week — conference, expo and a week of fringe and investor events across the city.
+    verification_status: confirmed
+    evidence:
+      - url: https://londontechweek.com/
+        publisher: London Tech Week (official, Informa)
+        reliability: 1
+        note: "schema.org Event on the official homepage: 2027-06-07 09:00Z to 2027-06-11 17:00Z at Olympia London."
+    official_url: https://londontechweek.com/
+    booking:
+      reservation: unknown
+      registration: unknown
+      tickets: unknown
+      access: unknown
+    social_accounts: [{platform: instagram, handle: ldntechweek, url: "https://www.instagram.com/ldntechweek/"}]
+    tags: [tech, fintech, networking]
+    trip_suitable: true

@@ -1,0 +1,68 @@
+name: Submit URL
+
+# Turns a "Submit a URL" issue into a queued submission, processes it immediately,
+# replies on the issue with what was extracted, and redeploys the site.
+# Only issues opened by the repository owner/collaborators are accepted.
+on:
+  issues:
+    types: [opened, labeled]
+
+concurrency:
+  group: atlas-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  submit:
+    if: >-
+      contains(github.event.issue.labels.*.name, 'submission') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Queue the submission
+        id: queue
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}   # passed as data, never interpolated into the script
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python scripts/add_submission.py
+
+      - name: Process it now
+        env:
+          ATLAS_TRIGGER: submission
+        run: python -m pipeline.run --sources curated-research --no-link-checks
+
+      - name: Commit
+        run: |
+          git config user.name "social-atlas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/submissions.yaml data/db site/data
+          git diff --cached --quiet || git commit -m "data: submission from issue #${{ github.event.issue.number }}"
+          for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
+
+      - name: Reply on the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/add_submission.py --report > reply.md
+          gh issue comment "$ISSUE_NUMBER" --body-file reply.md --repo "$GITHUB_REPOSITORY"
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY"
+
+  deploy:
+    needs: submit
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

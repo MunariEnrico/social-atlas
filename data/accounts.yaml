@@ -1,0 +1,1112 @@
+# Social & insider accounts directory.
+# Entries with `verified_by: linked from …` were found as links on that organisation's own website.
+# Entries with `added_by: user` were added by you; `added_by: research` were suggested by a named article
+# and have not been opened (Instagram needs a login). Audience numbers are deliberately not stored.
+# monitoring: no free, permitted automated access to these platforms is configured, so accounts
+# are checked by hand and interesting posts are fed in through the Submit-a-URL form.
+accounts:
+- platform: facebook
+  handle: LCTO.lu
+  url: https://www.facebook.com/LCTO.lu
+  city: luxembourg
+  topics: &id001
+  - culture
+  - art
+  - food
+  - nightlife
+  - seasonal
+  linked_source: lu-lcto-whats-on
+  owner: Luxembourg City Tourist Office — What's On
+  verified_by: linked from https://www.luxembourg-city.com/ (2026-10-25)
+  relevance: Official account of Luxembourg City Tourist Office — What's On
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: mudamlux
+  url: https://www.facebook.com/mudamlux
+  city: luxembourg
+  topics:
+  - art
+  linked_source: lu-mudam
+  owner: Mudam Luxembourg
+  verified_by: linked from https://www.mudam.com/ (2026-10-25)
+  relevance: Official account of Mudam Luxembourg
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: philharmonie
+  url: https://www.facebook.com/philharmonie
+  city: luxembourg
+  topics: &id002
+  - culture
+  linked_source: lu-philharmonie
+  owner: Philharmonie Luxembourg
+  verified_by: linked from https://www.philharmonie.lu/ (2026-10-25)
+  relevance: Official account of Philharmonie Luxembourg
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: thelhoft
+  url: https://www.facebook.com/thelhoft
+  city: luxembourg
+  topics:
+  - business
+  linked_source: lu-lhoft-events
+  owner: LHoFT — Luxembourg House of Financial Technology events
+  verified_by: linked from https://lhoft.com/ (2026-10-25)
+  relevance: Official account of LHoFT — Luxembourg House of Financial Technology events
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: Ville.de.Luxembourg
+  url: https://www.facebook.com/Ville.de.Luxembourg
+  city: luxembourg
+  topics: &id003
+  - culture
+  - art
+  - seasonal
+  - sports
+  linked_source: lu-vdl-agenda
+  owner: Ville de Luxembourg — Agenda
+  verified_by: linked from https://www.vdl.lu/ (2026-10-25)
+  relevance: Official account of Ville de Luxembourg — Agenda
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: casinoluxembourg
+  url: https://www.instagram.com/casinoluxembourg/
+  city: luxembourg
+  topics:
+  - art
+  linked_source: lu-casino-agenda
+  owner: Casino Luxembourg — Forum d'art contemporain
+  verified_by: linked from https://www.casino-luxembourg.lu/ (2026-10-25)
+  relevance: Official account of Casino Luxembourg — Forum d'art contemporain
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: mudamlux
+  url: https://www.instagram.com/mudamlux/
+  city: luxembourg
+  topics:
+  - art
+  linked_source: lu-mudam
+  owner: Mudam Luxembourg
+  verified_by: linked from https://www.mudam.com/ (2026-10-25)
+  relevance: Official account of Mudam Luxembourg
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: my_luxembourg
+  url: https://www.instagram.com/my_luxembourg/
+  city: luxembourg
+  topics:
+  - culture
+  - art
+  - food
+  - nightlife
+  - seasonal
+  linked_source: lu-lcto-whats-on
+  owner: Luxembourg City Tourist Office — What's On
+  verified_by: linked from https://www.luxembourg-city.com/ (2026-10-25)
+  relevance: Official account of Luxembourg City Tourist Office — What's On
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: philharmonie_lux
+  url: https://www.instagram.com/philharmonie_lux/
+  city: luxembourg
+  topics:
+  - culture
+  linked_source: lu-philharmonie
+  owner: Philharmonie Luxembourg
+  verified_by: linked from https://www.philharmonie.lu/ (2026-10-25)
+  relevance: Official account of Philharmonie Luxembourg
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: the_lhoft
+  url: https://www.instagram.com/the_lhoft/
+  city: luxembourg
+  topics:
+  - business
+  linked_source: lu-lhoft-events
+  owner: LHoFT — Luxembourg House of Financial Technology events
+  verified_by: linked from https://lhoft.com/ (2026-10-25)
+  relevance: Official account of LHoFT — Luxembourg House of Financial Technology events
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: villedeluxembourg
+  url: https://www.instagram.com/villedeluxembourg/
+  city: luxembourg
+  topics:
+  - culture
+  - art
+  - seasonal
+  - sports
+  linked_source: lu-vdl-agenda
+  owner: Ville de Luxembourg — Agenda
+  verified_by: linked from https://www.vdl.lu/ (2026-10-25)
+  relevance: Official account of Ville de Luxembourg — Agenda
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: tiktok
+  handle: my_luxembourg
+  url: https://www.tiktok.com/@my_luxembourg
+  city: luxembourg
+  topics: *id001
+  linked_source: lu-lcto-whats-on
+  owner: Luxembourg City Tourist Office — What's On
+  verified_by: linked from https://www.luxembourg-city.com/ (2026-10-25)
+  relevance: Official account of Luxembourg City Tourist Office — What's On
+  monitoring: manual
+- platform: tiktok
+  handle: philharmonie_lux
+  url: https://www.tiktok.com/@philharmonie_lux
+  city: luxembourg
+  topics: *id002
+  linked_source: lu-philharmonie
+  owner: Philharmonie Luxembourg
+  verified_by: linked from https://www.philharmonie.lu/ (2026-10-25)
+  relevance: Official account of Philharmonie Luxembourg
+  monitoring: manual
+- platform: tiktok
+  handle: villedeluxembourg
+  url: https://www.tiktok.com/@villedeluxembourg
+  city: luxembourg
+  topics: *id003
+  linked_source: lu-vdl-agenda
+  owner: Ville de Luxembourg — Agenda
+  verified_by: linked from https://www.vdl.lu/ (2026-10-25)
+  relevance: Official account of Ville de Luxembourg — Agenda
+  monitoring: manual
+- platform: x
+  handle: cityluxembourg
+  url: https://x.com/cityluxembourg
+  city: luxembourg
+  topics: *id003
+  linked_source: lu-vdl-agenda
+  owner: Ville de Luxembourg — Agenda
+  verified_by: linked from https://www.vdl.lu/ (2026-10-25)
+  relevance: Official account of Ville de Luxembourg — Agenda
+  monitoring: manual — API read access is not free
+- platform: facebook
+  handle: carnevaleveneziaofficialpage
+  url: https://www.facebook.com/carnevaleveneziaofficialpage
+  city: venice
+  topics: &id007
+  - seasonal
+  linked_source: ve-carnevale
+  owner: Carnevale di Venezia (official)
+  verified_by: linked from https://www.carnevale.venezia.it/ (2026-10-25)
+  relevance: Official account of Carnevale di Venezia (official)
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: gazzettino.it
+  url: https://www.facebook.com/gazzettino.it
+  city: venice
+  topics: []
+  linked_source: ve-gazzettino
+  owner: Il Gazzettino — Venezia
+  verified_by: linked from https://www.ilgazzettino.it/ (2026-10-25)
+  relevance: Official account of Il Gazzettino — Venezia
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: Labiennaledivenezia
+  url: https://www.facebook.com/Labiennaledivenezia
+  city: venice
+  topics: &id004
+  - art
+  - culture
+  linked_source: ve-biennale
+  owner: La Biennale di Venezia
+  verified_by: linked from https://www.labiennale.org/ (2026-10-25)
+  relevance: Official account of La Biennale di Venezia
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: teatrolafenice
+  url: https://www.facebook.com/teatrolafenice
+  city: venice
+  topics: &id005
+  - culture
+  linked_source: ve-fenice
+  owner: Teatro La Fenice
+  verified_by: linked from https://www.teatrolafenice.it/ (2026-10-25)
+  relevance: Official account of Teatro La Fenice
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: ThePeggyGuggenheimCollection
+  url: https://www.facebook.com/ThePeggyGuggenheimCollection
+  city: venice
+  topics: &id006
+  - art
+  linked_source: ve-guggenheim
+  owner: Peggy Guggenheim Collection
+  verified_by: linked from https://www.guggenheim-venice.it/ (2026-10-25)
+  relevance: Official account of Peggy Guggenheim Collection
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: guggenheim_venice
+  url: https://www.instagram.com/guggenheim_venice/
+  city: venice
+  topics:
+  - art
+  linked_source: ve-guggenheim
+  owner: Peggy Guggenheim Collection
+  verified_by: linked from https://www.guggenheim-venice.it/ (2026-10-25)
+  relevance: Official account of Peggy Guggenheim Collection
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: labiennale
+  url: https://www.instagram.com/labiennale/
+  city: venice
+  topics:
+  - art
+  - culture
+  linked_source: ve-biennale
+  owner: La Biennale di Venezia
+  verified_by: linked from https://www.labiennale.org/ (2026-10-25)
+  relevance: Official account of La Biennale di Venezia
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: teatrolafenice
+  url: https://www.instagram.com/teatrolafenice/
+  city: venice
+  topics:
+  - culture
+  linked_source: ve-fenice
+  owner: Teatro La Fenice
+  verified_by: linked from https://www.teatrolafenice.it/ (2026-10-25)
+  relevance: Official account of Teatro La Fenice
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: venice_carnival_official
+  url: https://www.instagram.com/venice_carnival_official/
+  city: venice
+  topics:
+  - seasonal
+  linked_source: ve-carnevale
+  owner: Carnevale di Venezia (official)
+  verified_by: linked from https://www.carnevale.venezia.it/ (2026-10-25)
+  relevance: Official account of Carnevale di Venezia (official)
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: tiktok
+  handle: labiennale
+  url: https://www.tiktok.com/@labiennale
+  city: venice
+  topics: *id004
+  linked_source: ve-biennale
+  owner: La Biennale di Venezia
+  verified_by: linked from https://www.labiennale.org/ (2026-10-25)
+  relevance: Official account of La Biennale di Venezia
+  monitoring: manual
+- platform: tiktok
+  handle: teatrolafenice
+  url: https://www.tiktok.com/@teatrolafenice
+  city: venice
+  topics: *id005
+  linked_source: ve-fenice
+  owner: Teatro La Fenice
+  verified_by: linked from https://www.teatrolafenice.it/ (2026-10-25)
+  relevance: Official account of Teatro La Fenice
+  monitoring: manual
+- platform: x
+  handle: Gazzettino
+  url: https://x.com/Gazzettino
+  city: venice
+  topics: []
+  linked_source: ve-gazzettino
+  owner: Il Gazzettino — Venezia
+  verified_by: linked from https://www.ilgazzettino.it/ (2026-10-25)
+  relevance: Official account of Il Gazzettino — Venezia
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: GuggenheimPGC
+  url: https://x.com/GuggenheimPGC
+  city: venice
+  topics: *id006
+  linked_source: ve-guggenheim
+  owner: Peggy Guggenheim Collection
+  verified_by: linked from https://www.guggenheim-venice.it/ (2026-10-25)
+  relevance: Official account of Peggy Guggenheim Collection
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: la_Biennale
+  url: https://x.com/la_Biennale
+  city: venice
+  topics: *id004
+  linked_source: ve-biennale
+  owner: La Biennale di Venezia
+  verified_by: linked from https://www.labiennale.org/ (2026-10-25)
+  relevance: Official account of La Biennale di Venezia
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: teatrolafenice
+  url: https://x.com/teatrolafenice
+  city: venice
+  topics: *id005
+  linked_source: ve-fenice
+  owner: Teatro La Fenice
+  verified_by: linked from https://www.teatrolafenice.it/ (2026-10-25)
+  relevance: Official account of Teatro La Fenice
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: veneziatoday
+  url: https://x.com/veneziatoday
+  city: venice
+  topics: []
+  linked_source: ve-veneziatoday
+  owner: VeneziaToday
+  verified_by: linked from https://www.veneziatoday.it/ (2026-10-25)
+  relevance: Official account of VeneziaToday
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: Venice_Carnival
+  url: https://x.com/Venice_Carnival
+  city: venice
+  topics: *id007
+  linked_source: ve-carnevale
+  owner: Carnevale di Venezia (official)
+  verified_by: linked from https://www.carnevale.venezia.it/ (2026-10-25)
+  relevance: Official account of Carnevale di Venezia (official)
+  monitoring: manual — API read access is not free
+- platform: facebook
+  handle: cortinaskiworldcup
+  url: https://www.facebook.com/cortinaskiworldcup
+  city: cortina
+  topics:
+  - sports
+  linked_source: co-skiworldcup
+  owner: Cortina Ski World Cup (organising committee)
+  verified_by: linked from https://www.cortinaskiworldcup.com/ (2026-10-25)
+  relevance: Official account of Cortina Ski World Cup (organising committee)
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: cortinaskiworldcup
+  url: https://www.instagram.com/cortinaskiworldcup/
+  city: cortina
+  topics:
+  - sports
+  linked_source: co-skiworldcup
+  owner: Cortina Ski World Cup (organising committee)
+  verified_by: linked from https://www.cortinaskiworldcup.com/ (2026-10-25)
+  relevance: Official account of Cortina Ski World Cup (organising committee)
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: facebook
+  handle: cdesarts
+  url: https://www.facebook.com/cdesarts
+  city: paris
+  topics: []
+  linked_source: pa-connaissance-arts
+  owner: Connaissance des Arts
+  verified_by: linked from https://www.connaissancedesarts.com/ (2026-10-25)
+  relevance: Official account of Connaissance des Arts
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: lemonde.fr
+  url: https://www.facebook.com/lemonde.fr
+  city: paris
+  topics: []
+  linked_source: pa-lemonde-gastro
+  owner: Le Monde — M Gastronomie
+  verified_by: linked from https://www.lemonde.fr/ (2026-10-25)
+  relevance: Official account of Le Monde — M Gastronomie
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: VogueFrance
+  url: https://www.facebook.com/VogueFrance
+  city: paris
+  topics: []
+  linked_source: pa-vogue-fr
+  owner: Vogue France
+  verified_by: linked from https://www.vogue.fr/ (2026-10-25)
+  relevance: Official account of Vogue France
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: connaissancedesarts
+  url: https://www.instagram.com/connaissancedesarts/
+  city: paris
+  topics: []
+  linked_source: pa-connaissance-arts
+  owner: Connaissance des Arts
+  verified_by: linked from https://www.connaissancedesarts.com/ (2026-10-25)
+  relevance: Official account of Connaissance des Arts
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: lemondefr
+  url: https://www.instagram.com/lemondefr/
+  city: paris
+  topics: []
+  linked_source: pa-lemonde-gastro
+  owner: Le Monde — M Gastronomie
+  verified_by: linked from https://www.lemonde.fr/ (2026-10-25)
+  relevance: Official account of Le Monde — M Gastronomie
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: voguefrance
+  url: https://www.instagram.com/voguefrance/
+  city: paris
+  topics: []
+  linked_source: pa-vogue-fr
+  owner: Vogue France
+  verified_by: linked from https://www.vogue.fr/ (2026-10-25)
+  relevance: Official account of Vogue France
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: tiktok
+  handle: lemondefr
+  url: https://www.tiktok.com/@lemondefr
+  city: paris
+  topics: []
+  linked_source: pa-lemonde-gastro
+  owner: Le Monde — M Gastronomie
+  verified_by: linked from https://www.lemonde.fr/ (2026-10-25)
+  relevance: Official account of Le Monde — M Gastronomie
+  monitoring: manual
+- platform: tiktok
+  handle: voguefrance
+  url: https://www.tiktok.com/@voguefrance
+  city: paris
+  topics: []
+  linked_source: pa-vogue-fr
+  owner: Vogue France
+  verified_by: linked from https://www.vogue.fr/ (2026-10-25)
+  relevance: Official account of Vogue France
+  monitoring: manual
+- platform: x
+  handle: Cdesarts
+  url: https://x.com/Cdesarts
+  city: paris
+  topics: []
+  linked_source: pa-connaissance-arts
+  owner: Connaissance des Arts
+  verified_by: linked from https://www.connaissancedesarts.com/ (2026-10-25)
+  relevance: Official account of Connaissance des Arts
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: Paris
+  url: https://x.com/Paris
+  city: paris
+  topics: []
+  linked_source: pa-quefaire-opendata
+  owner: Ville de Paris — Que faire à Paris (open data)
+  verified_by: linked from https://quefaire.paris.fr/ (2026-10-25)
+  relevance: Official account of Ville de Paris — Que faire à Paris (open data)
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: VogueFrance
+  url: https://x.com/VogueFrance
+  city: paris
+  topics: []
+  linked_source: pa-vogue-fr
+  owner: Vogue France
+  verified_by: linked from https://www.vogue.fr/ (2026-10-25)
+  relevance: Official account of Vogue France
+  monitoring: manual — API read access is not free
+- platform: facebook
+  handle: 6sqft
+  url: https://www.facebook.com/6sqft
+  city: nyc
+  topics: []
+  linked_source: ny-6sqft
+  owner: 6sqft
+  verified_by: linked from https://www.6sqft.com/ (2026-10-25)
+  relevance: Official account of 6sqft
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: eaterny
+  url: https://www.facebook.com/eaterny
+  city: nyc
+  topics: []
+  linked_source: ny-eater
+  owner: Eater New York
+  verified_by: linked from https://ny.eater.com/ (2026-10-25)
+  relevance: Official account of Eater New York
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: gothamist
+  url: https://www.facebook.com/gothamist
+  city: nyc
+  topics: []
+  linked_source: ny-gothamist
+  owner: Gothamist
+  verified_by: linked from https://gothamist.com/ (2026-10-25)
+  relevance: Official account of Gothamist
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: museumofmodernart
+  url: https://www.facebook.com/museumofmodernart
+  city: nyc
+  topics: &id008
+  - art
+  linked_source: ny-moma
+  owner: MoMA — Calendar
+  verified_by: linked from https://www.moma.org/ (2026-10-25)
+  relevance: Official account of MoMA — Calendar
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: whitneymuseum
+  url: https://www.facebook.com/whitneymuseum
+  city: nyc
+  topics: &id009
+  - art
+  linked_source: ny-whitney
+  owner: Whitney Museum of American Art — Events
+  verified_by: linked from https://whitney.org/ (2026-10-25)
+  relevance: Official account of Whitney Museum of American Art — Events
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: 6sqft
+  url: https://www.instagram.com/6sqft/
+  city: nyc
+  topics: []
+  linked_source: ny-6sqft
+  owner: 6sqft
+  verified_by: linked from https://www.6sqft.com/ (2026-10-25)
+  relevance: Official account of 6sqft
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: eater_ny
+  url: https://www.instagram.com/eater_ny/
+  city: nyc
+  topics: []
+  linked_source: ny-eater
+  owner: Eater New York
+  verified_by: linked from https://ny.eater.com/ (2026-10-25)
+  relevance: Official account of Eater New York
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: gothamist
+  url: https://www.instagram.com/gothamist/
+  city: nyc
+  topics: []
+  linked_source: ny-gothamist
+  owner: Gothamist
+  verified_by: linked from https://gothamist.com/ (2026-10-25)
+  relevance: Official account of Gothamist
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: mustdonyc
+  url: https://www.instagram.com/mustdonyc/
+  city: nyc
+  topics:
+  - food
+  - nightlife
+  - art
+  - seasonal
+  owner: Must Do NYC
+  added_by: user
+  relevance: Named in the SOCIAL ATLAS brief as the model of a local discovery account for NYC
+  verified_by: added by user (2026-10-25); profile existence seen via a public analytics listing in search results
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: themuseumofmodernart
+  url: https://www.instagram.com/themuseumofmodernart/
+  city: nyc
+  topics:
+  - art
+  linked_source: ny-moma
+  owner: MoMA — Calendar
+  verified_by: linked from https://www.moma.org/ (2026-10-25)
+  relevance: Official account of MoMA — Calendar
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: theskint
+  url: https://www.instagram.com/theskint/
+  city: nyc
+  topics: []
+  linked_source: ny-theskint
+  owner: The Skint
+  verified_by: linked from https://www.theskint.com/ (2026-10-25)
+  relevance: Official account of The Skint
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: whitneymuseum
+  url: https://www.instagram.com/whitneymuseum/
+  city: nyc
+  topics:
+  - art
+  linked_source: ny-whitney
+  owner: Whitney Museum of American Art — Events
+  verified_by: linked from https://whitney.org/ (2026-10-25)
+  relevance: Official account of Whitney Museum of American Art — Events
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: threads
+  handle: themuseumofmodernart
+  url: https://www.threads.net/@themuseumofmodernart
+  city: nyc
+  topics: *id008
+  linked_source: ny-moma
+  owner: MoMA — Calendar
+  verified_by: linked from https://www.moma.org/ (2026-10-25)
+  relevance: Official account of MoMA — Calendar
+  monitoring: manual — no permitted free reading method configured
+- platform: threads
+  handle: whitneymuseum
+  url: https://www.threads.net/@whitneymuseum
+  city: nyc
+  topics: *id009
+  linked_source: ny-whitney
+  owner: Whitney Museum of American Art — Events
+  verified_by: linked from https://whitney.org/ (2026-10-25)
+  relevance: Official account of Whitney Museum of American Art — Events
+  monitoring: manual — no permitted free reading method configured
+- platform: tiktok
+  handle: museumofmodernart
+  url: https://www.tiktok.com/@museumofmodernart
+  city: nyc
+  topics: *id008
+  linked_source: ny-moma
+  owner: MoMA — Calendar
+  verified_by: linked from https://www.moma.org/ (2026-10-25)
+  relevance: Official account of MoMA — Calendar
+  monitoring: manual
+- platform: tiktok
+  handle: whitneymuseum
+  url: https://www.tiktok.com/@whitneymuseum
+  city: nyc
+  topics: *id009
+  linked_source: ny-whitney
+  owner: Whitney Museum of American Art — Events
+  verified_by: linked from https://whitney.org/ (2026-10-25)
+  relevance: Official account of Whitney Museum of American Art — Events
+  monitoring: manual
+- platform: x
+  handle: 6sqft
+  url: https://x.com/6sqft
+  city: nyc
+  topics: []
+  linked_source: ny-6sqft
+  owner: 6sqft
+  verified_by: linked from https://www.6sqft.com/ (2026-10-25)
+  relevance: Official account of 6sqft
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: EaterNY
+  url: https://x.com/EaterNY
+  city: nyc
+  topics: []
+  linked_source: ny-eater
+  owner: Eater New York
+  verified_by: linked from https://ny.eater.com/ (2026-10-25)
+  relevance: Official account of Eater New York
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: gothamist
+  url: https://x.com/gothamist
+  city: nyc
+  topics: []
+  linked_source: ny-gothamist
+  owner: Gothamist
+  verified_by: linked from https://gothamist.com/ (2026-10-25)
+  relevance: Official account of Gothamist
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: museummodernart
+  url: https://x.com/museummodernart
+  city: nyc
+  topics: *id008
+  linked_source: ny-moma
+  owner: MoMA — Calendar
+  verified_by: linked from https://www.moma.org/ (2026-10-25)
+  relevance: Official account of MoMA — Calendar
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: whitneymuseum
+  url: https://x.com/whitneymuseum
+  city: nyc
+  topics: *id009
+  linked_source: ny-whitney
+  owner: Whitney Museum of American Art — Events
+  verified_by: linked from https://whitney.org/ (2026-10-25)
+  relevance: Official account of Whitney Museum of American Art — Events
+  monitoring: manual — API read access is not free
+- platform: facebook
+  handle: BarbicanCentre
+  url: https://www.facebook.com/BarbicanCentre
+  city: london
+  topics: []
+  linked_source: lo-barbican
+  owner: Barbican
+  verified_by: linked from https://www.barbican.org.uk/ (2026-10-25)
+  relevance: Official account of Barbican
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: hotdinners
+  url: https://www.facebook.com/hotdinners
+  city: london
+  topics: &id011
+  - food
+  linked_source: lo-hotdinners
+  owner: Hot Dinners
+  verified_by: linked from https://www.hot-dinners.com/ (2026-10-25)
+  relevance: Official account of Hot Dinners
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: TheLondonStandard
+  url: https://www.facebook.com/TheLondonStandard
+  city: london
+  topics: []
+  linked_source: lo-standard-goingout
+  owner: Evening Standard — Going Out
+  verified_by: linked from https://www.standard.co.uk/ (2026-10-25)
+  relevance: Official account of Evening Standard — Going Out
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: victoriaandalbertmuseum
+  url: https://www.facebook.com/victoriaandalbertmuseum
+  city: london
+  topics: &id010
+  - art
+  - fashion
+  - design
+  linked_source: lo-vam
+  owner: V&A — What's on
+  verified_by: linked from https://www.vam.ac.uk/ (2026-10-25)
+  relevance: Official account of V&A — What's on
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: barbicancentre
+  url: https://www.instagram.com/barbicancentre/
+  city: london
+  topics: []
+  linked_source: lo-barbican
+  owner: Barbican
+  verified_by: linked from https://www.barbican.org.uk/ (2026-10-25)
+  relevance: Official account of Barbican
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: hotdinners
+  url: https://www.instagram.com/hotdinners/
+  city: london
+  topics:
+  - food
+  linked_source: lo-hotdinners
+  owner: Hot Dinners
+  verified_by: linked from https://www.hot-dinners.com/ (2026-10-25)
+  relevance: Official account of Hot Dinners
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: ldntechweek
+  url: https://www.instagram.com/ldntechweek/
+  city: london
+  topics:
+  - business
+  owner: London Tech Week
+  linked_source: null
+  relevance: Official account of London Tech Week (business & fintech networking)
+  verified_by: listed in the official londontechweek.com schema.org sameAs (2026-10-25)
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: londonist_com
+  url: https://www.instagram.com/londonist_com/
+  city: london
+  topics: []
+  linked_source: lo-londonist
+  owner: Londonist
+  verified_by: linked from https://londonist.com/ (2026-10-25)
+  relevance: Official account of Londonist
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: thelondonstandard
+  url: https://www.instagram.com/thelondonstandard/
+  city: london
+  topics: []
+  linked_source: lo-standard-goingout
+  owner: Evening Standard — Going Out
+  verified_by: linked from https://www.standard.co.uk/ (2026-10-25)
+  relevance: Official account of Evening Standard — Going Out
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: vamuseum
+  url: https://www.instagram.com/vamuseum/
+  city: london
+  topics:
+  - art
+  - fashion
+  - design
+  linked_source: lo-vam
+  owner: V&A — What's on
+  verified_by: linked from https://www.vam.ac.uk/ (2026-10-25)
+  relevance: Official account of V&A — What's on
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: pinterest
+  handle: vamuseum
+  url: https://www.pinterest.com/vamuseum/
+  city: london
+  topics: *id010
+  linked_source: lo-vam
+  owner: V&A — What's on
+  verified_by: linked from https://www.vam.ac.uk/ (2026-10-25)
+  relevance: Official account of V&A — What's on
+  monitoring: manual
+- platform: tiktok
+  handle: barbicancentre
+  url: https://www.tiktok.com/@barbicancentre
+  city: london
+  topics: []
+  linked_source: lo-barbican
+  owner: Barbican
+  verified_by: linked from https://www.barbican.org.uk/ (2026-10-25)
+  relevance: Official account of Barbican
+  monitoring: manual
+- platform: tiktok
+  handle: hotdinners
+  url: https://www.tiktok.com/@hotdinners
+  city: london
+  topics: *id011
+  linked_source: lo-hotdinners
+  owner: Hot Dinners
+  verified_by: linked from https://www.hot-dinners.com/ (2026-10-25)
+  relevance: Official account of Hot Dinners
+  monitoring: manual
+- platform: x
+  handle: hotdinners
+  url: https://x.com/hotdinners
+  city: london
+  topics: *id011
+  linked_source: lo-hotdinners
+  owner: Hot Dinners
+  verified_by: linked from https://www.hot-dinners.com/ (2026-10-25)
+  relevance: Official account of Hot Dinners
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: londonist
+  url: https://x.com/londonist
+  city: london
+  topics: []
+  linked_source: lo-londonist
+  owner: Londonist
+  verified_by: linked from https://londonist.com/ (2026-10-25)
+  relevance: Official account of Londonist
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: standardnews
+  url: https://x.com/standardnews
+  city: london
+  topics: []
+  linked_source: lo-standard-goingout
+  owner: Evening Standard — Going Out
+  verified_by: linked from https://www.standard.co.uk/ (2026-10-25)
+  relevance: Official account of Evening Standard — Going Out
+  monitoring: manual — API read access is not free
+- platform: x
+  handle: V_and_A
+  url: https://x.com/V_and_A
+  city: london
+  topics: *id010
+  linked_source: lo-vam
+  owner: V&A — What's on
+  verified_by: linked from https://www.vam.ac.uk/ (2026-10-25)
+  relevance: Official account of V&A — What's on
+  monitoring: manual — API read access is not free
+- platform: facebook
+  handle: dezeen
+  url: https://www.facebook.com/dezeen
+  city: multi
+  topics: &id012
+  - design
+  linked_source: mx-dezeen
+  owner: Dezeen
+  verified_by: linked from https://www.dezeen.com/ (2026-10-25)
+  relevance: Official account of Dezeen
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: theartnewspaper
+  url: https://www.facebook.com/theartnewspaper
+  city: multi
+  topics: &id013
+  - art
+  linked_source: mx-artnewspaper
+  owner: The Art Newspaper
+  verified_by: linked from https://www.theartnewspaper.com/ (2026-10-25)
+  relevance: Official account of The Art Newspaper
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: facebook
+  handle: WWD
+  url: https://www.facebook.com/WWD
+  city: multi
+  topics: &id014
+  - fashion
+  linked_source: mx-wwd
+  owner: WWD
+  verified_by: linked from https://wwd.com/ (2026-10-25)
+  relevance: Official account of WWD
+  monitoring: manual — reading pages via the Graph API needs a reviewed Meta app (not configured)
+- platform: instagram
+  handle: dezeen
+  url: https://www.instagram.com/dezeen/
+  city: multi
+  topics:
+  - design
+  linked_source: mx-dezeen
+  owner: Dezeen
+  verified_by: linked from https://www.dezeen.com/ (2026-10-25)
+  relevance: Official account of Dezeen
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: theartnewspaper.official
+  url: https://www.instagram.com/theartnewspaper.official/
+  city: multi
+  topics:
+  - art
+  linked_source: mx-artnewspaper
+  owner: The Art Newspaper
+  verified_by: linked from https://www.theartnewspaper.com/ (2026-10-25)
+  relevance: Official account of The Art Newspaper
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: wwd
+  url: https://www.instagram.com/wwd/
+  city: multi
+  topics:
+  - fashion
+  linked_source: mx-wwd
+  owner: WWD
+  verified_by: linked from https://wwd.com/ (2026-10-25)
+  relevance: Official account of WWD
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: pinterest
+  handle: dezeen
+  url: https://www.pinterest.com/dezeen/
+  city: multi
+  topics: *id012
+  linked_source: mx-dezeen
+  owner: Dezeen
+  verified_by: linked from https://www.dezeen.com/ (2026-10-25)
+  relevance: Official account of Dezeen
+  monitoring: manual
+- platform: threads
+  handle: dezeen
+  url: https://www.threads.net/@dezeen
+  city: multi
+  topics: *id012
+  linked_source: mx-dezeen
+  owner: Dezeen
+  verified_by: linked from https://www.dezeen.com/ (2026-10-25)
+  relevance: Official account of Dezeen
+  monitoring: manual — no permitted free reading method configured
+- platform: tiktok
+  handle: dezeen
+  url: https://www.tiktok.com/@dezeen
+  city: multi
+  topics: *id012
+  linked_source: mx-dezeen
+  owner: Dezeen
+  verified_by: linked from https://www.dezeen.com/ (2026-10-25)
+  relevance: Official account of Dezeen
+  monitoring: manual
+- platform: tiktok
+  handle: theartnewspaper
+  url: https://www.tiktok.com/@theartnewspaper
+  city: multi
+  topics: *id013
+  linked_source: mx-artnewspaper
+  owner: The Art Newspaper
+  verified_by: linked from https://www.theartnewspaper.com/ (2026-10-25)
+  relevance: Official account of The Art Newspaper
+  monitoring: manual
+- platform: x
+  handle: wwd
+  url: https://x.com/wwd
+  city: multi
+  topics: *id014
+  linked_source: mx-wwd
+  owner: WWD
+  verified_by: linked from https://wwd.com/ (2026-10-25)
+  relevance: Official account of WWD
+  monitoring: manual — API read access is not free
+- platform: instagram
+  handle: visit_luxembourg
+  url: https://www.instagram.com/visit_luxembourg/
+  city: luxembourg
+  topics:
+  - seasonal
+  - culture
+  owner: null
+  relevance: 'National tourism account: seasonal events and day trips'
+  verified_by: suggested by Paperjam's expat guide (en.paperjam.lu, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: notclaireinluxembourg
+  url: https://www.instagram.com/notclaireinluxembourg/
+  city: luxembourg
+  topics:
+  - culture
+  owner: null
+  relevance: Local creator on expat life in Luxembourg — useful for community happenings
+  verified_by: suggested by Paperjam's expat guide (en.paperjam.lu, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: anneskitchen
+  url: https://www.instagram.com/anneskitchen/
+  city: luxembourg
+  topics:
+  - food
+  owner: null
+  relevance: Luxembourg TV chef; local produce and culinary heritage
+  verified_by: suggested by Paperjam's expat guide (en.paperjam.lu, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: secret.london
+  url: https://www.instagram.com/secret.london/
+  city: london
+  topics:
+  - nightlife
+  - seasonal
+  - food
+  owner: null
+  relevance: Pop-ups, immersive events and secret bars — an insider-radar style source
+  verified_by: suggested by UAL Halls Life London guide (18 Feb 2026, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: london.foodguide
+  url: https://www.instagram.com/london.foodguide/
+  city: london
+  topics:
+  - food
+  owner: null
+  relevance: Street food to hidden restaurants and new openings
+  verified_by: suggested by UAL Halls Life London guide (18 Feb 2026, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: timeoutlondon
+  url: https://www.instagram.com/timeoutlondon/
+  city: london
+  topics:
+  - culture
+  - food
+  - nightlife
+  owner: null
+  relevance: Weekly events, exhibitions, restaurants and pop-ups
+  verified_by: suggested by UAL Halls Life London guide (18 Feb 2026, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: visitlondon
+  url: https://www.instagram.com/visitlondon/
+  city: london
+  topics:
+  - seasonal
+  - culture
+  owner: null
+  relevance: 'Official London tourism: seasonal events and highlights'
+  verified_by: suggested by UAL Halls Life London guide (18 Feb 2026, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: parisianavores
+  url: https://www.instagram.com/parisianavores/
+  city: paris
+  topics:
+  - food
+  owner: null
+  relevance: Paris restaurants neighbourhood by neighbourhood
+  verified_by: suggested by Malou's Paris food-influencer list (undated, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
+- platform: instagram
+  handle: desserted_in_paris
+  url: https://www.instagram.com/desserted_in_paris/
+  city: paris
+  topics:
+  - food
+  owner: null
+  relevance: Pastry and dessert openings in Paris
+  verified_by: suggested by Malou's Paris food-influencer list (undated, checked 2026-10-25); handle not opened — Instagram requires login
+  added_by: research
+  monitoring: manual — profile pages sit behind a login wall; API access would need a Meta developer app and your own Business account (not configured)
