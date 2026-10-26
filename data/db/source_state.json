@@ -162,16 +162,16 @@
  },
  "curated-research": {
   "consecutive_failures": 0,
-  "last_attempt_at": "2026-10-25T15:24:08+00:00",
+  "last_attempt_at": "2026-10-26T05:46:57+00:00",
   "last_counts": {
    "events": 28,
    "signals": 0
   },
-  "last_duration_ms": 32,
+  "last_duration_ms": 37,
   "last_error": null,
-  "last_event_found_at": "2026-10-25T15:24:08+00:00",
+  "last_event_found_at": "2026-10-26T05:46:57+00:00",
   "last_status": "ok",
-  "last_success_at": "2026-10-25T15:24:08+00:00",
+  "last_success_at": "2026-10-26T05:46:57+00:00",
   "method": "curated",
   "monitorable": true,
   "totals": {
@@ -487,7 +487,7 @@
    "duplicates": 0,
    "events": 27,
    "signals": 0,
-   "verified_events": 27
+   "verified_events": 26
   }
  },
  "lu-lcto-whats-on": {
@@ -508,7 +508,7 @@
    "duplicates": 21,
    "events": 59,
    "signals": 0,
-   "verified_events": 43
+   "verified_events": 30
   }
  },
  "lu-lhoft-events": {
@@ -619,7 +619,7 @@
    "duplicates": 21,
    "events": 27,
    "signals": 0,
-   "verified_events": 14
+   "verified_events": 0
   }
  },
  "lu-vdl-news": {
@@ -1001,7 +1001,7 @@
    "duplicates": 0,
    "events": 6,
    "signals": 0,
-   "verified_events": 6
+   "verified_events": 1
   }
  },
  "pa-bing-art": {

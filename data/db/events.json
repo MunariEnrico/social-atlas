@@ -192,7 +192,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -1107,7 +1108,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-biennale-arte-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "link_check": {
@@ -2492,7 +2493,7 @@
   },
   "category": "culture",
   "city": "luxembourg",
-  "closing_soon": true,
+  "closing_soon": false,
   "confidence": "high",
   "conflicts": [],
   "coverage": 1,
@@ -2530,15 +2531,11 @@
   "official_url": "https://www.eventbrite.be/e/xhuliano-dule-italian-comedy-night-tickets-1997064071397",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 55,
+   "actionability": 45,
    "insider": 45,
    "reasons": {
     "actionability_gaps": [
@@ -2549,11 +2546,10 @@
      "limited coverage detected (1 monitored source)"
     ],
     "relevance": [
-     "organiser/partner source",
-     "happening within two weeks"
+     "organiser/partner source"
     ]
    },
-   "relevance": 56
+   "relevance": 51
   },
   "social_accounts": [],
   "source_url": "https://www.eventbrite.be/e/xhuliano-dule-italian-comedy-night-tickets-1997064071397",
@@ -2574,7 +2570,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "XHULIANO DULE - Italian Comedy Night",
   "trip_suitable": false,
-  "urgency": "last_chance",
+  "urgency": "none",
   "venue_address": "65 Rue du Fort Neipperg, 2230, Luxembourg",
   "venue_name": "Carlitos Comedy Club",
   "verification_evidence": [
@@ -2586,7 +2582,7 @@
     "url": "https://www.eventbrite.be/e/xhuliano-dule-italian-comedy-night-tickets-1997064071397"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -2782,15 +2778,11 @@
   "official_url": "https://www.vdl.lu/fr/agenda/lecon-dessai-gratuite-code-et-robotique-de-4-a-13-ans",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 45,
+   "actionability": 35,
    "insider": 75,
    "reasons": {
     "actionability_gaps": [
@@ -2830,7 +2822,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Leçon d'essai gratuite : code et robotique, de 4 à 13 ans",
   "trip_suitable": false,
-  "urgency": "monitor",
+  "urgency": "none",
   "venue_address": null,
   "venue_name": null,
   "verification_evidence": [
@@ -2849,7 +2841,7 @@
     "url": "https://www.vdl.lu/fr/agenda/lecon-dessai-gratuite-code-et-robotique-de-4-a-13-ans"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -3047,15 +3039,11 @@
   "official_url": "https://www.vdl.lu/fr/agenda/krixkrax-bill",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -3094,7 +3082,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Krixkrax & Bill!",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": null,
   "venue_name": null,
   "verification_evidence": [
@@ -3106,7 +3094,7 @@
     "url": "https://www.vdl.lu/fr/agenda/krixkrax-bill"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -3452,14 +3440,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/halloween-ul2qmj",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 70,
+   "actionability": 60,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [
@@ -3506,7 +3491,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Halloween",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "28 rue Münster // , L-2160, Luxembourg",
   "venue_name": "28 rue Münster",
   "verification_evidence": [
@@ -3518,7 +3503,7 @@
     "url": "https://www.vdl.lu/fr/agenda/halloween"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -3717,15 +3702,11 @@
   "official_url": "https://www.vdl.lu/fr/agenda/special-workshop-kineticorchestra",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -3764,7 +3745,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Special Workshop by KINETIC/ORCHESTRA",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": null,
   "venue_name": null,
   "verification_evidence": [
@@ -3776,7 +3757,7 @@
     "url": "https://www.vdl.lu/fr/agenda/special-workshop-kineticorchestra"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -4110,15 +4091,11 @@
   "official_url": "https://whitney.org/events/closer-look-fall2026",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -4155,7 +4132,7 @@
   "timezone": "America/New_York",
   "title": "A Closer Look: Guided Close-Looking Through Dialogue",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "99 Gansevoort St, 10014, New York",
   "venue_name": "Whitney Museum of American Art",
   "verification_evidence": [
@@ -4167,7 +4144,7 @@
     "url": "https://whitney.org/events/closer-look-fall2026"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -4367,15 +4344,11 @@
   "official_url": "https://www.vdl.lu/fr/agenda/atelier-daquarelle-pratique-et-exploration-2",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 75,
    "reasons": {
     "actionability_gaps": [
@@ -4415,7 +4388,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Atelier d'aquarelle. Pratique et exploration",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": null,
   "venue_name": null,
   "verification_evidence": [
@@ -4427,7 +4400,7 @@
     "url": "https://www.vdl.lu/fr/agenda/atelier-daquarelle-pratique-et-exploration-2"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -4493,15 +4466,11 @@
   "official_url": "https://www.vdl.lu/fr/agenda/city-promenade",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -4540,7 +4509,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "City Promenade",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": null,
   "venue_name": null,
   "verification_evidence": [
@@ -4552,7 +4521,7 @@
     "url": "https://www.vdl.lu/fr/agenda/city-promenade"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -4756,15 +4725,11 @@
   "official_url": "https://whitney.org/events/untitled-america-exh-tour-2026",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -4801,7 +4766,7 @@
   "timezone": "America/New_York",
   "title": "Exhibition Tour: “Untitled” (America)",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "99 Gansevoort St, 10014, New York",
   "venue_name": "Whitney Museum of American Art",
   "verification_evidence": [
@@ -4813,7 +4778,7 @@
     "url": "https://whitney.org/events/untitled-america-exh-tour-2026"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -5552,15 +5517,11 @@
   "official_url": "https://whitney.org/events/minnie-evans-tour",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 75,
    "reasons": {
     "actionability_gaps": [
@@ -5599,7 +5560,7 @@
   "timezone": "America/New_York",
   "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "99 Gansevoort St, 10014, New York",
   "venue_name": "Whitney Museum of American Art",
   "verification_evidence": [
@@ -5611,7 +5572,7 @@
     "url": "https://whitney.org/events/minnie-evans-tour"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -5812,15 +5773,11 @@
   "official_url": "https://www.vdl.lu/fr/agenda/regelmassige-fuhrung-ein-spaziergang-durch-die-kunst",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -5859,7 +5816,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Regelmäßige Führung: Ein Spaziergang durch die Kunst",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": null,
   "venue_name": null,
   "verification_evidence": [
@@ -5871,7 +5828,7 @@
     "url": "https://www.vdl.lu/fr/agenda/regelmassige-fuhrung-ein-spaziergang-durch-die-kunst"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6080,15 +6037,11 @@
   "official_url": "https://whitney.org/events/exhibition-tour-lichtenstein",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 75,
    "reasons": {
     "actionability_gaps": [
@@ -6127,7 +6080,7 @@
   "timezone": "America/New_York",
   "title": "Exhibition Tour: Roy Lichtenstein: Like New",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "99 Gansevoort St, 10014, New York",
   "venue_name": "Whitney Museum of American Art",
   "verification_evidence": [
@@ -6139,7 +6092,7 @@
     "url": "https://whitney.org/events/exhibition-tour-lichtenstein"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6221,16 +6174,13 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-magie-karel-zeman-cinema-paradiso-fvfybw",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [
    "possible duplicate of les-mesaventures-de-joe-cinema-paradiso-bba76848 (similarity 0.8)"
   ],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [],
@@ -6276,7 +6226,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "La Magie Karel Zeman (Cinema Paradiso meets CinEast)",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "9 Place du Theatre // , L-2613, Luxembourg",
   "venue_name": "9 Place du Theatre",
   "verification_evidence": [
@@ -6288,7 +6238,7 @@
     "url": "https://www.vdl.lu/fr/agenda/la-magie-karel-zeman-cinema-paradiso-meets-cineast"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6369,15 +6319,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/petrusse-casemates",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 70,
+   "actionability": 60,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -6413,7 +6359,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Pétrusse Casemates - Guided Tour",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "Place de la Constitution // , Luxembourg City Tourist Office",
   "venue_name": "Place de la Constitution",
   "verification_evidence": [
@@ -6425,7 +6371,7 @@
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/petrusse-casemates"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6508,14 +6454,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/sein-oder-nichtsein-6ea28z",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 70,
+   "actionability": 60,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [
@@ -6562,7 +6505,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Sein oder Nichtsein",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "166 AVENUE DU DIX SEPTEMBRE // , L-2550, LUXEMBOURG",
   "venue_name": "166 AVENUE DU DIX SEPTEMBRE",
   "verification_evidence": [
@@ -6574,7 +6517,7 @@
     "url": "https://www.vdl.lu/fr/agenda/sein-oder-nichtsein"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6656,14 +6599,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/to-hold-a-mountain-cineast-2026-uxkfso",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [],
@@ -6709,7 +6649,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "To Hold A Mountain (CinEast Festival 2026)",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "3 Rue Genistre // , L-1623",
   "venue_name": "3 Rue Genistre",
   "verification_evidence": [
@@ -6721,7 +6661,7 @@
     "url": "https://www.vdl.lu/fr/agenda/hold-a-mountain-cineast-festival-2026"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6803,14 +6743,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-pianiste-why-we-love-cinema-maql3s",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [],
@@ -6855,7 +6792,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "La Pianiste (Why We Love Cinema)",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "9 Place du Theatre // , L-2613, Luxembourg",
   "venue_name": "9 Place du Theatre",
   "verification_evidence": [
@@ -6867,7 +6804,7 @@
     "url": "https://www.vdl.lu/fr/agenda/la-pianiste-why-we-love-cinema"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -6936,15 +6873,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/bertha-guadalupe-perez-gautier-laurent-azw-cs",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -6981,7 +6914,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Bertha Guadalupe Perez & Gautier Laurent",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "15-17 Rue Münster // , 2160, Luxembourg",
   "venue_name": "15-17 Rue Münster",
   "verification_evidence": [
@@ -6993,7 +6926,7 @@
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/bertha-guadalupe-perez-gautier-laurent-azw-cs"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7068,15 +7001,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-des-laureats-avec-l-8217-ocl-ld-o0f",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 75,
+   "actionability": 65,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -7112,7 +7041,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "CONCERT DES LAURÉATS AVEC L'OCL",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "40 Boulevard Pierre Dupong // , L-1365, LUXEMBOURG",
   "venue_name": "40 Boulevard Pierre Dupong",
   "verification_evidence": [
@@ -7124,7 +7053,7 @@
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/concert-des-laureats-avec-l-8217-ocl-ld-o0f"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7193,15 +7122,11 @@
   "official_url": "https://whitney.org/events/wayfinding",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 35,
+   "actionability": 25,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [
@@ -7238,7 +7163,7 @@
   "timezone": "America/New_York",
   "title": "Wayfinding: Señas del Camino",
   "trip_suitable": false,
-  "urgency": "information_pending",
+  "urgency": "none",
   "venue_address": "99 Gansevoort St, 10014, New York",
   "venue_name": "Whitney Museum of American Art",
   "verification_evidence": [
@@ -7250,7 +7175,7 @@
     "url": "https://whitney.org/events/wayfinding"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7333,14 +7258,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/seven-methods-of-killing-kylie-jenner-9aarif",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 70,
+   "actionability": 60,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [
@@ -7387,7 +7309,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Seven Methods of Killing Kylie Jenner",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "4 Grand-Rue // , L-2016, Luxembourg",
   "venue_name": "4 Grand-Rue",
   "verification_evidence": [
@@ -7399,7 +7321,7 @@
     "url": "https://www.vdl.lu/fr/agenda/seven-methods-killing-kylie-jenner"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7480,15 +7402,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/connection-or-deconnection-6vfqk",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [],
@@ -7522,7 +7440,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Connexion ou Déconnexion",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "18 rue Louvigny // , L-1946, Luxembourg",
   "venue_name": "18 rue Louvigny",
   "verification_evidence": [
@@ -7534,7 +7452,7 @@
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/connection-or-deconnection-6vfqk"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7616,14 +7534,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/repetition-du-film-ayant-remporte-le-grand-prix-du-festival-cineast-2026-jhlbfz",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 38,
    "reasons": {
     "actionability_gaps": [],
@@ -7669,7 +7584,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Répétition du film ayant remporté le Grand Prix du festival (CinEast 2026)",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "3 Rue Genistre // , L-1623",
   "venue_name": "3 Rue Genistre",
   "verification_evidence": [
@@ -7681,7 +7596,7 @@
     "url": "https://www.vdl.lu/fr/agenda/repetition-du-film-ayant-remporte-le-grand-prix-du-festival-cineast-2026"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7762,15 +7677,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/she-she-xiu9jr",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "before_everyone_knows",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 50,
    "reasons": {
     "actionability_gaps": [],
@@ -7804,7 +7715,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "She & She",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "5 avenue Marie-Thérèse // , L-2132, LUXEMBOURG",
   "venue_name": "5 avenue Marie-Thérèse",
   "verification_evidence": [
@@ -7816,7 +7727,7 @@
     "url": "https://www.luxembourg-city.com/en/what-s-on/event/she-she-xiu9jr"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -7899,14 +7810,11 @@
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/m-a-s-h-comedy-classics-eufaou",
   "preset_verification": null,
   "published_at": null,
-  "radar": [
-   "just_discovered",
-   "last_minute"
-  ],
+  "radar": [],
   "related_ids": [],
   "review_flags": [],
   "scores": {
-   "actionability": 90,
+   "actionability": 80,
    "insider": 63,
    "reasons": {
     "actionability_gaps": [],
@@ -7952,7 +7860,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "M*A*S*H (Comedy Classics)",
   "trip_suitable": false,
-  "urgency": "act_now",
+  "urgency": "none",
   "venue_address": "9 Place du Theatre // , L-2613, Luxembourg",
   "venue_name": "9 Place du Theatre",
   "verification_evidence": [
@@ -7964,7 +7872,7 @@
     "url": "https://www.vdl.lu/fr/agenda/mash-comedy-classics"
    }
   ],
-  "verification_status": "confirmed"
+  "verification_status": "past"
  },
  {
   "all_day": false,
@@ -9088,6 +8996,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.co.uk/e/live-dora-register-briefing-come-and-see-it-in-practice-tickets-2002959188852",
@@ -9208,6 +9122,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.de/e/salih-tras-luksemburg-ek-sov-turkce-stand-up-tickets-2003772178526",
@@ -9977,6 +9897,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/kwaidan-great-restorations-7x92yb",
@@ -10108,6 +10034,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/improv-theatre-6-week-course-for-beginners-aukj6n",
@@ -10239,6 +10171,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/theatre-open-session-8ao-ae",
@@ -10370,6 +10308,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/rising-stars-elionor-martinez-pakexp",
@@ -10499,6 +10443,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/so-ma-to-p0-jto",
@@ -10630,6 +10580,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/somato-3enr1h",
@@ -10747,6 +10703,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/liquid-jazz-jam-session-aoxqfv",
@@ -10868,6 +10830,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/standup-comedy-in-english-dinara-kerey-is-crazy-eurasian-luxembourg-tickets-1999488200031",
@@ -10989,6 +10957,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/win-fall-dinner-cafe-china-tickets-2002573874366",
@@ -11105,9 +11079,15 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-salon-chocolat-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "15e — Porte de Versailles",
   "occurrences": [],
   "official_url": "https://salon-du-chocolat.com/en/paris/practical-info/dates-access-map",
@@ -11234,6 +11214,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/la-galerie-de-portraits-du-letzebuerg-city-museum-ho1ner",
@@ -11366,6 +11352,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/chicken-wings-q5goq5",
@@ -11373,7 +11365,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -11414,7 +11407,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "CHICKEN WINGS",
   "trip_suitable": false,
-  "urgency": "book_soon",
+  "urgency": "act_now",
   "venue_address": "12 Rives de Clausen // , L-2165, Luxembourg",
   "venue_name": "12 Rives de Clausen",
   "verification_evidence": [
@@ -11490,6 +11483,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/public-forum-klima-zukunft-caetok",
@@ -11497,7 +11496,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -11538,7 +11538,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "public forum: Klima & Zukunft",
   "trip_suitable": false,
-  "urgency": "book_soon",
+  "urgency": "act_now",
   "venue_address": "3 Place des Rotondes // , L-2448, Luxembourg",
   "venue_name": "3 Place des Rotondes",
   "verification_evidence": [
@@ -11620,6 +11620,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/dogtooth-efthimis-filippou-zyug3s",
@@ -11627,7 +11633,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -11666,7 +11673,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "A Conversation with Efthimis Filippou + Dogtooth (Efthimis Filippou)",
   "trip_suitable": false,
-  "urgency": "book_soon",
+  "urgency": "act_now",
   "venue_address": "9 Place du Theatre // , L-2613, Luxembourg",
   "venue_name": "9 Place du Theatre",
   "verification_evidence": [
@@ -11748,6 +11755,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/moules-frites-a-volonte-y029hx",
@@ -11755,7 +11768,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -11796,7 +11810,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Moules Frites À VOLONTÉ",
   "trip_suitable": false,
-  "urgency": "book_soon",
+  "urgency": "act_now",
   "venue_address": "Rue Bridel - Centre Bambesch // , L-1264, LUXEMBOURG",
   "venue_name": "Rue Bridel - Centre Bambesch",
   "verification_evidence": [
@@ -11872,6 +11886,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.luxembourg-city.com/en/what-s-on/event/palestine-36-vmbw3c",
@@ -11879,7 +11899,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -11920,7 +11941,7 @@
   "timezone": "Europe/Luxembourg",
   "title": "Palestine 36",
   "trip_suitable": false,
-  "urgency": "book_soon",
+  "urgency": "act_now",
   "venue_address": "16 Avenue de la Faiencerie // , L-1510, Luxembourg",
   "venue_name": "16 Avenue de la Faiencerie",
   "verification_evidence": [
@@ -11990,6 +12011,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://whitney.org/events/member-night-pop-party",
@@ -11997,7 +12024,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12107,6 +12135,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://casino-luxembourg.lu/en/agenda/clio-van-aerde-end-residency-symposium",
@@ -12114,7 +12148,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12230,6 +12265,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/exploring-bnp-paribas-recruiting-networking-event-with-nyblackmba-tickets-1998600136810",
@@ -12237,7 +12278,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12350,6 +12392,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/iida-ny-color-invasion-2026-tickets-1994698874028",
@@ -12357,7 +12405,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12469,6 +12518,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.co.uk/e/billets-international-law-under-pressure-2001050560092",
@@ -12476,7 +12531,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12589,6 +12645,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/lseg-lpc-2026-large-corporate-leveraged-middle-market-loans-conference-tickets-1991203347815",
@@ -12596,7 +12658,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12709,6 +12772,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/mr-rugs-annual-all-black-birthday-celebration-tickets-2002466087974",
@@ -12716,7 +12785,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12829,6 +12899,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/ny-real-estate-entrepreneur-mixer-serhant-office-tickets-2002303636076",
@@ -12836,7 +12912,8 @@
   "published_at": null,
   "radar": [
    "just_discovered",
-   "before_everyone_knows"
+   "before_everyone_knows",
+   "last_minute"
   ],
   "related_ids": [],
   "review_flags": [],
@@ -12962,6 +13039,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
@@ -13087,6 +13170,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/ditch-day-nyc-ep-1-halloween-day-experience-tickets-1994854125389",
@@ -13206,6 +13295,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.co.uk/e/fintech-recruits-2026-5-years-anniversary-tickets-1981166963720",
@@ -13333,6 +13428,12 @@
   "last_seen_at": "2026-10-25T15:24:08+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T15:24:08+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://lhoft.com/event/fintech-recruits-2026/",
@@ -13461,6 +13562,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/hot-jokes-the-funniest-comedians-try-the-spiciest-sauces-tickets-2002913850243",
@@ -13581,6 +13688,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.co.uk/e/london-investor-show-2026-tickets-1986974510248",
@@ -13701,6 +13814,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/valdcon-x-paris-tickets-1992097411985",
@@ -13820,6 +13939,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/after-dark-tickets-2003748453564",
@@ -13940,6 +14065,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/blend-saturdays-tickets-1992618078312",
@@ -14059,6 +14190,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.it/e/halloween-in-venice-tickets-2003208345085",
@@ -14180,6 +14317,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.ie/e/house-of-usher-rnb-urban-halloween-tickets-2003593061783",
@@ -14299,6 +14442,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/venice-halloween-after-dark-party-tickets-2003601000528",
@@ -14414,9 +14563,15 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-marathon-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": "Five boroughs — finish in Central Park",
   "occurrences": [],
   "official_url": "https://www.nyrr.org/",
@@ -14538,6 +14693,12 @@
   "last_seen_at": "2026-10-25T14:48:00+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:48:00+00:00",
+  "link_check": {
+   "checked_at": "2026-10-26T05:46:57+00:00",
+   "error": null,
+   "ok": true,
+   "status": 200
+  },
   "neighborhood": null,
   "occurrences": [],
   "official_url": "https://www.eventbrite.com/e/best-execution-regulatory-compliance-policy-issues-symposium-tickets-1987427803059",
@@ -16733,10 +16894,11 @@
      "limited coverage detected (1 monitored source)"
     ],
     "relevance": [
-     "organiser/partner source"
+     "organiser/partner source",
+     "happening within two weeks"
     ]
    },
-   "relevance": 54
+   "relevance": 59
   },
   "social_accounts": [],
   "source_url": "https://www.eventbrite.co.uk/e/beyond-the-map-2026-ldn-tickets-1975273544344",
@@ -16852,10 +17014,11 @@
      "limited coverage detected (1 monitored source)"
     ],
     "relevance": [
-     "organiser/partner source"
+     "organiser/partner source",
+     "happening within two weeks"
     ]
    },
-   "relevance": 54
+   "relevance": 59
   },
   "social_accounts": [],
   "source_url": "https://www.eventbrite.com/e/billets-paris-business-tech-entrepreneur-networking-soiree-953524496437",
@@ -16970,10 +17133,11 @@
      "limited coverage detected (1 monitored source)"
     ],
     "relevance": [
-     "organiser/partner source"
+     "organiser/partner source",
+     "happening within two weeks"
     ]
    },
-   "relevance": 54
+   "relevance": 59
   },
   "social_accounts": [],
   "source_url": "https://www.eventbrite.fr/e/the-transatlantic-bridge-scaling-luxembourg-innovation-into-the-us-tickets-2003498451802",
@@ -17298,7 +17462,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-paris-photo-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "8e — Champs-Élysées",
@@ -17660,7 +17824,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-jazz-festival-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide (Southbank, Barbican, KOKO, Union Chapel…)",
@@ -17781,7 +17945,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-fenice-fedora-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "San Marco",
@@ -18271,7 +18435,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-lord-mayors-show-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "City of London",
@@ -18397,7 +18561,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lu-internet-days-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Kirchberg",
@@ -18647,7 +18811,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-winter-wonderland-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Hyde Park",
@@ -19008,7 +19172,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lu-art-week-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Limpertsberg",
@@ -19498,7 +19662,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-festa-salute-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Dorsoduro",
@@ -19862,7 +20026,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-champs-elysees-lights-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "8e — Champs-Élysées",
@@ -20107,7 +20271,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-co-ski-season-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Dolomites",
@@ -20474,7 +20638,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-tree-lighting-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Midtown",
@@ -21431,7 +21595,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-fenice-etoiles-2026",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "San Marco",
@@ -21669,7 +21833,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-co-ski-world-cup-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Olympia delle Tofane",
@@ -21793,7 +21957,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-pfw-men-fw27",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -21916,7 +22080,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-couture-ss27",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -22276,7 +22440,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-pfw-women-fw27",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -22886,7 +23050,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-biennale-architettura-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Castello (Giardini & Arsenale)",
@@ -23010,7 +23174,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-roland-garros-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "16e — Porte d'Auteuil",
@@ -23490,7 +23654,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-tech-week-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Kensington — Olympia",
@@ -23620,7 +23784,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-pa-vivatech-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "15e — Porte de Versailles",
@@ -23869,7 +24033,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-wimbledon-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Wimbledon",
@@ -24116,7 +24280,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-us-open-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Queens — Flushing Meadows",
@@ -24480,7 +24644,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-lo-lfw-feb-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -24603,7 +24767,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ny-nyfw-feb-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide",
@@ -24725,7 +24889,7 @@
   "hidden": false,
   "history": [],
   "id": "ev-ve-carnevale-2027",
-  "last_seen_at": "2026-10-25T15:24:08+00:00",
+  "last_seen_at": "2026-10-26T05:46:57+00:00",
   "last_updated_at": "2026-10-25T14:48:00+00:00",
   "last_verified_at": "2026-10-25T14:30:00+01:00",
   "neighborhood": "Citywide (San Marco focus)",

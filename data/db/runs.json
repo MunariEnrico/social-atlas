@@ -1521,5 +1521,281 @@
   "status": "success",
   "submissions_processed": 0,
   "trigger": "manual"
+ },
+ {
+  "duplicates_merged": 0,
+  "errors": [],
+  "events_extracted": 28,
+  "events_new": 0,
+  "events_updated": 0,
+  "finished_at": "2026-10-26T05:48:12+00:00",
+  "github_run_url": "https://github.com/MunariEnrico/social-atlas/actions/runs/40276068584",
+  "link_checks": 40,
+  "mode": "collect",
+  "per_source": [
+   {
+    "id": "lu-vdl-agenda",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-lcto-whats-on",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-casino-agenda",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-lhoft-events",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-vdl-news",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-wort",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-lhoft-news",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-bing-openings",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-bing-culture",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lu-bing-business",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ve-veneziatoday",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ve-gazzettino",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ve-cini",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ve-bing-openings",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ve-bing-art",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ve-bing-business",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "co-skiworldcup",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "co-gazzettino-belluno",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "co-bing-events",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "co-bing-hospitality",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "co-bing-ski",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-lemonde-gastro",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-lemonde-arts",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-connaissance-arts",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-vogue-fr",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-bing-openings",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-bing-art",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "pa-bing-business",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-theskint",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-eater",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-gothamist",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-6sqft",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-whitney",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-bing-openings",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-bing-art",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "ny-bing-business",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lo-londonist",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lo-standard-goingout",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lo-vam",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lo-bing-openings",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lo-bing-art",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "lo-bing-business",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "mx-artnewspaper",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "mx-dezeen",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "mx-wallpaper",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "mx-wwd",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "id": "mx-fashionunited",
+    "note": "checked recently (frequency)",
+    "status": "skipped"
+   },
+   {
+    "errors": [],
+    "events": 28,
+    "id": "curated-research",
+    "ms": 37,
+    "notes": [
+     "28 researched events from 1 file(s)"
+    ],
+    "requests": 0,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   }
+  ],
+  "possible_duplicates": 0,
+  "requests": 52,
+  "run_id": "20261026T054657Z-b1f9",
+  "runner": "github-actions",
+  "signals_extracted": 0,
+  "signals_new": 0,
+  "sources_attempted": 1,
+  "sources_failed": 0,
+  "sources_manual": 30,
+  "sources_ok": 1,
+  "sources_skipped": 47,
+  "started_at": "2026-10-26T05:46:57+00:00",
+  "status": "success",
+  "submissions_processed": 0,
+  "trigger": "schedule"
  }
 ]
