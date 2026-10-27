@@ -2,89 +2,217 @@
  "counts": {
   "by_city": {
    "cortina": 2,
-   "london": 38,
-   "luxembourg": 69,
-   "nyc": 20,
+   "london": 39,
+   "luxembourg": 100,
+   "nyc": 26,
    "paris": 14,
    "venice": 12
   },
-  "live_events": 155,
-  "signals_24h": 125
+  "live_events": 193,
+  "signals_24h": 14
  },
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "empty_note": null,
- "generated_at": "2026-10-26T05:46:57+00:00",
- "run_id": "20261026T054657Z-b1f9",
+ "generated_at": "2026-10-27T05:44:41+00:00",
+ "run_id": "20261027T054441Z-1b43",
  "sections": {
   "booking_deadlines": [],
-  "changes": [],
+  "changes": [
+   {
+    "at": "2026-10-27T05:44:41+00:00",
+    "city": "london",
+    "event_id": "inside-aardman-wallace-gromit-and-friend-0e6fdace",
+    "field": "booking.tickets",
+    "new": "sold_out_verified",
+    "old": "available_verified",
+    "title": "Inside Aardman: Wallace & Gromit and Friends"
+   }
+  ],
   "discovered_24h": [
    {
-    "category": "food",
-    "city": "london",
-    "end": "2026-11-08",
-    "event_id": "smokestak-manteca-present-xv-blok-party-22c3ffea",
-    "start": "2026-11-07",
-    "title": "SMOKESTAK + manteca present XV BLOK PARTY",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "organiser/partner source · distinctive: one night · happening within two weeks"
-   },
-   {
     "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-15",
-    "event_id": "the-day-of-the-mantis-55b401ee",
-    "start": "2026-09-05",
-    "title": "The Day of the Mantis",
-    "urgency": "monitor",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: biennale"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-20",
-    "event_id": "luxembourg-art-week-2026-opening-night-t-798f2826",
-    "start": "2026-11-20",
-    "title": "Luxembourg Art Week 2026 - Opening Night -The Live Hearth Signal Room",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: opening"
-   },
-   {
-    "category": "food",
     "city": "nyc",
-    "end": "2026-11-14",
-    "event_id": "ny-cider-festival-nyc-2026-4adfce8b",
-    "start": "2026-11-14",
-    "title": "NY Cider Festival NYC 2026",
+    "end": "2026-10-28T16:00:00-04:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-4078d323",
+    "start": "2026-10-28T16:00:00-04:00",
+    "title": "A Closer Look: Guided Close-Looking Through Dialogue",
     "urgency": "information_pending",
     "verification_status": "confirmed",
-    "why": "organiser/partner source · distinctive: festival"
+    "why": "official source · happening within two weeks"
    },
    {
     "category": "food",
     "city": "luxembourg",
-    "end": "2026-10-27T21:30:00+01:00",
-    "event_id": "somato-fa6b782f",
-    "start": "2026-10-27T20:00:00+01:00",
-    "title": "SoMaTo",
+    "end": "2026-10-28T21:30:00+01:00",
+    "event_id": "speed-dating-sometimes-a-few-minutes-are-4fecec43",
+    "start": "2026-10-28T19:30:00+01:00",
+    "title": "💘 Speed Dating | Sometimes a few minutes are enough",
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks"
    },
    {
-    "category": "art",
+    "category": "food",
     "city": "luxembourg",
-    "end": "2026-10-28T15:00:00+01:00",
-    "event_id": "the-who-is-who-713687da",
-    "start": "2026-10-28T15:00:00+01:00",
-    "title": "The Who is Who",
+    "end": "2026-10-28T22:00:00+01:00",
+    "event_id": "comedy-in-english-dinara-kerey-is-crazy-11e6bc78",
+    "start": "2026-10-28T20:00:00+01:00",
+    "title": "Comedy in English: Dinara Kerey is CRAZY EURASIAN (LUXEMBOURG)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-29T16:00:00+01:00",
+    "event_id": "coach-de-retraite-benevole-437dce14",
+    "start": "2026-10-29T09:00:00+01:00",
+    "title": "Coach de retraite bénévole",
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks · free"
    },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-29T15:00:00+01:00",
+    "event_id": "coperta-6e1547e3",
+    "start": "2026-10-29T15:00:00+01:00",
+    "title": "Coperta",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-29T16:30:00+01:00",
+    "event_id": "tempos-5fa7e5bc",
+    "start": "2026-10-29T15:30:00+01:00",
+    "title": "TempoS",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-29T17:30:00+01:00",
+    "event_id": "close-to-the-uncertain-d90e031b",
+    "start": "2026-10-29T17:30:00+01:00",
+    "title": "Close to the uncertain",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-29T18:00:00+01:00",
+    "event_id": "cycle-de-conferences-chercheurs-luxembou-f2e1e049",
+    "start": "2026-10-29T18:00:00+01:00",
+    "title": "Cycle de conférences : Chercheurs luxembourgeois à l’étranger",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-29T18:00:00+01:00",
+    "event_id": "the-industrialisation-in-the-city-of-lux-1a192b42",
+    "start": "2026-10-29T18:00:00+01:00",
+    "title": "The Industrialisation in the City of Luxembourg",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-29T18:00:00+01:00",
+    "event_id": "die-industrialisierung-in-der-stadt-luxe-b7ec6d4a",
+    "start": "2026-10-29T18:00:00+01:00",
+    "title": "Die Industrialisierung in der Stadt Luxemburg",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "discovered_24h_signals": [
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-bf4b98536596",
+    "source": "Bing News — Luxembourg exhibitions & culture",
+    "title": "Photo Phnom Penh festival 2026 : « Configurations » au Musée national du Cambodge",
+    "url": "https://lepetitjournal.com/cambodge/agenda/expositions/photo-phnom-penh-festival-2026-configurations-au-musee-national-du-cambodge"
+   },
+   {
+    "city": "venice",
+    "signal_id": "sig-9fc57d87150d",
+    "source": "Bing News — Venice business & fashion events",
+    "title": "A Venezia il festival 'Labour and Sustainability' su lavoro e futuro",
+    "url": "https://it.blastingnews.com/lavoro/2026/10/a-venezia-il-festival-labour-and-sustainability-su-lavoro-e-futuro-004180439.html"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-279252b108dc",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Le nouveau restaurant au feu de bois à connaître dans le 11e arrondissement avec son jardin caché et son potager suspendu",
+    "url": "https://www.msn.com/fr-be/actualite/other/le-nouveau-restaurant-au-feu-de-bois-%C3%A0-conna%C3%AEtre-dans-le-11e-arrondissement-avec-son-jardin-cach%C3%A9-et-son-potager-suspendu/ar-AA2fOrqn"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-a5a8423c0aa0",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Winona : le nouveau bar à cocktails à connaître à Paris",
+    "url": "https://www.milkdecoration.com/winona-le-nouveau-bar-a-cocktails-a-connaitre-a-paris/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-108aa59ee7c8",
+    "source": "Bing News — Paris ouvertures",
+    "title": "La boutique officielle HYBE s’installe dans le Marais à Paris",
+    "url": "https://altselection.ouest-france.fr/la-boutique-officielle-hybe-sinstalle-dans-le-marais-a-paris/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-5e2506f4e747",
+    "source": "Bing News — Paris vernissages",
+    "title": "PARIS : Art contemporain – Oscar MURILLO explore la «…",
+    "url": "https://presseagence.fr/paris-art-contemporain-oscar-murillo-explore-la-pensee-inachevee-chez-david-zwirner/"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-6ff7afe0f3bd",
+    "source": "Bing News — NYC openings",
+    "title": "Inside Minky Couture’s cozy, reality star-packed NYC pop-up launch party",
+    "url": "https://pagesix.com/2026/10/26/entertainment/inside-minky-couture-nyc-pop-up-with-page-sixs-virtual-reali-tea/"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-87fb67d13117",
+    "source": "Bing News — NYC openings",
+    "title": "All the reality stars at Minky Couture’s NYC pop-up with VRT",
+    "url": "https://www.msn.com/en-us/entertainment/celebrities/all-the-reality-stars-at-minky-couture-s-nyc-pop-up-with-vrt/vi-AA2g7OM8"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-2188daeede3f",
+    "source": "Bing News — NYC gallery openings",
+    "title": "Leica Gallery New York Presents Les Fincher: Behind the Scenes of Laurie Anderson's Home of the Brave",
+    "url": "https://finance.yahoo.com/media-advertising/articles/leica-gallery-york-presents-les-123900897.html"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-e58e8466b1a1",
+    "source": "Bing News — NYC gallery openings",
+    "title": "One Art Space Tribeca Opening of New Hunt Slonem Exhibition ‘Through the Looking Glass’",
+    "url": "https://www.desmoinesregister.com/press-release/story/127005/one-art-space-tribeca-opening-of-new-hunt-slonem-exhibition-through-the-looking-glass/"
+   }
+  ],
+  "last_minute": [
    {
     "category": "food",
     "city": "luxembourg",
@@ -120,143 +248,36 @@
    },
    {
     "category": "art",
-    "city": "nyc",
-    "end": "2026-10-28T22:00:00-04:00",
-    "event_id": "pop-party-0ee8b01f",
-    "start": "2026-10-28T19:00:00-04:00",
-    "title": "Pop Party",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   }
-  ],
-  "discovered_24h_signals": [
-   {
-    "city": "paris",
-    "signal_id": "sig-fd9cf0fdf173",
-    "source": "Bing News — Paris vernissages",
-    "title": "PARIS : Île Seguin – L’exposition « Moteur Imaginaire » fait dialoguer art et industrie",
-    "url": "https://presseagence.fr/paris-ile-seguin-lexposition-moteur-imaginaire-fait-dialoguer-art-et-industrie/"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-e3874dcfdc4a",
-    "source": "Bing News — Paris ouvertures",
-    "title": "Cyril Lignac ouvre son Coffee shop chocolat à Paris nommé Moko",
-    "url": "https://www.sortiraparis.com/hotel-restaurant/cafe-tea-time/articles/355201-cyril-lignac-ouvre-son-coffee-shop-chocolat-a-paris-nomme-moko"
-   },
-   {
     "city": "london",
-    "signal_id": "sig-de6270ed663f",
-    "source": "Bing News — London private views",
-    "title": "Explore this pop-up library dedicated to queer creativity in London",
-    "url": "https://www.wallpaper.com/design-interiors/london-design-festival-brompton-reading-room-alex-tieghi-walker-books"
-   },
-   {
-    "city": "nyc",
-    "signal_id": "sig-de19380056d0",
-    "source": "Bing News — NYC openings",
-    "title": "New York is getting new Tropical Smoothie Cafes",
-    "url": "https://finance.yahoo.com/small-business/articles/york-getting-tropical-smoothie-cafes-155456179.html"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-dc901d6af736",
-    "source": "Bing News — Paris ouvertures",
-    "title": "Dans le 3ᵉ arrondissement, cette toute petite adresse tibétaine encore méconnue sert des raviolis délicieux… Allez-y avant que tout Paris s’y presse !",
-    "url": "https://parissecret.com/restaurant-tibetain-paris-mofe/"
-   },
-   {
-    "city": "nyc",
-    "signal_id": "sig-d32faf41b355",
-    "source": "Bing News — NYC openings",
-    "title": "Bar Bas: A Cozy Hidden Cocktail Lounge Opens in Hell’s Kitchen",
-    "url": "https://www.broadwayworld.com/bwwfood-wine/article/Bar-Bas-A-Cozy-Hidden-Cocktail-Lounge-Opens-in-Hells-Kitchen-20261020"
-   },
-   {
-    "city": "nyc",
-    "signal_id": "sig-cff4dc95ecce",
-    "source": "Bing News — NYC gallery openings",
-    "title": "One Art Space Tribeca Opening of New Hunt Slonem Exhibition ‘Through the Looking Glass’",
-    "url": "https://www.tennessean.com/press-release/story/235641/one-art-space-tribeca-opening-of-new-hunt-slonem-exhibition-through-the-looking-glass/"
-   },
-   {
-    "city": "paris",
-    "signal_id": "sig-ccd663aeeef1",
-    "source": "Bing News — Paris ouvertures",
-    "title": "Du pop-up à la boutique permanente : Fanatics s’installe définitivement à Paris !",
-    "url": "https://www.dazn.com/fr-FR/news/foot-us/fanatics-collectibles-boutique-permanente-paris-cartes-topps/1vswqb41jto671pk16e53lcavv"
-   },
-   {
-    "city": "london",
-    "signal_id": "sig-ccaaad7b01da",
-    "source": "Bing News — London private views",
-    "title": "Frieze London 2026 Cheat Sheet",
-    "url": "https://www.vogue.com/article/frieze-london-2026-cheat-sheet"
-   },
-   {
-    "city": "london",
-    "signal_id": "sig-cc4ace3975ea",
-    "source": "Bing News — London private views",
-    "title": "Pokémon announces London Science Museum pop-up",
-    "url": "https://www.nme.com/news/gaming-news/pokemon-london-science-museum-pop-up-dates-tickets-card-3970170"
-   }
-  ],
-  "last_minute": [
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-10-27T21:00:00+01:00",
-    "event_id": "theatre-open-session-b9e22164",
-    "start": "2026-10-27T19:00:00+01:00",
-    "title": "Theatre Open Session",
+    "end": "2026-10-31T16:00:00+00:00",
+    "event_id": "family-workshop-5-11-clay-character-fdd91fbd",
+    "start": "2026-10-29T11:00:00+00:00",
+    "title": "Family Workshop (5-11): Clay Character",
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks"
    },
    {
-    "category": "nightlife",
+    "category": "art",
     "city": "luxembourg",
-    "end": "2026-10-27T21:30:00+01:00",
-    "event_id": "rising-stars-elionor-martinez-58414489",
-    "start": "2026-10-27T19:30:00+01:00",
-    "title": "Rising Stars | Elionor Martínez",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-10-27T20:00:00+01:00",
-    "event_id": "so-ma-to-137ac0af",
-    "start": "2026-10-27T20:00:00+01:00",
-    "title": "SO MA TO / 走馬灯",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "nightlife",
-    "city": "luxembourg",
-    "end": "2026-10-28T22:00:00+01:00",
-    "event_id": "chicken-wings-00923a81",
-    "start": "2026-10-28T17:00:00+01:00",
-    "title": "CHICKEN WINGS",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "seasonal",
-    "city": "luxembourg",
-    "end": "2026-10-28T18:30:00+01:00",
-    "event_id": "public-forum-klima-zukunft-e7053020",
-    "start": "2026-10-28T18:30:00+01:00",
-    "title": "public forum: Klima & Zukunft",
+    "end": "2026-10-29T18:00:00+01:00",
+    "event_id": "visite-guidee-reguliere-the-luxembourg-s-08aa48c4",
+    "start": "2026-10-29T18:00:00+01:00",
+    "title": "Visite guidée régulière: The Luxembourg Story",
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-29T20:15:00+01:00",
+    "event_id": "the-photograph-en-presence-d-efthimis-fi-4b564eee",
+    "start": "2026-10-29T18:30:00+01:00",
+    "title": "The Photograph | en présence d'Efthimis Filippou",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
    }
   ],
   "new_openings": [
@@ -277,15 +298,6 @@
     "title": "Austrian Gastronomy Week \"Wien in Luxemburg\"",
     "url": "https://www.vdl.lu/en/news/austrian-gastronomy-week-wien-luxemburg",
     "why": "opening reported by Ville de Luxembourg — News"
-   },
-   {
-    "city": "paris",
-    "published_at": "2026-10-20T05:00:18+00:00",
-    "signal_id": "sig-24979c08c7a0",
-    "source": "Le Monde — Arts",
-    "title": "Foire Art Basel : après un week-end sous tension à Paris, le marché de l’art joue son va-tout",
-    "url": "https://www.lemonde.fr/culture/article/2026/10/20/apres-un-week-end-sous-tension-a-paris-le-marche-de-l-art-joue-son-va-tout-a-la-foire-art-basel_6797875_3246.html",
-    "why": "opening reported by Le Monde — Arts"
    },
    {
     "city": "nyc",
@@ -349,6 +361,15 @@
     "title": "Forest Hills Stadium can keep its concerts under deal with neighbors",
     "url": "https://gothamist.com/news/forest-hills-stadium-can-keep-its-concerts-under-deal-with-neighbors",
     "why": "opening reported by Gothamist"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-10-23T09:36:40+00:00",
+    "signal_id": "sig-af8182183ab4",
+    "source": "Vogue France",
+    "title": "Art Basel Paris 2026 : itinéraire, expositions et œuvres incontournables",
+    "url": "https://www.vogue.fr/article/art-basel-paris-2026-temps-forts-vogue-france",
+    "why": "opening reported by Vogue France"
    }
   ],
   "plan_a_trip": [
@@ -445,13 +466,13 @@
    {
     "category": "food",
     "city": "luxembourg",
-    "end": "2026-10-27T18:30:00+01:00",
-    "event_id": "portes-ouvertes-sur-les-cours-jeunes-10-95d91244",
-    "start": "2026-10-27T15:30:00+01:00",
-    "title": "PORTES OUVERTES sur les cours Jeunes 10-12 ans",
+    "end": "2026-10-29",
+    "event_id": "clio-van-aerde-end-of-residency-symposiu-947bcf4c",
+    "start": "2026-10-29",
+    "title": "Clio Van Aerde – End-of-Residency Symposium",
     "urgency": "information_pending",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: fair · happening within two weeks"
+    "why": "official source · distinctive: residency · happening within two weeks"
    },
    {
     "category": "food",
@@ -465,15 +486,173 @@
     "why": "official source · distinctive: festival · happening within two weeks"
    },
    {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-28T12:00:00-04:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-1333c9df",
+    "start": "2026-10-28T12:00:00-04:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-28T14:00:00-04:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-779e9d1b",
+    "start": "2026-10-28T14:00:00-04:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-10-29T21:30:00+01:00",
+    "event_id": "la-fete-86e784fe",
+    "start": "2026-10-29T19:30:00+01:00",
+    "title": "La Fête",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: debut · happening within two weeks"
+   },
+   {
     "category": "business",
     "city": "luxembourg",
     "end": "2026-10-30",
     "event_id": "fintech-recruits-2026-8e18d245",
     "start": "2026-10-30",
     "title": "Fintech Recruits 2026!",
-    "urgency": "book_soon",
+    "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · distinctive: fair · happening within two weeks · registration required"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-27T12:30:00+01:00",
+    "event_id": "hungry-for-culture-48bb6bf4",
+    "start": "2026-10-27T12:30:00+01:00",
+    "title": "Hungry for culture",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-27T19:00:00+01:00",
+    "event_id": "from-nature-to-art-an-exploration-of-for-693a089a",
+    "start": "2026-10-27T17:30:00+01:00",
+    "title": "From Nature to Art: An Exploration of Forms",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-10-28T13:00:00-04:00",
+    "event_id": "exhibition-tour-untitled-america-264f03dd",
+    "start": "2026-10-28T13:00:00-04:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-28T15:00:00+01:00",
+    "event_id": "the-who-is-who-713687da",
+    "start": "2026-10-28T15:00:00+01:00",
+    "title": "The Who is Who",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "tonight": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-27T19:00:00+01:00",
+    "event_id": "de-la-nature-a-l-art-une-exploration-des-d0b6f9ca",
+    "start": "2026-10-27T17:30:00+01:00",
+    "title": "De la nature à l’art : une exploration des formes",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-27T21:30:00+01:00",
+    "event_id": "somato-fa6b782f",
+    "start": "2026-10-27T20:00:00+01:00",
+    "title": "SoMaTo",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-27T21:00:00+01:00",
+    "event_id": "theatre-open-session-b9e22164",
+    "start": "2026-10-27T19:00:00+01:00",
+    "title": "Theatre Open Session",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-27T21:30:00+01:00",
+    "event_id": "rising-stars-elionor-martinez-58414489",
+    "start": "2026-10-27T19:30:00+01:00",
+    "title": "Rising Stars | Elionor Martínez",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-27T20:00:00+01:00",
+    "event_id": "so-ma-to-137ac0af",
+    "start": "2026-10-27T20:00:00+01:00",
+    "title": "SO MA TO / 走馬灯",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-10-27T23:00:00+01:00",
+    "event_id": "liquid-jazz-jam-session-ad705ae6",
+    "start": "2026-10-27T20:30:00+01:00",
+    "title": "Liquid Jazz Jam Session",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   }
+  ],
+  "top_today": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-10-27T18:30:00+01:00",
+    "event_id": "portes-ouvertes-sur-les-cours-jeunes-10-95d91244",
+    "start": "2026-10-27T15:30:00+01:00",
+    "title": "PORTES OUVERTES sur les cours Jeunes 10-12 ans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · happening within two weeks"
    },
    {
     "category": "culture",
@@ -498,18 +677,18 @@
     "why": "official source · distinctive: limited · happening within two weeks"
    },
    {
-    "category": "art",
+    "category": "food",
     "city": "luxembourg",
-    "end": "2026-10-29",
-    "event_id": "clio-van-aerde-end-of-residency-symposiu-947bcf4c",
-    "start": "2026-10-29",
-    "title": "Clio Van Aerde – End-of-Residency Symposium",
-    "urgency": "information_pending",
+    "end": "2026-10-27T13:30:00+01:00",
+    "event_id": "cours-particulier-one-to-one-94f6a6d9",
+    "start": "2026-10-27T09:30:00+01:00",
+    "title": "Cours Particulier - One to One",
+    "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: residency · happening within two weeks"
+    "why": "official source · happening within two weeks · seen in 2 sources"
    },
    {
-    "category": "food",
+    "category": "art",
     "city": "luxembourg",
     "end": "2026-10-27T18:30:00+01:00",
     "event_id": "luxembourg-sustainability-forum-2026-080be72e",
@@ -517,132 +696,7 @@
     "title": "Luxembourg Sustainability Forum 2026",
     "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · free"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-27T12:30:00+01:00",
-    "event_id": "hungry-for-culture-48bb6bf4",
-    "start": "2026-10-27T12:30:00+01:00",
-    "title": "Hungry for culture",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-10-27T19:00:00+01:00",
-    "event_id": "de-la-nature-a-l-art-une-exploration-des-d0b6f9ca",
-    "start": "2026-10-27T17:30:00+01:00",
-    "title": "De la nature à l’art : une exploration des formes",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-10-27T19:00:00+01:00",
-    "event_id": "from-nature-to-art-an-exploration-of-for-693a089a",
-    "start": "2026-10-27T17:30:00+01:00",
-    "title": "From Nature to Art: An Exploration of Forms",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   }
-  ],
-  "tonight": [
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-10-26T23:00:00+01:00",
-    "event_id": "social-dance-with-taster-class-at-atmos-3de494a9",
-    "start": "2026-10-26T19:15:00+01:00",
-    "title": "Social Dance with taster class at Atmos",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-10-26T22:00:00+01:00",
-    "event_id": "dr-jekyll-and-mr-hyde-1941-e6817699",
-    "start": "2026-10-26T20:00:00+01:00",
-    "title": "Dr. Jekyll and Mr. Hyde (1941)",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-10-26T20:00:00+01:00",
-    "event_id": "open-floor-funk-and-disco-0726fa03",
-    "start": "2026-10-26T20:00:00+01:00",
-    "title": "Open Floor: Funk and Disco",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · free"
-   }
-  ],
-  "top_today": [
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-26T13:30:00+01:00",
-    "event_id": "cours-particulier-one-to-one-4ac168b8",
-    "start": "2026-10-26T10:30:00+01:00",
-    "title": "Cours Particulier - One to One",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-26T17:30:00+01:00",
-    "event_id": "yoga-art-a-unique-experience-c9e34b98",
-    "start": "2026-10-26T17:30:00+01:00",
-    "title": "Yoga & Art: A Unique Experience",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-26T18:00:00+01:00",
-    "event_id": "open-floor-breaking-cbb4fa41",
-    "start": "2026-10-26T18:00:00+01:00",
-    "title": "Open Floor: Breaking",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · free"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-26T19:45:00+01:00",
-    "event_id": "mala-noche-cult-fiction-f35e11da",
-    "start": "2026-10-26T18:30:00+01:00",
-    "title": "Mala Noche (Cult Fiction)",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-10-26T21:30:00+01:00",
-    "event_id": "wien-wien-nur-du-allein-81a8e28a",
-    "start": "2026-10-26T19:30:00+01:00",
-    "title": "Wien, Wien, nur du allein !",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
    }
   ]
  },
