@@ -3,65 +3,29 @@
   "by_city": {
    "cortina": 2,
    "london": 33,
-   "luxembourg": 90,
-   "nyc": 11,
-   "paris": 10,
+   "luxembourg": 87,
+   "nyc": 13,
+   "paris": 9,
    "venice": 10
   },
-  "live_events": 156,
-  "signals_24h": 9
+  "live_events": 154,
+  "signals_24h": 24
  },
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "empty_note": null,
- "generated_at": "2026-11-09T06:17:59+00:00",
- "run_id": "20261109T061759Z-e5fa",
+ "generated_at": "2026-11-10T06:02:01+00:00",
+ "run_id": "20261110T060201Z-1c57",
  "sections": {
   "booking_deadlines": [],
   "changes": [
    {
-    "at": "2026-11-08T05:57:13+00:00",
+    "at": "2026-11-10T06:02:01+00:00",
     "city": "london",
-    "event_id": "send-play-august-dec-2026-f7b4a80f",
-    "field": "booking.tickets",
-    "new": "available_verified",
-    "old": "free_registration",
-    "title": "SEND Play (August -Dec 2026)"
-   },
-   {
-    "at": "2026-11-08T05:57:13+00:00",
-    "city": "london",
-    "event_id": "upstart-presents-creative-frequencies-no-7a78b09e",
-    "field": "booking.tickets",
-    "new": "free_registration",
-    "old": "available_verified",
-    "title": "Upstart presents: Creative Frequencies (November 2026)"
-   },
-   {
-    "at": "2026-11-08T05:57:13+00:00",
-    "city": "luxembourg",
-    "event_id": "casemates-du-bock-visite-guidee-b48c643c",
-    "field": "start",
-    "new": "2026-11-08T13:30:00+01:00",
-    "old": "2026-11-08T10:30:00+01:00",
-    "title": "Casemates du Bock - Visite Guidée"
-   },
-   {
-    "at": "2026-11-08T05:57:13+00:00",
-    "city": "luxembourg",
-    "event_id": "elevated-tension-de-lift-am-film-7f9952de",
+    "event_id": "american-photographs-e3afa3d5",
     "field": "end",
-    "new": "2026-11-09T20:30:00+01:00",
-    "old": "2026-11-09T19:00:00+01:00",
-    "title": "Elevated Tension – De Lift am Film"
-   },
-   {
-    "at": "2026-11-08T05:57:13+00:00",
-    "city": "luxembourg",
-    "event_id": "elevated-tension-de-lift-am-film-7f9952de",
-    "field": "end",
-    "new": "2026-11-09T19:00:00+01:00",
-    "old": "2026-11-09T20:30:00+01:00",
-    "title": "Elevated Tension – De Lift am Film"
+    "new": "2027-04-11",
+    "old": "2027-05-16",
+    "title": "American Photographs"
    },
    {
     "at": "2026-11-09T06:17:59+00:00",
@@ -90,6 +54,17 @@
     "event_id": "one-in-a-million-le-monde-en-doc-4f0e5c1f",
     "start": "2026-11-12T18:30:00+01:00",
     "title": "One in a Million (Le Monde en doc)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-13T21:15:00+01:00",
+    "event_id": "playback-festival-du-cinema-portugais-62531c73",
+    "start": "2026-11-13T19:00:00+01:00",
+    "title": "Playback (Festival du Cinéma Portugais)",
     "urgency": "book_soon",
     "verification_status": "confirmed",
     "why": "official source · distinctive: festival · happening within two weeks"
@@ -97,9 +72,20 @@
    {
     "category": "art",
     "city": "nyc",
-    "end": "2026-11-09T11:00:00-05:00",
-    "event_id": "a-closer-look-guided-close-looking-throu-3f803a43",
-    "start": "2026-11-09T11:00:00-05:00",
+    "end": "2026-11-11T13:00:00-05:00",
+    "event_id": "exhibition-tour-untitled-america-ffe84346",
+    "start": "2026-11-11T13:00:00-05:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-11T16:00:00-05:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-95ed0af6",
+    "start": "2026-11-11T16:00:00-05:00",
     "title": "A Closer Look: Guided Close-Looking Through Dialogue",
     "urgency": "information_pending",
     "verification_status": "confirmed",
@@ -134,7 +120,7 @@
     "event_id": "papusi-8faa043a",
     "start": "2026-11-12T15:00:00+01:00",
     "title": "PAPUSI",
-    "urgency": "book_soon",
+    "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks"
    },
@@ -145,7 +131,7 @@
     "event_id": "design-luxembourg-30-1-390ac817",
     "start": "2026-11-12T17:30:00+01:00",
     "title": "Design Luxembourg : 30+1",
-    "urgency": "book_soon",
+    "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks · free"
    },
@@ -156,7 +142,7 @@
     "event_id": "cycle-de-conferences-chercheurs-luxembou-f03885b8",
     "start": "2026-11-12T18:00:00+01:00",
     "title": "Cycle de conférences : Chercheurs luxembourgeois à l’étranger",
-    "urgency": "book_soon",
+    "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks · free"
    },
@@ -167,40 +153,18 @@
     "event_id": "visite-guidee-reguliere-the-luxembourg-s-263cd8b4",
     "start": "2026-11-12T18:00:00+01:00",
     "title": "Visite guidée régulière: The Luxembourg Story",
-    "urgency": "book_soon",
+    "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · happening within two weeks · free"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-11-12T18:30:00+01:00",
-    "event_id": "l-archeologie-du-bati-levier-de-projet-d-39e3019c",
-    "start": "2026-11-12T18:30:00+01:00",
-    "title": "L’archéologie du bâti, levier de projet de restauration?",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
-   },
-   {
-    "category": "food",
-    "city": "luxembourg",
-    "end": "2026-11-12T18:00:00+01:00",
-    "event_id": "lp-8aaa029a",
-    "start": "2026-11-12T19:00:00+01:00",
-    "title": "LP",
-    "urgency": "book_soon",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
    }
   ],
   "discovered_24h_signals": [
    {
-    "city": "luxembourg",
-    "signal_id": "sig-311dc1e7fa1a",
-    "source": "Bing News — Luxembourg exhibitions & culture",
-    "title": "Festival au Luxembourg: Theodora, Orelsan, Vianney et SCH, stars des Francos d'Esch",
-    "url": "https://www.lessentiel.lu/fr/story/festival-au-luxembourg-theodora-orelsan-vianney-et-sch-stars-des-francos-d-esch-103664017"
+    "city": "nyc",
+    "signal_id": "sig-d58f5406d68b",
+    "source": "WWD",
+    "title": "Ferrari Style Launches First New York Store",
+    "url": "https://wwd.com/business-news/retail/ferrari-style-opens-first-new-york-store-1239399814/"
    },
    {
     "city": "venice",
@@ -224,6 +188,13 @@
     "url": "https://www.leparisien.fr/paris-75/paris-un-pop-up-store-consacre-au-studio-ghibli-ouvre-ses-portes-a-chatelet-jusquaux-fetes-de-fin-dannee-15-10-2026-X5LZMLB5ZZFLNNJJY3E2KS5IVE.php"
    },
    {
+    "city": "london",
+    "signal_id": "sig-7b4f67cf35e7",
+    "source": "Bing News — London openings",
+    "title": "MP praises new restaurant in Westcliff after recent opening",
+    "url": "https://www.msn.com/en-gb/news/other/mp-praises-new-restaurant-in-westcliff-after-recent-opening/ar-AA2gZIC4"
+   },
+   {
     "city": "nyc",
     "signal_id": "sig-36a779456194",
     "source": "Bing News — NYC openings",
@@ -231,11 +202,11 @@
     "url": "https://www.msn.com/en-us/news/other/salad-house-opening-new-central-jersey-restaurant-in-metuchen/ar-AA2gZKHq"
    },
    {
-    "city": "london",
-    "signal_id": "sig-069a4b5e71a4",
-    "source": "Evening Standard — Going Out",
-    "title": "No objection from council to All Points East promoter taking over London park for 75 days a year",
-    "url": "https://www.standard.co.uk/news/london/all-points-east-lido-festival-planning-permission-hackney-council-b1304064.html"
+    "city": "luxembourg",
+    "signal_id": "sig-311dc1e7fa1a",
+    "source": "Bing News — Luxembourg exhibitions & culture",
+    "title": "Festival au Luxembourg: Theodora, Orelsan, Vianney et SCH, stars des Francos d'Esch",
+    "url": "https://www.lessentiel.lu/fr/story/festival-au-luxembourg-theodora-orelsan-vianney-et-sch-stars-des-francos-d-esch-103664017"
    },
    {
     "city": "london",
@@ -246,17 +217,17 @@
    },
    {
     "city": "london",
-    "signal_id": "sig-7b4f67cf35e7",
-    "source": "Bing News — London openings",
-    "title": "MP praises new restaurant in Westcliff after recent opening",
-    "url": "https://www.msn.com/en-gb/news/other/mp-praises-new-restaurant-in-westcliff-after-recent-opening/ar-AA2gZIC4"
+    "signal_id": "sig-069a4b5e71a4",
+    "source": "Evening Standard — Going Out",
+    "title": "No objection from council to All Points East promoter taking over London park for 75 days a year",
+    "url": "https://www.standard.co.uk/news/london/all-points-east-lido-festival-planning-permission-hackney-council-b1304064.html"
    },
    {
-    "city": "nyc",
-    "signal_id": "sig-d58f5406d68b",
-    "source": "WWD",
-    "title": "Ferrari Style Launches First New York Store",
-    "url": "https://wwd.com/business-news/retail/ferrari-style-opens-first-new-york-store-1239399814/"
+    "city": "luxembourg",
+    "signal_id": "sig-2be6110c3b7a",
+    "source": "Luxemburger Wort",
+    "title": "Das sind die ersten Highlights der Francofolies 2027",
+    "url": "https://www.wort.lu/kultur/das-sind-die-ersten-highlights-der-francofolies-2027/164305116.html"
    }
   ],
   "last_minute": [
@@ -272,18 +243,7 @@
     "why": "official source · distinctive: festival · happening within two weeks"
    },
    {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-11-09T19:00:00+01:00",
-    "event_id": "elevated-tension-de-lift-am-film-7f9952de",
-    "start": "2026-11-09T19:00:00+01:00",
-    "title": "Elevated Tension – De Lift am Film",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources · free"
-   },
-   {
-    "category": "food",
+    "category": "art",
     "city": "luxembourg",
     "end": "2026-11-10T15:30:00+01:00",
     "event_id": "diabetes-was-kann-ich-selbst-zur-vorbeug-375af1eb",
@@ -291,18 +251,29 @@
     "title": "Diabetes – Was kann ich selbst zur Vorbeugung tun?",
     "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
+    "why": "official source · happening within two weeks · seen in 2 sources"
    },
    {
-    "category": "food",
+    "category": "culture",
     "city": "luxembourg",
-    "end": "2026-11-10T21:30:00+01:00",
-    "event_id": "coltrane-100-both-directions-at-once-3b72f625",
-    "start": "2026-11-10T19:30:00+01:00",
-    "title": "Coltrane 100: Both Directions at Once",
+    "end": "2026-11-10T22:00:00+01:00",
+    "event_id": "lindy-hop-91541dbc",
+    "start": "2026-11-10T20:30:00+01:00",
+    "title": "Lindy Hop",
     "urgency": "act_now",
     "verification_status": "confirmed",
-    "why": "official source · happening within two weeks"
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "london",
+    "end": "2026-11-22",
+    "event_id": "ev-lo-jazz-festival-2026",
+    "start": "2026-11-13",
+    "title": "EFG London Jazz Festival 2026",
+    "urgency": "act_now",
+    "verification_status": "announced_pending",
+    "why": "reputable publication · distinctive: festival · worth a trip"
    },
    {
     "category": "art",
@@ -336,51 +307,6 @@
     "title": "Design Market at the Design Hub",
     "url": "https://www.vdl.lu/en/news/design-market-design-hub",
     "why": "opening reported by Ville de Luxembourg — News"
-   },
-   {
-    "city": "venice",
-    "published_at": "2026-11-02T11:53:05+00:00",
-    "signal_id": "sig-f517bf79d077",
-    "source": "VeneziaToday",
-    "title": "“Action site!” racconta quattro anni di impegno artistico ispirato dal ripristino delle zone umide in Europa",
-    "url": "https://www.veneziatoday.it/attualita/action-site-racconta-quattro-anni-di-impegno-artistico-ispirato-dal-ripristino-delle-zone-umide-in-europa-15536771.html",
-    "why": "opening reported by VeneziaToday"
-   },
-   {
-    "city": "venice",
-    "published_at": "2026-11-02T15:10:54+00:00",
-    "signal_id": "sig-968aa4bb054d",
-    "source": "VeneziaToday",
-    "title": "“Aquagranda” alla Fenice, a sessant’anni dall’alluvione proiezione straordinaria del video",
-    "url": "https://www.veneziatoday.it/eventi/aquagranda-torna-alla-fenice-in-video-a-sessant-anni-dall-alluvione.html",
-    "why": "opening reported by VeneziaToday"
-   },
-   {
-    "city": "nyc",
-    "published_at": "2026-11-02T17:00:48+00:00",
-    "signal_id": "sig-ec3884cdc5fd",
-    "source": "FashionUnited",
-    "title": "Modest shoppers look for more than just a maxi dress",
-    "url": "https://fashionunited.com/news/fashion/modest-shoppers-look-for-more-than-just-a-maxi-dress/2026110275511",
-    "why": "opening reported by FashionUnited"
-   },
-   {
-    "city": "nyc",
-    "published_at": "2026-11-02T23:39:29+00:00",
-    "signal_id": "sig-1e3a2d4955a0",
-    "source": "Eater New York",
-    "title": "Jean-Georges Vongerichten Is Opening Two New Restaurants in Hudson Yards",
-    "url": "https://ny.eater.com/news/414609/jean-georges-vongerichten-hudson-yards-restaurants",
-    "why": "opening reported by Eater New York"
-   },
-   {
-    "city": "paris",
-    "published_at": "2026-11-03T06:00:31+00:00",
-    "signal_id": "sig-9f471ce60e2d",
-    "source": "Connaissance des Arts",
-    "title": "Un nouveau salon d’art à Paris, une semaine d’art à Strasbourg… 3 rendez-vous à ne pas manquer en novembre",
-    "url": "https://www.connaissancedesarts.com/marche-art/salons-foires/un-nouveau-salon-dart-a-paris-une-semaine-dart-a-strasbourg-3-rendez-vous-a-ne-pas-manquer-en-novembre-11218034/",
-    "why": "opening reported by Connaissance des Arts"
    },
    {
     "city": "nyc",
@@ -417,6 +343,51 @@
     "title": "Il sindaco Venturini visita la caserma dei vigili del fuoco di Venezia",
     "url": "https://www.veneziatoday.it/cronaca/visita-sindaco-venezia-venturini-caserma-vigili-del-fuoco-lagunari-dorsoduro-comandante-maiolo.html",
     "why": "opening reported by VeneziaToday"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-04T06:00:00+00:00",
+    "signal_id": "sig-23c72c189080",
+    "source": "WWD",
+    "title": "Gilles Rosier Opens First Éternel Parisien Boutique in Historic Paris Bookshop",
+    "url": "https://wwd.com/business-news/retail/gilles-rosier-eternel-parisien-boutique-passage-jouffroy-1239398299/",
+    "why": "opening reported by WWD"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-04T06:01:00+00:00",
+    "signal_id": "sig-122fe951914e",
+    "source": "WWD",
+    "title": "A Cold Wall Taps Joshua A. Bullen as Its First Designer in Residence",
+    "url": "https://wwd.com/business-news/human-resources/a-cold-wall-joshua-a-bullen-first-designer-in-residence-1239397885/",
+    "why": "opening reported by WWD"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-04T11:30:57+00:00",
+    "signal_id": "sig-2453c9fe7212",
+    "source": "Gothamist",
+    "title": "Can opening a restaurant in a New York museum turn the food into a work of art?",
+    "url": "https://gothamist.com/food/can-opening-a-restaurant-in-a-new-york-museum-turn-the-food-into-a-work-of-art",
+    "why": "opening reported by Gothamist"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-04T18:37:18+00:00",
+    "signal_id": "sig-e445020fe2a1",
+    "source": "Eater New York",
+    "title": "This Revived Brooklyn Restaurant Serves the Best Spaghetti and Meatballs",
+    "url": "https://ny.eater.com/dining-report/414650/sams-italian-brooklyn-restaurant-review-georgia-fulton",
+    "why": "opening reported by Eater New York"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-04T23:38:36+00:00",
+    "signal_id": "sig-786b75fc1e81",
+    "source": "Eater New York",
+    "title": "The Best New Restaurants in Queens",
+    "url": "https://ny.eater.com/maps/best-new-queens-restaurants-heatmap",
+    "why": "opening reported by Eater New York"
    }
   ],
   "plan_a_trip": [
@@ -528,9 +499,31 @@
     "event_id": "ev-ve-fenice-fedora-2026",
     "start": "2026-11-13",
     "title": "Fedora — La Fenice season opening",
-    "urgency": "book_soon",
+    "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-11T12:00:00-05:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-1148dd48",
+    "start": "2026-11-11T12:00:00-05:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-11T14:00:00-05:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-7498dea0",
+    "start": "2026-11-11T14:00:00-05:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
    },
    {
     "category": "art",
@@ -568,6 +561,17 @@
    {
     "category": "art",
     "city": "luxembourg",
+    "end": "2026-11-12T22:00:00+01:00",
+    "event_id": "opening-ana-vaz-ac845c87",
+    "start": "2026-11-12T19:00:00+01:00",
+    "title": "Opening: Ana Vaz",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
     "end": "2026-11-22T19:00:00+01:00",
     "event_id": "coexist-4281a81d",
     "start": "2026-11-13T11:00:00+01:00",
@@ -577,15 +581,96 @@
     "why": "official source · distinctive: residency · happening within two weeks"
    },
    {
-    "category": "art",
-    "city": "london",
-    "end": "2026-11-14T17:00:00+00:00",
-    "event_id": "new-work-the-stories-of-clothes-opening-1bee839f",
-    "start": "2026-11-14T14:00:00+00:00",
-    "title": "New Work: The Stories of Clothes Opening",
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-13T18:00:00+01:00",
+    "event_id": "le-filip-dca49c5f",
+    "start": "2026-11-13T19:00:00+01:00",
+    "title": "Le Filip",
     "urgency": "book_soon",
     "verification_status": "confirmed",
-    "why": "official source · distinctive: opening · happening within two weeks · free"
+    "why": "official source · distinctive: fair · happening within two weeks"
+   }
+  ],
+  "tonight": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-10T20:00:00+01:00",
+    "event_id": "schwatzt-dir-letzebuergesch-142e6f13",
+    "start": "2026-11-10T18:30:00+01:00",
+    "title": "Schwätzt Dir Lëtzebuergesch?",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-10T21:00:00+01:00",
+    "event_id": "conference-with-maja-toudal-a534efbd",
+    "start": "2026-11-10T19:00:00+01:00",
+    "title": "Conference with Maja Toudal",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-10T21:30:00+01:00",
+    "event_id": "coltrane-100-both-directions-at-once-3b72f625",
+    "start": "2026-11-10T19:30:00+01:00",
+    "title": "Coltrane 100: Both Directions at Once",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-10T23:00:00+01:00",
+    "event_id": "j-klein-s-groove-hang-0a731891",
+    "start": "2026-11-10T20:30:00+01:00",
+    "title": "J. Klein’s Groove Hang",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-10T19:00:00+01:00",
+    "event_id": "luxembourgish-queer-and-or-feminist-shor-8ab4adfa",
+    "start": "2026-11-10T19:00:00+01:00",
+    "title": "Luxembourgish queer and/or feminist short films",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-10T21:00:00+01:00",
+    "event_id": "theatre-open-session-c709110b",
+    "start": "2026-11-10T19:00:00+01:00",
+    "title": "Theatre Open Session",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   }
+  ],
+  "top_today": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-10T20:30:00+01:00",
+    "event_id": "botis-seva-far-from-the-norm-f0cd2ba0",
+    "start": "2026-11-10T19:30:00+01:00",
+    "title": "Botis Seva / Far From The Norm",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: premiere · happening within two weeks"
    },
    {
     "category": "culture",
@@ -601,17 +686,6 @@
    {
     "category": "culture",
     "city": "luxembourg",
-    "end": "2026-11-10T20:30:00+01:00",
-    "event_id": "botis-seva-far-from-the-norm-f0cd2ba0",
-    "start": "2026-11-10T19:30:00+01:00",
-    "title": "Botis Seva / Far From The Norm",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: premiere · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "luxembourg",
     "end": "2026-11-10T21:45:00+01:00",
     "event_id": "lavagante-festival-du-cinema-portugais-c99877c3",
     "start": "2026-11-10T20:00:00+01:00",
@@ -619,116 +693,13 @@
     "urgency": "act_now",
     "verification_status": "confirmed",
     "why": "official source · distinctive: festival · happening within two weeks"
-   }
-  ],
-  "tonight": [
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-09T23:00:00+01:00",
-    "event_id": "dry-cleaning-b1ca838e",
-    "start": "2026-11-09T19:00:00+01:00",
-    "title": "Dry Cleaning",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-09T21:30:00+01:00",
-    "event_id": "intro-to-stand-up-course-ae79ea96",
-    "start": "2026-11-09T19:00:00+01:00",
-    "title": "Intro to Stand-Up course",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-09T21:00:00+01:00",
-    "event_id": "thierry-escaich-a-l-orgue-3d71ccad",
-    "start": "2026-11-09T19:30:00+01:00",
-    "title": "Thierry Escaich à l’orgue",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-09T22:00:00+01:00",
-    "event_id": "brad-upton-7b0f911c",
-    "start": "2026-11-09T20:00:00+01:00",
-    "title": "BRAD UPTON",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources"
-   },
-   {
-    "category": "art",
-    "city": "luxembourg",
-    "end": "2026-11-09T20:00:00+01:00",
-    "event_id": "open-floor-funk-and-disco-fc8c1745",
-    "start": "2026-11-09T20:00:00+01:00",
-    "title": "Open Floor: Funk and Disco",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources · free"
    },
    {
     "category": "culture",
     "city": "luxembourg",
-    "end": null,
-    "event_id": "festival-du-cinema-portugais-0bea9c27",
-    "start": "2026-11-09T18:00:00+01:00",
-    "title": "Festival du Cinéma Portugais",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · happening within two weeks"
-   }
-  ],
-  "top_today": [
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-11-09T20:45:00+01:00",
-    "event_id": "changer-de-vie-festival-du-cinema-portug-67eefbef",
-    "start": "2026-11-09T19:00:00+01:00",
-    "title": "Changer de vie (Festival du Cinéma Portugais)",
-    "urgency": "act_now",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: festival · happening within two weeks"
-   },
-   {
-    "category": "art",
-    "city": "nyc",
-    "end": "2026-11-09T12:00:00-05:00",
-    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-47c67d5e",
-    "start": "2026-11-09T12:00:00-05:00",
-    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: limited · happening within two weeks"
-   },
-   {
-    "category": "art",
-    "city": "nyc",
-    "end": "2026-11-09T14:00:00-05:00",
-    "event_id": "exhibition-tour-the-lost-world-the-art-o-14743c98",
-    "start": "2026-11-09T14:00:00-05:00",
-    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
-    "urgency": "information_pending",
-    "verification_status": "confirmed",
-    "why": "official source · distinctive: limited · happening within two weeks"
-   },
-   {
-    "category": "culture",
-    "city": "luxembourg",
-    "end": "2026-11-09T20:30:00+01:00",
-    "event_id": "portuguese-film-festival-51e11291",
-    "start": "2026-11-09T19:00:00+01:00",
+    "end": "2026-11-10T19:45:00+01:00",
+    "event_id": "portuguese-film-festival-08b6141b",
+    "start": "2026-11-10T18:30:00+01:00",
     "title": "Portuguese Film Festival",
     "urgency": "act_now",
     "verification_status": "confirmed",
@@ -737,13 +708,13 @@
    {
     "category": "art",
     "city": "luxembourg",
-    "end": "2026-11-09T18:00:00+01:00",
-    "event_id": "open-floor-breaking-f9f6d836",
-    "start": "2026-11-09T18:00:00+01:00",
-    "title": "Open Floor: Breaking",
-    "urgency": "act_now",
+    "end": "2026-11-10T12:30:00+01:00",
+    "event_id": "hungry-for-culture-d8cfea61",
+    "start": "2026-11-10T12:30:00+01:00",
+    "title": "Hungry for culture",
+    "urgency": "information_pending",
     "verification_status": "confirmed",
-    "why": "official source · happening within two weeks · seen in 2 sources · free"
+    "why": "official source · happening within two weeks · seen in 2 sources"
    }
   ]
  },
