@@ -11029,5 +11029,618 @@
   "status": "success",
   "submissions_processed": 0,
   "trigger": "schedule"
+ },
+ {
+  "duplicates_merged": 11,
+  "errors": [],
+  "events_extracted": 141,
+  "events_new": 21,
+  "events_updated": 1,
+  "finished_at": "2026-11-11T06:14:57+00:00",
+  "github_run_url": "https://github.com/MunariEnrico/social-atlas/actions/runs/42970562941",
+  "link_checks": 40,
+  "mode": "collect",
+  "per_source": [
+   {
+    "errors": [],
+    "events": 18,
+    "id": "lu-vdl-agenda",
+    "ms": 1402,
+    "notes": [
+     "1 item(s) skipped: invalid date in feed",
+     "11 item(s) skipped: already started, end date not published"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 58,
+    "id": "lu-lcto-whats-on",
+    "ms": 181230,
+    "notes": [
+     "86 event links found on listing; following up to 60",
+     "2 detail pages had no structured event data (skipped, not guessed)"
+    ],
+    "requests": 61,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 12,
+    "id": "lu-casino-agenda",
+    "ms": 34764,
+    "notes": [
+     "12 event links found on listing; following up to 12"
+    ],
+    "requests": 13,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-lhoft-events",
+    "ms": 693,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-vdl-news",
+    "ms": 4060,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 4,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-wort",
+    "ms": 678,
+    "notes": [
+     "kept 3; skipped 46 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 3,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-lhoft-news",
+    "ms": 3144,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 2,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-bing-openings",
+    "ms": 24672,
+    "notes": [
+     "no results for “Luxembourg new restaurant opening”",
+     "no results for “Luxembourg nouveau bar ouverture”"
+    ],
+    "requests": 4,
+    "retries": 0,
+    "signals": 2,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-bing-culture",
+    "ms": 26841,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 4,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lu-bing-business",
+    "ms": 30349,
+    "notes": [
+     "no results for “Luxembourg startup conference”",
+     "no results for “Luxembourg networking event”"
+    ],
+    "requests": 3,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ve-veneziatoday",
+    "ms": 947,
+    "notes": [
+     "kept 3; skipped 21 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 3,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ve-gazzettino",
+    "ms": 1828,
+    "notes": [
+     "feed fetched but contained no items"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ve-cini",
+    "ms": 1931,
+    "notes": [
+     "feed fetched but contained no items"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ve-bing-openings",
+    "ms": 49937,
+    "notes": [
+     "no results for “Venezia inaugura locale”"
+    ],
+    "requests": 4,
+    "retries": 0,
+    "signals": 7,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ve-bing-art",
+    "ms": 43465,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 6,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ve-bing-business",
+    "ms": 42348,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 3,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "co-skiworldcup",
+    "ms": 1338,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 6,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "co-gazzettino-belluno",
+    "ms": 109,
+    "notes": [
+     "feed fetched but contained no items"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "co-bing-events",
+    "ms": 41400,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 2,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "co-bing-hospitality",
+    "ms": 44945,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 3,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "co-bing-ski",
+    "ms": 30774,
+    "notes": [],
+    "requests": 2,
+    "retries": 0,
+    "signals": 13,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-lemonde-gastro",
+    "ms": 190,
+    "notes": [
+     "kept 3; skipped 0 off-topic and 14 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 3,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-lemonde-arts",
+    "ms": 3011,
+    "notes": [
+     "kept 14; skipped 5 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 14,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-connaissance-arts",
+    "ms": 146,
+    "notes": [
+     "kept 3; skipped 7 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 3,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-vogue-fr",
+    "ms": 183,
+    "notes": [
+     "kept 2; skipped 28 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 2,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-bing-openings",
+    "ms": 50327,
+    "notes": [],
+    "requests": 4,
+    "retries": 0,
+    "signals": 11,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-bing-art",
+    "ms": 37898,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 8,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "pa-bing-business",
+    "ms": 41974,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-theskint",
+    "ms": 541,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 8,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-eater",
+    "ms": 272,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 9,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-gothamist",
+    "ms": 166,
+    "notes": [
+     "kept 5; skipped 34 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 5,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-6sqft",
+    "ms": 643,
+    "notes": [
+     "kept 2; skipped 8 off-topic and 0 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 2,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 6,
+    "id": "ny-whitney",
+    "ms": 18170,
+    "notes": [
+     "6 event links found on listing; following up to 15"
+    ],
+    "requests": 7,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-bing-openings",
+    "ms": 54114,
+    "notes": [],
+    "requests": 4,
+    "retries": 0,
+    "signals": 13,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-bing-art",
+    "ms": 40182,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 6,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "ny-bing-business",
+    "ms": 39515,
+    "notes": [
+     "no results for “NYC fintech conference”"
+    ],
+    "requests": 3,
+    "retries": 0,
+    "signals": 4,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lo-londonist",
+    "ms": 420,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 12,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lo-standard-goingout",
+    "ms": 95,
+    "notes": [],
+    "requests": 1,
+    "retries": 0,
+    "signals": 1,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 19,
+    "id": "lo-vam",
+    "ms": 60572,
+    "notes": [
+     "124 event links found on listing; following up to 20",
+     "1 detail pages had no structured event data (skipped, not guessed)"
+    ],
+    "requests": 21,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lo-bing-openings",
+    "ms": 45621,
+    "notes": [],
+    "requests": 4,
+    "retries": 0,
+    "signals": 14,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lo-bing-art",
+    "ms": 30517,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 1,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "lo-bing-business",
+    "ms": 30500,
+    "notes": [],
+    "requests": 3,
+    "retries": 0,
+    "signals": 4,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "mx-artnewspaper",
+    "ms": 381,
+    "notes": [
+     "kept 8; skipped 0 off-topic and 52 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 8,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "mx-dezeen",
+    "ms": 1179,
+    "notes": [
+     "kept 6; skipped 0 off-topic and 44 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 6,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "mx-wallpaper",
+    "ms": 799,
+    "notes": [
+     "kept 11; skipped 0 off-topic and 39 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 11,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "mx-wwd",
+    "ms": 71,
+    "notes": [
+     "kept 1; skipped 0 off-topic and 9 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 1,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 0,
+    "id": "mx-fashionunited",
+    "ms": 447,
+    "notes": [
+     "kept 7; skipped 0 off-topic and 53 without a tracked city"
+    ],
+    "requests": 1,
+    "retries": 0,
+    "signals": 7,
+    "status": "ok"
+   },
+   {
+    "errors": [],
+    "events": 28,
+    "id": "curated-research",
+    "ms": 64,
+    "notes": [
+     "28 researched events from 1 file(s)"
+    ],
+    "requests": 0,
+    "retries": 0,
+    "signals": 0,
+    "status": "ok"
+   }
+  ],
+  "possible_duplicates": 1,
+  "requests": 264,
+  "run_id": "20261111T061038Z-ba0a",
+  "runner": "github-actions",
+  "signals_extracted": 211,
+  "signals_new": 38,
+  "sources_attempted": 48,
+  "sources_failed": 0,
+  "sources_manual": 30,
+  "sources_ok": 48,
+  "sources_skipped": 0,
+  "started_at": "2026-11-11T06:10:38+00:00",
+  "status": "success",
+  "submissions_processed": 0,
+  "trigger": "schedule"
  }
 ]
