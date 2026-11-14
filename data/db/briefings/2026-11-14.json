@@ -1,0 +1,731 @@
+{
+ "counts": {
+  "by_city": {
+   "cortina": 2,
+   "london": 29,
+   "luxembourg": 95,
+   "nyc": 14,
+   "paris": 9,
+   "venice": 9
+  },
+  "live_events": 158,
+  "signals_24h": 52
+ },
+ "date": "2026-11-14",
+ "empty_note": null,
+ "generated_at": "2026-11-14T05:58:33+00:00",
+ "run_id": "20261114T055833Z-8faa",
+ "sections": {
+  "booking_deadlines": [],
+  "changes": [
+   {
+    "at": "2026-11-13T06:10:54+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-une-promenade-a-9dfb401b",
+    "field": "booking.tickets",
+    "new": "free_entry",
+    "old": "free_registration",
+    "title": "Visite guidée régulière: Une promenade à travers l’art"
+   },
+   {
+    "at": "2026-11-13T06:10:54+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-une-promenade-a-9dfb401b",
+    "field": "booking.tickets",
+    "new": "free_registration",
+    "old": "free_entry",
+    "title": "Visite guidée régulière: Une promenade à travers l’art"
+   },
+   {
+    "at": "2026-11-14T05:58:33+00:00",
+    "city": "luxembourg",
+    "event_id": "keng-angscht-zu-aneschtbuerg-747c690e",
+    "field": "start",
+    "new": "2026-11-14T10:30:00+01:00",
+    "old": "2026-11-14T09:00:00+01:00",
+    "title": "Keng Angscht zu Aneschtbuerg!"
+   },
+   {
+    "at": "2026-11-14T05:58:33+00:00",
+    "city": "luxembourg",
+    "event_id": "city-promenade-e15caa50",
+    "field": "start",
+    "new": "2026-11-14T12:00:00+01:00",
+    "old": "2026-11-14T10:00:00+01:00",
+    "title": "City Promenade"
+   }
+  ],
+  "discovered_24h": [
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-14T15:00:00+01:00",
+    "event_id": "papusi-ce2348b1",
+    "start": "2026-11-14T15:00:00+01:00",
+    "title": "PAPUSI",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-14T12:00:00-05:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-c3d651d6",
+    "start": "2026-11-14T12:00:00-05:00",
+    "title": "A Closer Look: Guided Close-Looking Through Dialogue",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-14T14:00:00+01:00",
+    "event_id": "petrusse-casemates-guided-tour-d09f83b2",
+    "start": "2026-11-14T13:00:00+01:00",
+    "title": "Pétrusse Casemates - Guided Tour",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-14T21:00:00+01:00",
+    "event_id": "consent-and-care-on-the-dancefloor-ab4e2245",
+    "start": "2026-11-14T18:00:00+01:00",
+    "title": "Consent and Care on the Dancefloor",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-14T20:30:00+01:00",
+    "event_id": "white-gold-d2efefaf",
+    "start": "2026-11-14T19:30:00+01:00",
+    "title": "White Gold",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-15T12:00:00+01:00",
+    "event_id": "herb-hike-34eb0f40",
+    "start": "2026-11-15T10:00:00+01:00",
+    "title": "Herb hike",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-15T12:00:00+01:00",
+    "event_id": "manon-mullener-solo-ch-natalia-passos-be-b68a1873",
+    "start": "2026-11-15T11:00:00+01:00",
+    "title": "Manon Müllener solo (CH) + Natalia Passos (BE)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-15T11:00:00+01:00",
+    "event_id": "sigefroid-et-les-origines-de-la-ville-de-993ee759",
+    "start": "2026-11-15T11:00:00+01:00",
+    "title": "Sigefroid et les origines de la ville de Luxembourg",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-15T11:00:00+01:00",
+    "event_id": "visite-guidee-reguliere-fundatio-4fe1ea91",
+    "start": "2026-11-15T11:00:00+01:00",
+    "title": "Visite guidée régulière : Fundatio",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-15T13:00:00-05:00",
+    "event_id": "exhibition-tour-untitled-america-ee12146d",
+    "start": "2026-11-15T13:00:00-05:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "discovered_24h_signals": [
+   {
+    "city": "london",
+    "signal_id": "sig-f4d8e2a3e22c",
+    "source": "Evening Standard — Going Out",
+    "title": "Holy Toledo! My sandwich date with Danny DeVito as Jersey Mike's opens in London",
+    "url": "https://www.standard.co.uk/going-out/foodanddrink/jersey-mikes-london-sandwich-shop-opening-danny-devito-b1304325.html"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-eed280b56543",
+    "source": "Eater New York",
+    "title": "The Best New Cocktail Bars in New York City, According to Eater Editors",
+    "url": "https://ny.eater.com/maps/nyc-best-new-cocktail-bars-heatmap"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-e4426c9edbd4",
+    "source": "Connaissance des Arts",
+    "title": "8 expositions à voir à Paris pendant Paris Photo pour comprendre ce que la photographie a encore à dire",
+    "url": "https://www.connaissancedesarts.com/arts-expositions/photographie/8-expositions-a-voir-a-paris-pendant-paris-photo-pour-comprendre-ce-que-la-photographie-a-encore-a-dire-11218402/"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-be6d951cc31b",
+    "source": "Bing News — London openings",
+    "title": "Hector’s wine bar owner to open London restaurant with Hill & Szrok and Planque alumni",
+    "url": "https://www.thecaterer.com/news/hectors-wine-bar-owner-to-open-london-restaurant-with-hill-szrok-and-planque-alumni"
+   },
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-b9d16e030663",
+    "source": "FashionUnited",
+    "title": "M&S launches on Zalora and The Iconic in regional Global Fashion Group partnership",
+    "url": "https://fashionunited.com/news/retail/m-s-launches-on-zalora-and-the-iconic-in-regional-global-fashion-group-partnership/2026111275713"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-b957d29f1b59",
+    "source": "Londonist",
+    "title": "Christmassy Bars And Winter Pop-Ups In London 2026",
+    "url": "https://londonist.com/london/christmas-in-london/christmas-drinking-pop-up-festive-cocktails-mulled-wine-rooftop"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-b4f244deae3b",
+    "source": "FashionUnited",
+    "title": "Vince opens two new US stores, completes three renovations",
+    "url": "https://fashionunited.com/news/retail/vince-opens-two-new-us-stores-completes-three-renovations/2026111275727"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-aa56b5b9f8d7",
+    "source": "The Skint",
+    "title": "FRI-MON, 11/13-16: SKINT WEEKEND",
+    "url": "https://www.theskint.com/fri-mon-11-13-16-skint-weekend/"
+   },
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-964ae37d768e",
+    "source": "Luxemburger Wort",
+    "title": "Wiedereröffnung des Federspiel-Showrooms in Bartringen",
+    "url": "https://www.wort.lu/mosaik/commerce/wiedereroeffnung-des-federspiel-showrooms-in-bartringen/164279280.html"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-83006b13a96c",
+    "source": "Eater New York",
+    "title": "The Lower East Side’s Most Interesting New Restaurant Is a Love Letter to Cassava",
+    "url": "https://ny.eater.com/dining-report/414880/iara-nyc-restaurant-review-brazilian-amazon-rainforest-ingredients-vitor-mendes"
+   }
+  ],
+  "last_minute": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T16:00:00+01:00",
+    "event_id": "regular-guided-tour-a-stroll-through-art-7cccae9d",
+    "start": "2026-11-14T16:00:00+01:00",
+    "title": "Regular guided tour: A stroll through art",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-14T11:30:00+01:00",
+    "event_id": "filmfriend-tuffi-atelier-2a683b18",
+    "start": "2026-11-14T10:30:00+01:00",
+    "title": "Filmfriend - Tuffi Atelier",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-14T16:00:00+01:00",
+    "event_id": "all-about-design-24174ffa",
+    "start": "2026-11-14T10:00:00+01:00",
+    "title": "All about Design",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-14T12:30:00+01:00",
+    "event_id": "bock-casemates-guided-tour-3d41b292",
+    "start": "2026-11-14T11:30:00+01:00",
+    "title": "Bock Casemates - Guided Tour",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-15T14:00:00+01:00",
+    "event_id": "visite-reguliere-city-visions-a2ce4694",
+    "start": "2026-11-15T14:00:00+01:00",
+    "title": "Visite régulière : City Visions",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-15T15:00:00+01:00",
+    "event_id": "regelma-ige-fuhrung-the-luxembourg-story-ba3921ec",
+    "start": "2026-11-15T15:00:00+01:00",
+    "title": "Regelmäßige Führung: The Luxembourg Story",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "new_openings": [
+   {
+    "city": "london",
+    "published_at": "2026-11-08T15:26:53+00:00",
+    "signal_id": "sig-25e122e54435",
+    "source": "Evening Standard — Going Out",
+    "title": "London Museum wins 24-hour licence ahead of historic opening",
+    "url": "https://www.standard.co.uk/news/london/london-museum-24hour-alcohol-licence-opening-b1304036.html",
+    "why": "opening reported by Evening Standard — Going Out"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-09T05:01:00+00:00",
+    "signal_id": "sig-d58f5406d68b",
+    "source": "WWD",
+    "title": "Ferrari Style Launches First New York Store",
+    "url": "https://wwd.com/business-news/retail/ferrari-style-opens-first-new-york-store-1239399814/",
+    "why": "opening reported by WWD"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-09T09:53:00+00:00",
+    "signal_id": "sig-6272e9192260",
+    "source": "Londonist",
+    "title": "8 Money-Saving Food Apps Every Londoner Should Have On Their Phone",
+    "url": "https://londonist.com/london/food-and-drink/dining-apps",
+    "why": "opening reported by Londonist"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-09T16:09:55+00:00",
+    "signal_id": "sig-48334acda533",
+    "source": "FashionUnited",
+    "title": "Benyamin Apoo previews bridal footwear collection ahead of Paris Fashion Week debut",
+    "url": "https://fashionunited.com/press/fashion/benyamin-apoo-previews-bridal-footwear-collection-ahead-of-paris-fashion-week-debut/2026110975650",
+    "why": "opening reported by FashionUnited"
+   },
+   {
+    "city": "venice",
+    "published_at": "2026-11-09T17:00:17+00:00",
+    "signal_id": "sig-86927b141fc2",
+    "source": "VeneziaToday",
+    "title": "Mirano, riapre il bar \"alla Sosta\" al capolinea dei bus",
+    "url": "https://www.veneziatoday.it/cronaca/riapre-bar-alla-sosta-capolinea-bus.html",
+    "why": "opening reported by VeneziaToday"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-09T19:01:31+00:00",
+    "signal_id": "sig-a8d9242da0e9",
+    "source": "The Art Newspaper",
+    "title": "New centre for contemporary Indigenous art launches in upstate New York",
+    "url": "https://www.theartnewspaper.com/2026/11/09/branchline-indigenous-art-centre-opens-katonah-new-york-gochman-family-collection",
+    "why": "opening reported by The Art Newspaper"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-09T19:43:38+00:00",
+    "signal_id": "sig-a464029c29a2",
+    "source": "Eater New York",
+    "title": "A Behemoth Conveyor Belt Sushi Restaurant Descends Upon Times Square",
+    "url": "https://ny.eater.com/news/414751/sushiro-nyc-opens-november-2026-conveyor-belt-sushi-resaurant-japan",
+    "why": "opening reported by Eater New York"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-09T22:08:37+00:00",
+    "signal_id": "sig-dd32ef7d0584",
+    "source": "Eater New York",
+    "title": "Bar Cosme From Enrique Olvera Opens Tomorrow With a Focus on Tortillas",
+    "url": "https://ny.eater.com/restaurant-openings/414763/bar-cosme-enrique-olvera-atla-noho-opening",
+    "why": "opening reported by Eater New York"
+   },
+   {
+    "city": "luxembourg",
+    "published_at": "2026-11-10T14:48:33+00:00",
+    "signal_id": "sig-a0299fe38c1f",
+    "source": "Luxemburger Wort",
+    "title": "Primark in Mont-Saint-Martin öffnet noch vor Weihnachten",
+    "url": "https://www.wort.lu/wirtschaft/primark-in-mont-saint-martin-oeffnet-noch-vor-weihnachten/164357568.html",
+    "why": "opening reported by Luxemburger Wort"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-10T15:00:00+00:00",
+    "signal_id": "sig-362c8b80b30d",
+    "source": "Eater New York",
+    "title": "Every New York City 2026 Eater Award Winner, Mapped",
+    "url": "https://ny.eater.com/maps/new-york-eater-awards-2026-best-new-restaurants-bars-bakeries",
+    "why": "opening reported by Eater New York"
+   }
+  ],
+  "plan_a_trip": [
+   {
+    "category": "art",
+    "city": "venice",
+    "end": "2027-11-21",
+    "event_id": "ev-ve-biennale-architettura-2027",
+    "start": "2027-05-08",
+    "title": "Biennale Architettura 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: biennale · worth a trip"
+   },
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-01-24",
+    "event_id": "ev-pa-pfw-men-fw27",
+    "start": "2027-01-19",
+    "title": "Paris Fashion Week — Menswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-03-09",
+    "event_id": "ev-pa-pfw-women-fw27",
+    "start": "2027-03-01",
+    "title": "Paris Fashion Week — Womenswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "paris",
+    "end": "2027-06-06",
+    "event_id": "ev-pa-roland-garros-2027",
+    "start": "2027-05-23",
+    "title": "Roland-Garros 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "london",
+    "end": "2027-07-11",
+    "event_id": "ev-lo-wimbledon-2027",
+    "start": "2027-06-28",
+    "title": "The Championships, Wimbledon 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "seasonal",
+    "city": "venice",
+    "end": "2027-02-09",
+    "event_id": "ev-ve-carnevale-2027",
+    "start": null,
+    "title": "Carnevale di Venezia 2027",
+    "urgency": "information_pending",
+    "verification_status": "expected",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "business",
+    "city": "london",
+    "end": "2027-06-11T17:00:00+00:00",
+    "event_id": "ev-lo-tech-week-2027",
+    "start": "2027-06-07T09:00:00+00:00",
+    "title": "London Tech Week 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · worth a trip"
+   },
+   {
+    "category": "business",
+    "city": "paris",
+    "end": "2027-06-19",
+    "event_id": "ev-pa-vivatech-2027",
+    "start": "2027-06-16",
+    "title": "VivaTech 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · worth a trip"
+   }
+  ],
+  "this_week": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22",
+    "event_id": "ev-lu-art-week-2026",
+    "start": "2026-11-20",
+    "title": "Luxembourg Art Week 2026",
+    "urgency": "monitor",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · worth a trip"
+   },
+   {
+    "category": "seasonal",
+    "city": "london",
+    "end": "2027-01-03",
+    "event_id": "ev-lo-winter-wonderland-2026",
+    "start": "2026-11-19",
+    "title": "Hyde Park Winter Wonderland 2026",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · worth a trip"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-15T16:30:00+01:00",
+    "event_id": "free-trial-lesson-coding-and-robotics-fo-8cd7f7f3",
+    "start": "2026-11-15T10:00:00+01:00",
+    "title": "Free trial lesson: coding and robotics for ages 4 to 13",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": null,
+    "event_id": "capter-le-regard-impressionniste-d9347b7b",
+    "start": "2026-11-14T13:00:00+01:00",
+    "title": "Capter le regard impressionniste",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-20",
+    "event_id": "luxembourg-art-week-2026-opening-night-t-798f2826",
+    "start": "2026-11-20",
+    "title": "Luxembourg Art Week 2026 - Opening Night: The Live Hearth Signal Room",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T10:00:00+01:00",
+    "event_id": "geflatters-a-geflusters-cffa1166",
+    "start": "2026-11-14T10:00:00+01:00",
+    "title": "Geflatters a Geflüsters",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T11:00:00+01:00",
+    "event_id": "lecture-pour-enfants-cette-nuit-la-au-mu-ca6bf041",
+    "start": "2026-11-14T10:30:00+01:00",
+    "title": "Lecture pour enfants - Cette nuit-là au musée",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T12:00:00+01:00",
+    "event_id": "der-kleine-drache-immer-hei-e17f1ecc",
+    "start": "2026-11-14T11:00:00+01:00",
+    "title": "Der kleine Drache Immer-Heiß",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T11:00:00+01:00",
+    "event_id": "guided-tours-of-the-national-library-in-72777b3d",
+    "start": "2026-11-14T11:00:00+01:00",
+    "title": "Guided tours of the National Library – In English",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · registration required"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T15:00:00+01:00",
+    "event_id": "from-idea-to-series-photography-workshop-60e1befe",
+    "start": "2026-11-14T13:00:00+01:00",
+    "title": "From Idea to Series – Photography Workshop W01",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   }
+  ],
+  "tonight": [
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-14T21:00:00+01:00",
+    "event_id": "heemspill-community-the-duke-s-singers-d153d285",
+    "start": "2026-11-14T19:30:00+01:00",
+    "title": "Heemspill Community | The Duke’s Singers",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: debut · happening within two weeks"
+   },
+   {
+    "category": "nightlife",
+    "city": "luxembourg",
+    "end": "2026-11-14T21:00:00+01:00",
+    "event_id": "hot-flashes-sessions-4c65c094",
+    "start": "2026-11-14T19:30:00+01:00",
+    "title": "Hot Flashes Sessions",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T19:00:00+01:00",
+    "event_id": "jam-des-autrices-et-auteurs-12396398",
+    "start": "2026-11-14T17:00:00+01:00",
+    "title": "Jam des autrices et auteurs",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-14T22:30:00+01:00",
+    "event_id": "tanzende-idioten-1485fc76",
+    "start": "2026-11-14T18:30:00+01:00",
+    "title": "Tanzende Idioten",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-14T18:30:00+01:00",
+    "event_id": "samedis-aux-theatres-55951898",
+    "start": "2026-11-14T17:00:00+01:00",
+    "title": "Samedis aux Théâtres",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-14T18:00:00+01:00",
+    "event_id": "visite-guidee-en-francais-sonic-investig-909728dd",
+    "start": "2026-11-14T17:00:00+01:00",
+    "title": "Visite guidée en français | Sonic Investigations",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "top_today": [
+   {
+    "category": "art",
+    "city": "paris",
+    "end": "2026-11-15",
+    "event_id": "ev-pa-paris-photo-2026",
+    "start": "2026-11-12",
+    "title": "Paris Photo 2026",
+    "urgency": "last_chance",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · worth a trip"
+   },
+   {
+    "category": "culture",
+    "city": "venice",
+    "end": "2026-11-22",
+    "event_id": "ev-ve-fenice-fedora-2026",
+    "start": "2026-11-13",
+    "title": "Fedora — La Fenice season opening",
+    "urgency": "last_chance",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "london",
+    "end": "2026-11-14T17:00:00+00:00",
+    "event_id": "new-work-the-stories-of-clothes-opening-1bee839f",
+    "start": "2026-11-14T14:00:00+00:00",
+    "title": "New Work: The Stories of Clothes Opening",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-14T14:00:00-05:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-dd618f0e",
+    "start": "2026-11-14T14:00:00-05:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-14T15:00:00-05:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-96449859",
+    "start": "2026-11-14T15:00:00-05:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   }
+  ]
+ },
+ "timezone": "Europe/Luxembourg"
+}
