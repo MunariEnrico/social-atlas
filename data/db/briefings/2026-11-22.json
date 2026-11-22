@@ -1,0 +1,704 @@
+{
+ "counts": {
+  "by_city": {
+   "cortina": 2,
+   "london": 29,
+   "luxembourg": 94,
+   "nyc": 12,
+   "paris": 7,
+   "venice": 6
+  },
+  "live_events": 150,
+  "signals_24h": 5
+ },
+ "date": "2026-11-22",
+ "empty_note": null,
+ "generated_at": "2026-11-22T06:06:44+00:00",
+ "run_id": "20261122T060644Z-2278",
+ "sections": {
+  "booking_deadlines": [],
+  "changes": [
+   {
+    "at": "2026-11-20T06:16:34+00:00",
+    "city": "luxembourg",
+    "event_id": "luxembourg-art-week-2c8277d7",
+    "field": "start",
+    "new": "2026-11-20T10:30:00+01:00",
+    "old": "2026-11-20T17:00:00+01:00",
+    "title": "Luxembourg Art Week"
+   },
+   {
+    "at": "2026-11-20T06:16:34+00:00",
+    "city": "luxembourg",
+    "event_id": "luxembourg-art-week-2c8277d7",
+    "field": "end",
+    "new": "2026-11-22T21:00:00+01:00",
+    "old": "2026-11-20T21:00:00+01:00",
+    "title": "Luxembourg Art Week"
+   },
+   {
+    "at": "2026-11-20T06:16:34+00:00",
+    "city": "luxembourg",
+    "event_id": "luxembourg-art-week-2c8277d7",
+    "field": "start",
+    "new": "2026-11-20T17:00:00+01:00",
+    "old": "2026-11-20T10:30:00+01:00",
+    "title": "Luxembourg Art Week"
+   },
+   {
+    "at": "2026-11-20T06:16:34+00:00",
+    "city": "luxembourg",
+    "event_id": "luxembourg-art-week-2c8277d7",
+    "field": "end",
+    "new": "2026-11-20T21:00:00+01:00",
+    "old": "2026-11-22T21:00:00+01:00",
+    "title": "Luxembourg Art Week"
+   },
+   {
+    "at": "2026-11-21T06:04:59+00:00",
+    "city": "luxembourg",
+    "event_id": "luxembourg-art-week-2c8277d7",
+    "field": "start",
+    "new": "2026-11-20T10:30:00+01:00",
+    "old": "2026-11-20T17:00:00+01:00",
+    "title": "Luxembourg Art Week"
+   },
+   {
+    "at": "2026-11-21T06:04:59+00:00",
+    "city": "luxembourg",
+    "event_id": "luxembourg-art-week-2c8277d7",
+    "field": "end",
+    "new": "2026-11-22T21:00:00+01:00",
+    "old": "2026-11-20T21:00:00+01:00",
+    "title": "Luxembourg Art Week"
+   },
+   {
+    "at": "2026-11-21T06:04:59+00:00",
+    "city": "london",
+    "event_id": "festive-fridays-at-the-v-a-d66c55c0",
+    "field": "booking.tickets",
+    "new": "available_verified",
+    "old": "free_registration",
+    "title": "Festive Fridays at the V&A"
+   },
+   {
+    "at": "2026-11-20T06:16:34+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-une-promenade-a-c1a64092",
+    "field": "booking.tickets",
+    "new": "free_entry",
+    "old": "free_registration",
+    "title": "Visite guidée régulière: Une promenade à travers l’art"
+   },
+   {
+    "at": "2026-11-20T06:16:34+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-une-promenade-a-c1a64092",
+    "field": "booking.tickets",
+    "new": "free_registration",
+    "old": "free_entry",
+    "title": "Visite guidée régulière: Une promenade à travers l’art"
+   },
+   {
+    "at": "2026-11-21T06:04:59+00:00",
+    "city": "luxembourg",
+    "event_id": "city-promenade-4a4fa40e",
+    "field": "start",
+    "new": "2026-11-21T12:00:00+01:00",
+    "old": "2026-11-21T10:00:00+01:00",
+    "title": "City Promenade"
+   },
+   {
+    "at": "2026-11-22T06:06:44+00:00",
+    "city": "luxembourg",
+    "event_id": "casemates-du-bock-visite-guidee-e7b702d2",
+    "field": "start",
+    "new": "2026-11-22T13:30:00+01:00",
+    "old": "2026-11-22T10:30:00+01:00",
+    "title": "Casemates du Bock - Visite Guidée"
+   }
+  ],
+  "discovered_24h": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T16:00:00+01:00",
+    "event_id": "regular-guided-tour-the-luxembourg-story-431ef5dc",
+    "start": "2026-11-22T15:00:00+01:00",
+    "title": "Regular guided tour: The Luxembourg Story",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T16:00:00+01:00",
+    "event_id": "from-renoir-to-monet-impressionism-from-2424eba7",
+    "start": "2026-11-22T15:00:00+01:00",
+    "title": "From Renoir to Monet. Impressionism from the Rau Collection",
+    "urgency": "monitor",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · sold out per official listing"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-22T19:00:00+01:00",
+    "event_id": "nessecity-d6365405",
+    "start": "2026-11-22T16:00:00+01:00",
+    "title": "NesseCity",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-22T18:30:00+01:00",
+    "event_id": "les-crapauds-fous-3b6e786d",
+    "start": "2026-11-22T16:00:00+01:00",
+    "title": "Les Crapauds fous",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-22T20:00:00+01:00",
+    "event_id": "theaterfrenn-mansfeldia-clausen-theatero-ff467970",
+    "start": "2026-11-22T16:00:00+01:00",
+    "title": "Theaterfrënn Mansfeldia Clausen - Theaterowenter 2026",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-22T13:00:00-05:00",
+    "event_id": "act-iii-f855f671",
+    "start": "2026-11-22T11:00:00-05:00",
+    "title": "Act III​",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-22T12:30:00+01:00",
+    "event_id": "bock-casemates-guided-tour-89d99061",
+    "start": "2026-11-22T11:30:00+01:00",
+    "title": "Bock Casemates - Guided Tour",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-22T12:00:00-05:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-7db77254",
+    "start": "2026-11-22T12:00:00-05:00",
+    "title": "A Closer Look: Guided Close-Looking Through Dialogue",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-22T14:00:00+01:00",
+    "event_id": "petrusse-casemates-guided-tour-c52349a1",
+    "start": "2026-11-22T13:00:00+01:00",
+    "title": "Pétrusse Casemates - Guided Tour",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-22T13:00:00-05:00",
+    "event_id": "exhibition-tour-untitled-america-ac29a620",
+    "start": "2026-11-22T13:00:00-05:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "discovered_24h_signals": [
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-c89ff8e0ea36",
+    "source": "Luxemburger Wort",
+    "title": "Polizisten jagen Alkoholsünder, stellen Handydiebe – und müssen sich anspucken lassen",
+    "url": "https://www.wort.lu/luxemburg/stadaland/polizisten-jagen-alkoholsuender-stellen-handydiebe-und-muessen-sich-anspucken-lassen/164897491.html"
+   },
+   {
+    "city": "venice",
+    "signal_id": "sig-bb8bf2411058",
+    "source": "Bing News — Venezia mostre e design",
+    "title": "Bassano, alla Fondazione THE BANK ETS apre “Il mestiere del pittore” di Despotović",
+    "url": "https://www.vicenzareport.it/cultura/bassano-despotovic-mestiere-del-pittore-inaugurazione-the-bank/"
+   },
+   {
+    "city": "cortina",
+    "signal_id": "sig-c277a2df080c",
+    "source": "Bing News — Cortina ski season",
+    "title": "Prima neve a Cortina d’Ampezzo aspettando l'inizio della stagione sciistica",
+    "url": "https://www.rainews.it/tgr/veneto/video/2026/11/neve-cortina-attesa-apertura-4-dicembre-stagione-sciistica-2026-8cfda5e5-9ffa-4045-b295-70049d464d5d.html"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-7e057f078332",
+    "source": "Bing News — Paris vernissages",
+    "title": "PARIS : Évasion – Une station de ski éphémère s’installe au cœur du 10ème arrondissement",
+    "url": "https://presseagence.fr/paris-evasion-une-station-de-ski-ephemere-sinstalle-au-coeur-du-10eme-arrondissement/"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-38a642b3290a",
+    "source": "Bing News — NYC openings",
+    "title": "The Team Behind Crane Club Is Opening a New Italian Restaurant in Nomad",
+    "url": "https://www.msn.com/en-us/news/other/the-team-behind-crane-club-is-opening-a-new-italian-restaurant-in-nomad/ar-AA2hIVLP"
+   }
+  ],
+  "last_minute": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T15:00:00+01:00",
+    "event_id": "regelma-ige-fuhrung-the-luxembourg-story-491433ff",
+    "start": "2026-11-22T15:00:00+01:00",
+    "title": "Regelmäßige Führung: The Luxembourg Story",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T16:00:00+01:00",
+    "event_id": "what-porcelain-knows-about-war-julia-bel-435d4d41",
+    "start": "2026-11-22T15:00:00+01:00",
+    "title": "What porcelain knows about war - Julia Beliaeva in conversation with Johann König and Christian Mosar",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T12:00:00+01:00",
+    "event_id": "art-talk-beyond-sponsorship-where-art-en-595fdf8d",
+    "start": "2026-11-22T11:00:00+01:00",
+    "title": "Art Talk – Beyond Sponsorship: Where Art & Enterprise Co-Create",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T14:30:00+01:00",
+    "event_id": "art-talk-the-future-of-photography-s-pas-502155f1",
+    "start": "2026-11-22T13:30:00+01:00",
+    "title": "Art Talk – The Future of Photography’s Past",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T17:30:00+01:00",
+    "event_id": "art-talk-every-human-being-an-artist-a4ec4349",
+    "start": "2026-11-22T16:30:00+01:00",
+    "title": "Art Talk – Every human being an artist?",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-23T18:00:00+01:00",
+    "event_id": "open-floor-breaking-5bd9f58b",
+    "start": "2026-11-23T18:00:00+01:00",
+    "title": "Open Floor: Breaking",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "new_openings": [
+   {
+    "city": "venice",
+    "published_at": "2026-11-16T05:51:00+00:00",
+    "signal_id": "sig-46fccc722e5f",
+    "source": "VeneziaToday",
+    "title": "Torna la Festa della Salute tra religione, tradizioni e cultura",
+    "url": "https://www.veneziatoday.it/eventi/festa-salute-venezia-2026.html",
+    "why": "opening reported by VeneziaToday"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-16T06:00:00+00:00",
+    "signal_id": "sig-7c92a8f5bc21",
+    "source": "WWD",
+    "title": "Beauty Takes Flight: Estée Lauder and Duty Free Americas Debut Luxe Trio at Miami Airport",
+    "url": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-duty-free-americas-beauty-store-miami-airport-1239416168/",
+    "why": "opening reported by WWD"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-16T06:00:33+00:00",
+    "signal_id": "sig-82dd7f227771",
+    "source": "The Art Newspaper",
+    "title": "Seven shows to see in the UAE during Frieze Abu Dhabi",
+    "url": "https://www.theartnewspaper.com/2026/11/16/exhibitions-to-see-in-the-uae-during-frieze-abu-dhabi",
+    "why": "opening reported by The Art Newspaper"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-16T06:00:58+00:00",
+    "signal_id": "sig-abdc8ba95901",
+    "source": "Connaissance des Arts",
+    "title": "Exposition « Louvre Photo » : plus de 300 clichés, dont 80 % jamais montrés, révèlent un musée que l’on ne connaissait pas",
+    "url": "https://www.connaissancedesarts.com/arts-expositions/photographie/exposition-louvre-photo-plus-de-300-cliches-dont-80-jamais-montres-revelent-un-musee-que-lon-ne-connaissait-pas-11218359/",
+    "why": "opening reported by Connaissance des Arts"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-16T10:00:09+00:00",
+    "signal_id": "sig-e1d4c2ba3a69",
+    "source": "Le Monde — Arts",
+    "title": "François Vitrani : « Est-ce qu’Emmanuel Macron va liquider la Maison de l’Amérique latine ? »",
+    "url": "https://www.lemonde.fr/culture/article/2026/11/16/francois-vitrani-est-ce-qu-emmanuel-macron-va-liquider-la-maison-de-l-amerique-latine_6811685_3246.html",
+    "why": "opening reported by Le Monde — Arts"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-16T14:34:01+00:00",
+    "signal_id": "sig-5b70a9c516f8",
+    "source": "Connaissance des Arts",
+    "title": "À Paris, une anamorphose géante va métamorphoser le Bon Marché en galaxie de lunes dès le mois de janvier",
+    "url": "https://www.connaissancedesarts.com/arts-expositions/paris/a-paris-une-anamorphose-geante-va-metamorphoser-le-bon-marche-en-galaxie-de-lunes-des-le-mois-de-janvier-11218519/",
+    "why": "opening reported by Connaissance des Arts"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-16T21:32:46+00:00",
+    "signal_id": "sig-97a5e164251b",
+    "source": "The Art Newspaper",
+    "title": "Yayoi Kusama sets $15m record as Sotheby’s opens New York mega-sales",
+    "url": "https://www.theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales",
+    "why": "opening reported by The Art Newspaper"
+   },
+   {
+    "city": "luxembourg",
+    "published_at": "2026-11-17T11:00:00+00:00",
+    "signal_id": "sig-eb75554aa66e",
+    "source": "Luxemburger Wort",
+    "title": "Der Machtkampf in der SPD ist offiziell eröffnet",
+    "url": "https://www.wort.lu/international/der-machtkampf-in-der-spd-ist-offiziell-eroeffnet/164639798.html",
+    "why": "opening reported by Luxemburger Wort"
+   },
+   {
+    "city": "venice",
+    "published_at": "2026-11-17T16:29:33+00:00",
+    "signal_id": "sig-3a111e3a6991",
+    "source": "VeneziaToday",
+    "title": "Alessio Boni inaugura la stagione del Teatro di Mirano con “Sì padrone”",
+    "url": "https://www.veneziatoday.it/eventi/alessio-boni-teatro-di-mirano-si-padrone.html",
+    "why": "opening reported by VeneziaToday"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-17T17:32:29+00:00",
+    "signal_id": "sig-e80628269c89",
+    "source": "The Art Newspaper",
+    "title": "Nan Goldin to debut new film exploring nature and extinction in first UK solo museum show in over two decades",
+    "url": "https://www.theartnewspaper.com/2026/11/17/nan-goldin-to-debut-new-film-exploring-nature-and-extinction-in-first-uk-solo-museum-show-in-over-two-decades",
+    "why": "opening reported by The Art Newspaper"
+   }
+  ],
+  "plan_a_trip": [
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-01-24",
+    "event_id": "ev-pa-pfw-men-fw27",
+    "start": "2027-01-19",
+    "title": "Paris Fashion Week — Menswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "venice",
+    "end": "2027-11-21",
+    "event_id": "ev-ve-biennale-architettura-2027",
+    "start": "2027-05-08",
+    "title": "Biennale Architettura 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: biennale · worth a trip"
+   },
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-03-09",
+    "event_id": "ev-pa-pfw-women-fw27",
+    "start": "2027-03-01",
+    "title": "Paris Fashion Week — Womenswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "cortina",
+    "end": "2027-01-17",
+    "event_id": "ev-co-ski-world-cup-2027",
+    "start": "2027-01-15",
+    "title": "Ski World Cup — women's speed races, Cortina",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "reputable publication · distinctive: world cup · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "paris",
+    "end": "2027-06-06",
+    "event_id": "ev-pa-roland-garros-2027",
+    "start": "2027-05-23",
+    "title": "Roland-Garros 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "london",
+    "end": "2027-07-11",
+    "event_id": "ev-lo-wimbledon-2027",
+    "start": "2027-06-28",
+    "title": "The Championships, Wimbledon 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "seasonal",
+    "city": "venice",
+    "end": "2027-02-09",
+    "event_id": "ev-ve-carnevale-2027",
+    "start": null,
+    "title": "Carnevale di Venezia 2027",
+    "urgency": "information_pending",
+    "verification_status": "expected",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "business",
+    "city": "london",
+    "end": "2027-06-11T17:00:00+00:00",
+    "event_id": "ev-lo-tech-week-2027",
+    "start": "2027-06-07T09:00:00+00:00",
+    "title": "London Tech Week 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · worth a trip"
+   }
+  ],
+  "this_week": [
+   {
+    "category": "sports",
+    "city": "cortina",
+    "end": null,
+    "event_id": "ev-co-ski-season-2026",
+    "start": "2026-11-28",
+    "title": "Ski season opens across Dolomiti Superski",
+    "urgency": "book_soon",
+    "verification_status": "announced_pending",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-22T14:00:00-05:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-0c74c685",
+    "start": "2026-11-22T14:00:00-05:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-22T15:00:00-05:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-b1c4b29b",
+    "start": "2026-11-22T15:00:00-05:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-23T20:15:00+01:00",
+    "event_id": "pity-efthimis-filippou-3752dbc2",
+    "start": "2026-11-23T18:30:00+01:00",
+    "title": "Pity (Efthimis Filippou)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-25T21:30:00+01:00",
+    "event_id": "dmitry-shishkin-6662dd7a",
+    "start": "2026-11-25T19:30:00+01:00",
+    "title": "Dmitry Shishkin",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T11:00:00+01:00",
+    "event_id": "matinee-musicale-un-moment-magique-allia-be1a64c5",
+    "start": "2026-11-22T11:00:00+01:00",
+    "title": "Matinée musicale – un moment magique alliant art et musique",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T12:00:00+01:00",
+    "event_id": "vanessa-matthys-ivan-paduart-0cb896b5",
+    "start": "2026-11-22T11:00:00+01:00",
+    "title": "Vanessa Matthys & Ivan Paduart",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T11:00:00+01:00",
+    "event_id": "visite-guidee-reguliere-fundatio-92a0af93",
+    "start": "2026-11-22T11:00:00+01:00",
+    "title": "Visite guidée régulière : Fundatio",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T14:00:00+01:00",
+    "event_id": "visite-reguliere-city-visions-984f2b48",
+    "start": "2026-11-22T14:00:00+01:00",
+    "title": "Visite régulière : City Visions",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T17:00:00+01:00",
+    "event_id": "from-page-to-stage-74eced94",
+    "start": "2026-11-22T15:00:00+01:00",
+    "title": "FROM PAGE TO STAGE",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   }
+  ],
+  "tonight": [
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-22T21:00:00+01:00",
+    "event_id": "balkan-baddie-and-turkish-delight-37545425",
+    "start": "2026-11-22T18:00:00+01:00",
+    "title": "Balkan Baddie and Turkish Delight",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   }
+  ],
+  "top_today": [
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-22T10:00:00+01:00",
+    "event_id": "expogast-rak-porcelain-culinary-world-cu-8a2db591",
+    "start": "2026-11-22T09:00:00+01:00",
+    "title": "EXPOGAST - RAK Porcelain Culinary World Cup 2026",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "venice",
+    "end": "2026-11-22",
+    "event_id": "ev-ve-biennale-arte-2026",
+    "start": "2026-05-09",
+    "title": "Biennale Arte 2026 — final weeks",
+    "urgency": "last_chance",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: biennale · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22",
+    "event_id": "ev-lu-art-week-2026",
+    "start": "2026-11-20",
+    "title": "Luxembourg Art Week 2026",
+    "urgency": "last_chance",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-22T19:00:00+01:00",
+    "event_id": "coexist-4281a81d",
+    "start": "2026-11-13T11:00:00+01:00",
+    "title": "COEXIST",
+    "urgency": "last_chance",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: residency · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "venice",
+    "end": "2026-11-22",
+    "event_id": "ev-ve-fenice-fedora-2026",
+    "start": "2026-11-13",
+    "title": "Fedora — La Fenice season opening",
+    "urgency": "last_chance",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: opening · worth a trip"
+   }
+  ]
+ },
+ "timezone": "Europe/Luxembourg"
+}
