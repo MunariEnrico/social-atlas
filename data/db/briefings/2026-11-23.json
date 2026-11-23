@@ -1,0 +1,693 @@
+{
+ "counts": {
+  "by_city": {
+   "cortina": 2,
+   "london": 28,
+   "luxembourg": 83,
+   "nyc": 11,
+   "paris": 7,
+   "venice": 4
+  },
+  "live_events": 135,
+  "signals_24h": 12
+ },
+ "date": "2026-11-23",
+ "empty_note": null,
+ "generated_at": "2026-11-23T06:17:59+00:00",
+ "run_id": "20261123T061759Z-9b36",
+ "sections": {
+  "booking_deadlines": [],
+  "changes": [
+   {
+    "at": "2026-11-22T06:06:44+00:00",
+    "city": "luxembourg",
+    "event_id": "casemates-du-bock-visite-guidee-e7b702d2",
+    "field": "start",
+    "new": "2026-11-22T13:30:00+01:00",
+    "old": "2026-11-22T10:30:00+01:00",
+    "title": "Casemates du Bock - Visite Guidée"
+   }
+  ],
+  "discovered_24h": [
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-25T22:30:00+01:00",
+    "event_id": "swept-away-lina-wertmuller-84e8ddff",
+    "start": "2026-11-25T20:30:00+01:00",
+    "title": "Swept Away (Lina Wertmüller)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T10:30:00+01:00",
+    "event_id": "business-and-human-rights-community-meet-5b18e0ad",
+    "start": "2026-11-26T09:00:00+01:00",
+    "title": "Business and Human Rights Community Meeting",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · registration required"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T10:30:00+01:00",
+    "event_id": "erste-schritte-in-der-villa-aba56319",
+    "start": "2026-11-26T10:30:00+01:00",
+    "title": "Erste Schritte in der Villa",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T10:30:00+01:00",
+    "event_id": "premiers-pas-a-la-villa-615bac59",
+    "start": "2026-11-26T10:30:00+01:00",
+    "title": "Premiers pas à la Villa",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T14:00:00+01:00",
+    "event_id": "game-on-educator-s-day-33d7d9af",
+    "start": "2026-11-26T14:00:00+01:00",
+    "title": "Game On – Educator’s Day",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T16:00:00+01:00",
+    "event_id": "le-cimetiere-du-rollingergrund-23a1db2a",
+    "start": "2026-11-26T14:30:00+01:00",
+    "title": "Le cimetière du Rollingergrund",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T17:00:00+01:00",
+    "event_id": "et-si-vous-deviez-decider-legal-ou-illeg-21c8b10c",
+    "start": "2026-11-26T15:00:00+01:00",
+    "title": "Et si vous deviez décider : légal ou illégal ?",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T17:00:00+01:00",
+    "event_id": "feierungen-vun-der-nationalbibliotheik-o-c05b8c76",
+    "start": "2026-11-26T17:00:00+01:00",
+    "title": "Féierungen vun der Nationalbibliothéik – Op Lëtzebuergesch",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-26T17:30:00+01:00",
+    "event_id": "watercolour-workshop-practice-and-explor-f5cf3138",
+    "start": "2026-11-26T17:30:00+01:00",
+    "title": "Watercolour workshop. Practice and exploration",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-26T18:00:00+01:00",
+    "event_id": "first-they-came-for-the-migrants-droits-d05848d5",
+    "start": "2026-11-26T18:00:00+01:00",
+    "title": "« First They Came for the Migrants » : droits humains face aux politiques migratoires européennes",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "discovered_24h_signals": [
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-1ed9716628ee",
+    "source": "Luxemburger Wort",
+    "title": "Max Verstappen triumphiert beim Überhol-Festival in Las Vegas",
+    "url": "https://www.wort.lu/sport/mehrsport/max-verstappen-triumphiert-beim-ueberhol-festival-in-las-vegas/164916302.html"
+   },
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-6d80a5336830",
+    "source": "Bing News — Luxembourg exhibitions & culture",
+    "title": "Maria Teresa de Luxembourg à un vernissage au château de Bourglinster",
+    "url": "https://www.noblesseetroyautes.com/maria-teresa-de-luxembourg-a-un-vernissage-au-chateau-de-bourglinster/"
+   },
+   {
+    "city": "luxembourg",
+    "signal_id": "sig-9fc8b7efbe59",
+    "source": "Bing News — Luxembourg exhibitions & culture",
+    "title": "Prix et nominations Festival du Film de Luxembourg",
+    "url": "https://www.allocine.fr/festivals/festival-3048/palmares/"
+   },
+   {
+    "city": "cortina",
+    "signal_id": "sig-857abdf2dac6",
+    "source": "Bing News — Cortina ski season",
+    "title": "Salto con gli sci, Coppa del Mondo Lillehammer 2026: tripletta norvegese in gara-2 femminile con Anna Odine Stroem davanti a Eirin Maria Kvandal e Gyda Westvold Hansen, fuori ...",
+    "url": "https://sport2u.tv/salto-con-gli-sci-coppa-del-mondo-lillehammer-2026-tripletta-norvegese-in-gara-2-femminile-con-anna-odine-stroem-davanti-a-eirin-maria-kvandal-e-gyda-westvold-hansen-fuori-dalla-zona-punti-martina/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-31118e6dce35",
+    "source": "Bing News — Paris ouvertures",
+    "title": "La Petite Maison à Paris : le restaurant niçois adoré par les célébrités ouvre ses portes dans le Triangle d’Or",
+    "url": "https://www.msn.com/fr-fr/alimentation-et-boissons/g%C3%A9n%C3%A9ral/la-petite-maison-%C3%A0-paris-le-restaurant-ni%C3%A7ois-ador%C3%A9-par-les-c%C3%A9l%C3%A9brit%C3%A9s-ouvre-ses-portes-dans-le-triangle-d-or/ar-AA2hXHH1"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-a1d47f88437e",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Eloi Spinnler va ouvrir deux buffets à volonté géants à Paris",
+    "url": "https://www.sortiraparis.com/actualites/a-paris/articles/358469-eloi-spinnler-va-ouvrir-deux-buffets-a-volonte-geants-a-paris"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-e27f46796a57",
+    "source": "Bing News — Paris ouvertures",
+    "title": "À Paris, le bar à cocktails Little Red Door explore l’évolution des terroirs français avec son nouveau menu Agri/Culture II",
+    "url": "https://www.businessmarches.com/a-paris-le-bar-a-cocktails-little-red-door-explore-levolution-des-terroirs-francais/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-6a7d95298e73",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Le Var s’installe à Paris avec une boutique éphémère et plus de 200 produits locaux",
+    "url": "https://www.varactu.fr/le-var-sinstalle-a-paris-avec-une-boutique-ephemere-et-plus-de-200-produits-locaux/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-d2087961dbdc",
+    "source": "Bing News — Paris vernissages",
+    "title": "10 pièces parfaites pour se rendre à un vernissage",
+    "url": "https://www.msn.com/fr-fr/actualite/other/10-pi%C3%A8ces-parfaites-pour-se-rendre-%C3%A0-un-vernissage/ar-AA2hjSgP"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-aee2842f0d4f",
+    "source": "Bing News — NYC openings",
+    "title": "ICYMI: Taqueria Ramirez’s charcoal-focused taco restaurant opens in December",
+    "url": "https://www.msn.com/en-us/news/other/icymi-taqueria-ramirez-s-charcoal-focused-taco-restaurant-opens-in-december/ar-AA2gTXRT"
+   }
+  ],
+  "last_minute": [
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-24T21:30:00+01:00",
+    "event_id": "rising-stars-petar-pejcic-548dee55",
+    "start": "2026-11-24T19:30:00+01:00",
+    "title": "Rising Stars | Petar Pejčić",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-25T20:00:00+01:00",
+    "event_id": "conference-le-son-n-est-pas-une-image-a476f345",
+    "start": "2026-11-25T18:30:00+01:00",
+    "title": "Conférence Le son n’est pas une image",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-25T19:00:00+01:00",
+    "event_id": "moules-frites-a-volonte-a2304432",
+    "start": "2026-11-25T19:00:00+01:00",
+    "title": "Moules Frites À VOLONTÉ",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-25T21:15:00+01:00",
+    "event_id": "notre-proces-c14d8768",
+    "start": "2026-11-25T19:30:00+01:00",
+    "title": "Notre procès",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-24T13:00:00+01:00",
+    "event_id": "lunch-concert-338d73e4",
+    "start": "2026-11-24T12:30:00+01:00",
+    "title": "Lunch Concert",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-24T21:00:00+01:00",
+    "event_id": "advances-in-anaphylaxis-9f01def6",
+    "start": "2026-11-24T18:00:00+01:00",
+    "title": "Advances in Anaphylaxis",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "new_openings": [
+   {
+    "city": "paris",
+    "published_at": "2026-11-16T10:00:09+00:00",
+    "signal_id": "sig-e1d4c2ba3a69",
+    "source": "Le Monde — Arts",
+    "title": "François Vitrani : « Est-ce qu’Emmanuel Macron va liquider la Maison de l’Amérique latine ? »",
+    "url": "https://www.lemonde.fr/culture/article/2026/11/16/francois-vitrani-est-ce-qu-emmanuel-macron-va-liquider-la-maison-de-l-amerique-latine_6811685_3246.html",
+    "why": "opening reported by Le Monde — Arts"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-16T14:34:01+00:00",
+    "signal_id": "sig-5b70a9c516f8",
+    "source": "Connaissance des Arts",
+    "title": "À Paris, une anamorphose géante va métamorphoser le Bon Marché en galaxie de lunes dès le mois de janvier",
+    "url": "https://www.connaissancedesarts.com/arts-expositions/paris/a-paris-une-anamorphose-geante-va-metamorphoser-le-bon-marche-en-galaxie-de-lunes-des-le-mois-de-janvier-11218519/",
+    "why": "opening reported by Connaissance des Arts"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-16T21:32:46+00:00",
+    "signal_id": "sig-97a5e164251b",
+    "source": "The Art Newspaper",
+    "title": "Yayoi Kusama sets $15m record as Sotheby’s opens New York mega-sales",
+    "url": "https://www.theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales",
+    "why": "opening reported by The Art Newspaper"
+   },
+   {
+    "city": "luxembourg",
+    "published_at": "2026-11-17T11:00:00+00:00",
+    "signal_id": "sig-eb75554aa66e",
+    "source": "Luxemburger Wort",
+    "title": "Der Machtkampf in der SPD ist offiziell eröffnet",
+    "url": "https://www.wort.lu/international/der-machtkampf-in-der-spd-ist-offiziell-eroeffnet/164639798.html",
+    "why": "opening reported by Luxemburger Wort"
+   },
+   {
+    "city": "venice",
+    "published_at": "2026-11-17T16:29:33+00:00",
+    "signal_id": "sig-3a111e3a6991",
+    "source": "VeneziaToday",
+    "title": "Alessio Boni inaugura la stagione del Teatro di Mirano con “Sì padrone”",
+    "url": "https://www.veneziatoday.it/eventi/alessio-boni-teatro-di-mirano-si-padrone.html",
+    "why": "opening reported by VeneziaToday"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-17T17:32:29+00:00",
+    "signal_id": "sig-e80628269c89",
+    "source": "The Art Newspaper",
+    "title": "Nan Goldin to debut new film exploring nature and extinction in first UK solo museum show in over two decades",
+    "url": "https://www.theartnewspaper.com/2026/11/17/nan-goldin-to-debut-new-film-exploring-nature-and-extinction-in-first-uk-solo-museum-show-in-over-two-decades",
+    "why": "opening reported by The Art Newspaper"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-18T08:00:11+00:00",
+    "signal_id": "sig-95f715ccf5c9",
+    "source": "Connaissance des Arts",
+    "title": "Ni muses ni soumises, les artistes femmes du surréalisme sortent enfin de l’ombre dans une exposition à Nantes",
+    "url": "https://www.connaissancedesarts.com/arts-expositions/surrealisme/ni-muses-ni-soumises-les-artistes-femmes-du-surrealisme-sortent-enfin-de-lombre-dans-une-exposition-a-nantes-11218553/",
+    "why": "opening reported by Connaissance des Arts"
+   },
+   {
+    "city": "luxembourg",
+    "published_at": "2026-11-18T10:50:00+00:00",
+    "signal_id": "sig-cfb2c01ef272",
+    "source": "Luxemburger Wort",
+    "title": "Diese Frau eröffnet mit nur 25 Jahren ihr erstes Restaurant in Luxemburg",
+    "url": "https://www.wort.lu/panorama/diese-frau-eroeffnet-mit-nur-25-jahren-ihr-erstes-restaurant-in-luxemburg/164688023.html",
+    "why": "opening reported by Luxemburger Wort"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-18T11:02:41+00:00",
+    "signal_id": "sig-56fce21c4208",
+    "source": "FashionUnited",
+    "title": "Aubade opens boutique on Rue des Rosiers in Le Marais",
+    "url": "https://fashionunited.com/news/retail/aubade-opens-boutique-on-rue-des-rosiers-in-le-marais/2026111875827",
+    "why": "opening reported by FashionUnited"
+   },
+   {
+    "city": "venice",
+    "published_at": "2026-11-18T15:30:06+00:00",
+    "signal_id": "sig-cb7f36876f1b",
+    "source": "VeneziaToday",
+    "title": "Biennale Arte, gli ultimi due giorni di apertura si entra con 5 euro",
+    "url": "https://www.veneziatoday.it/cultura/biennale-arte-ingresso-5-euro.html",
+    "why": "opening reported by VeneziaToday"
+   }
+  ],
+  "plan_a_trip": [
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-01-24",
+    "event_id": "ev-pa-pfw-men-fw27",
+    "start": "2027-01-19",
+    "title": "Paris Fashion Week — Menswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "venice",
+    "end": "2027-11-21",
+    "event_id": "ev-ve-biennale-architettura-2027",
+    "start": "2027-05-08",
+    "title": "Biennale Architettura 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: biennale · worth a trip"
+   },
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-03-09",
+    "event_id": "ev-pa-pfw-women-fw27",
+    "start": "2027-03-01",
+    "title": "Paris Fashion Week — Womenswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "cortina",
+    "end": "2027-01-17",
+    "event_id": "ev-co-ski-world-cup-2027",
+    "start": "2027-01-15",
+    "title": "Ski World Cup — women's speed races, Cortina",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "reputable publication · distinctive: world cup · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "paris",
+    "end": "2027-06-06",
+    "event_id": "ev-pa-roland-garros-2027",
+    "start": "2027-05-23",
+    "title": "Roland-Garros 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "london",
+    "end": "2027-07-11",
+    "event_id": "ev-lo-wimbledon-2027",
+    "start": "2027-06-28",
+    "title": "The Championships, Wimbledon 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "seasonal",
+    "city": "venice",
+    "end": "2027-02-09",
+    "event_id": "ev-ve-carnevale-2027",
+    "start": null,
+    "title": "Carnevale di Venezia 2027",
+    "urgency": "information_pending",
+    "verification_status": "expected",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "business",
+    "city": "london",
+    "end": "2027-06-11T17:00:00+00:00",
+    "event_id": "ev-lo-tech-week-2027",
+    "start": "2027-06-07T09:00:00+00:00",
+    "title": "London Tech Week 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · worth a trip"
+   }
+  ],
+  "this_week": [
+   {
+    "category": "sports",
+    "city": "cortina",
+    "end": null,
+    "event_id": "ev-co-ski-season-2026",
+    "start": "2026-11-28",
+    "title": "Ski season opens across Dolomiti Superski",
+    "urgency": "book_soon",
+    "verification_status": "announced_pending",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-26T19:00:00+01:00",
+    "event_id": "arlo-parks-938badac",
+    "start": "2026-11-26T19:00:00+01:00",
+    "title": "Arlo Parks",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: debut · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-25T21:30:00+01:00",
+    "event_id": "dmitry-shishkin-6662dd7a",
+    "start": "2026-11-25T19:30:00+01:00",
+    "title": "Dmitry Shishkin",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fair · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-26T21:30:00+01:00",
+    "event_id": "projection-debat-du-film-trop-chaud-les-ee512a42",
+    "start": "2026-11-26T18:45:00+01:00",
+    "title": "Projection-débat du film « Trop Chaud – Les Aînées pour le climat contre la Suisse »",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: premiere · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-23T11:00:00-05:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-d6904616",
+    "start": "2026-11-23T11:00:00-05:00",
+    "title": "A Closer Look: Guided Close-Looking Through Dialogue",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-23T13:00:00-05:00",
+    "event_id": "exhibition-tour-untitled-america-16c6ee25",
+    "start": "2026-11-23T13:00:00-05:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-24T12:30:00+01:00",
+    "event_id": "hungry-for-culture-1074f833",
+    "start": "2026-11-24T12:30:00+01:00",
+    "title": "Hungry for culture",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "london",
+    "end": "2026-11-24T16:30:00+00:00",
+    "event_id": "william-morris-his-gardens-20b0e2ba",
+    "start": "2026-11-24T15:30:00+00:00",
+    "title": "William Morris & His Gardens",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-24T18:30:00+01:00",
+    "event_id": "ecological-transition-and-skills-for-the-651c2048",
+    "start": "2026-11-24T17:00:00+01:00",
+    "title": "Ecological Transition and Skills for the Future",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-24T19:30:00+01:00",
+    "event_id": "mardis-litteraires-tom-hillenbrand-94486037",
+    "start": "2026-11-24T18:30:00+01:00",
+    "title": "Mardis Littéraires - Tom Hillenbrand",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   }
+  ],
+  "tonight": [
+   {
+    "category": "fashion",
+    "city": "luxembourg",
+    "end": "2026-11-23T20:30:00+01:00",
+    "event_id": "love-in-luxembourg-12d23b71",
+    "start": "2026-11-23T19:00:00+01:00",
+    "title": "Love in Luxembourg",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-23T20:00:00+01:00",
+    "event_id": "open-floor-funk-and-disco-ff1a9cc4",
+    "start": "2026-11-23T20:00:00+01:00",
+    "title": "Open Floor: Funk and Disco",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-23T22:15:00+01:00",
+    "event_id": "the-seduction-of-mimi-lina-westmuller-8327be5c",
+    "start": "2026-11-23T20:15:00+01:00",
+    "title": "The Seduction of Mimi (Lina Westmüller)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-23T23:00:00+01:00",
+    "event_id": "social-dance-with-taster-class-at-come-a-a0a33874",
+    "start": "2026-11-23T19:15:00+01:00",
+    "title": "Social Dance with taster class at Come à la Maison",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-23T21:30:00+01:00",
+    "event_id": "baroque-bellows-and-beyond-c3f9fc72",
+    "start": "2026-11-23T19:30:00+01:00",
+    "title": "Baroque, bellows and beyond",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   }
+  ],
+  "top_today": [
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-23T09:00:00+01:00",
+    "event_id": "expogast-rak-porcelain-culinary-world-cu-a70fc2ec",
+    "start": "2026-11-23T08:00:00+01:00",
+    "title": "EXPOGAST - RAK Porcelain Culinary World Cup 2026",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-23T20:15:00+01:00",
+    "event_id": "pity-efthimis-filippou-3752dbc2",
+    "start": "2026-11-23T18:30:00+01:00",
+    "title": "Pity (Efthimis Filippou)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-23T12:00:00-05:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-ed2767fd",
+    "start": "2026-11-23T12:00:00-05:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-23T14:00:00-05:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-8f3772f8",
+    "start": "2026-11-23T14:00:00-05:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-23T18:00:00+01:00",
+    "event_id": "open-floor-breaking-5bd9f58b",
+    "start": "2026-11-23T18:00:00+01:00",
+    "title": "Open Floor: Breaking",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   }
+  ]
+ },
+ "timezone": "Europe/Luxembourg"
+}
