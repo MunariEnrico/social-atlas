@@ -1,0 +1,803 @@
+{
+ "counts": {
+  "by_city": {
+   "cortina": 2,
+   "london": 26,
+   "luxembourg": 80,
+   "nyc": 14,
+   "paris": 7,
+   "venice": 4
+  },
+  "live_events": 133,
+  "signals_24h": 29
+ },
+ "date": "2026-11-28",
+ "empty_note": null,
+ "generated_at": "2026-11-28T14:13:11+00:00",
+ "run_id": "20261128T141311Z-4ff4",
+ "sections": {
+  "booking_deadlines": [],
+  "changes": [
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "simone-decker-letzebuerger-konschtprais-b8ba360c",
+    "field": "start",
+    "new": "2026-11-29T16:00:00+01:00",
+    "old": "2026-11-13",
+    "title": "Lëtzebuerger Konschtpräis 2026. Simone Decker"
+   },
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "simone-decker-letzebuerger-konschtprais-b8ba360c",
+    "field": "end",
+    "new": "2026-11-29T16:00:00+01:00",
+    "old": "2027-03-21",
+    "title": "Lëtzebuerger Konschtpräis 2026. Simone Decker"
+   },
+   {
+    "at": "2026-11-26T15:18:02+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-the-luxembourg-s-b6df422e",
+    "field": "booking.tickets",
+    "new": "free_entry",
+    "old": "free_registration",
+    "title": "Visite guidée régulière: The Luxembourg Story"
+   },
+   {
+    "at": "2026-11-26T15:18:02+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-the-luxembourg-s-b6df422e",
+    "field": "booking.tickets",
+    "new": "free_registration",
+    "old": "free_entry",
+    "title": "Visite guidée régulière: The Luxembourg Story"
+   },
+   {
+    "at": "2026-11-27T15:05:51+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-une-promenade-a-6b249a1c",
+    "field": "booking.tickets",
+    "new": "free_entry",
+    "old": "free_registration",
+    "title": "Visite guidée régulière: Une promenade à travers l’art"
+   },
+   {
+    "at": "2026-11-27T15:05:51+00:00",
+    "city": "luxembourg",
+    "event_id": "visite-guidee-reguliere-une-promenade-a-6b249a1c",
+    "field": "booking.tickets",
+    "new": "free_registration",
+    "old": "free_entry",
+    "title": "Visite guidée régulière: Une promenade à travers l’art"
+   },
+   {
+    "at": "2026-11-26T15:18:02+00:00",
+    "city": "luxembourg",
+    "event_id": "hearth-felt-an-artecho-experience-6baf1a90",
+    "field": "end",
+    "new": "2026-11-29",
+    "old": "2026-11-28",
+    "title": "Hearth-felt: an ArtEcho experience"
+   },
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "game-on-2026-0b0eb1bc",
+    "field": "start",
+    "new": "2026-11-28T16:00:00+01:00",
+    "old": "2026-11-28T14:00:00+01:00",
+    "title": "Game On 2026"
+   },
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "game-on-2026-0b0eb1bc",
+    "field": "end",
+    "new": "2026-11-28T16:00:00+01:00",
+    "old": "2026-11-28T14:00:00+01:00",
+    "title": "Game On 2026"
+   },
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "game-on-2026-0b0eb1bc",
+    "field": "booking.tickets",
+    "new": "ticketed",
+    "old": "free_registration",
+    "title": "Game On 2026"
+   },
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "game-on-2026-0b0eb1bc",
+    "field": "start",
+    "new": "2026-11-28T14:00:00+01:00",
+    "old": "2026-11-28T16:00:00+01:00",
+    "title": "Game On 2026"
+   },
+   {
+    "at": "2026-11-28T14:13:11+00:00",
+    "city": "luxembourg",
+    "event_id": "game-on-2026-0b0eb1bc",
+    "field": "end",
+    "new": "2026-11-28T14:00:00+01:00",
+    "old": "2026-11-28T16:00:00+01:00",
+    "title": "Game On 2026"
+   }
+  ],
+  "discovered_24h": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-28T17:00:00+01:00",
+    "event_id": "rethinking-the-artist-portfolio-6943dedc",
+    "start": "2026-11-28T14:00:00+01:00",
+    "title": "Rethinking The Artist Portfolio",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-28T16:00:00+01:00",
+    "event_id": "guided-tours-of-the-shapes-beyond-geomet-1a0ac064",
+    "start": "2026-11-28T15:00:00+01:00",
+    "title": "Guided tours of the SHAPES - Beyond Geometry exhibition",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-29T11:00:00+01:00",
+    "event_id": "visite-guidee-reguliere-fundatio-afbf1323",
+    "start": "2026-11-29T11:00:00+01:00",
+    "title": "Visite guidée régulière : Fundatio",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-29T11:00:00+01:00",
+    "event_id": "matinee-musicale-kids-0ec85fcb",
+    "start": "2026-11-29T11:00:00+01:00",
+    "title": "Matinée musicale KIDS",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-29T14:00:00+01:00",
+    "event_id": "visite-reguliere-city-visions-8683902e",
+    "start": "2026-11-29T14:00:00+01:00",
+    "title": "Visite régulière : City Visions",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-29T15:00:00+01:00",
+    "event_id": "regelma-ige-fuhrung-the-other-side-of-wi-6b37e603",
+    "start": "2026-11-29T15:00:00+01:00",
+    "title": "Regelmäßige Führung : The other side of Wil Lofy",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-29T15:00:00+01:00",
+    "event_id": "regelma-ige-fuhrung-the-luxembourg-story-b50df339",
+    "start": "2026-11-29T15:00:00+01:00",
+    "title": "Regelmäßige Führung: The Luxembourg Story",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · free"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-29T17:00:00+01:00",
+    "event_id": "visites-guidees-de-l-exposition-la-vie-s-f62bd1a7",
+    "start": "2026-11-29T16:00:00+01:00",
+    "title": "Visites guidées de l'exposition La vie secrète du Naturmusée",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-29T17:30:00+01:00",
+    "event_id": "face-a-face-english-song-56233818",
+    "start": "2026-11-29T16:00:00+01:00",
+    "title": "Face-à-Face: English Song",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-30T18:00:00-05:00",
+    "event_id": "seeds-in-a-dying-colony-screening-25cb94d2",
+    "start": "2026-11-30T11:00:00-05:00",
+    "title": "seeds in a dying colony Screening",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "discovered_24h_signals": [
+   {
+    "city": "paris",
+    "signal_id": "sig-fcf78746a8d7",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Feel Good Bigoud : Une boutique éphémère de produits bretons s'installe à Paris pour Noël 2026",
+    "url": "https://www.sortiraparis.com/hotel-restaurant/tendances-food/articles/359325-feel-good-bigoud-une-boutique-ephemere-de-produits-bretons-s-installe-a-paris-pour-noel-2026"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-f39f9d820ed9",
+    "source": "Vogue France",
+    "title": "La jupe midi est irrésistible en 2027 : comment la porter selon Prada, Chanel ou Saint Laurent ?",
+    "url": "https://www.vogue.fr/article/tendance-jupe-midi-printemps-ete-2027"
+   },
+   {
+    "city": "london",
+    "signal_id": "sig-eaa51fa0e960",
+    "source": "Evening Standard — Going Out",
+    "title": "London Museum: Opening times, ticket information and what to see",
+    "url": "https://www.standard.co.uk/news/london/museum-opening-times-smithfield-farringdon-tickets-b1300603.html"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-c78db5af7692",
+    "source": "Vogue France",
+    "title": "9 styling tricks repérés aux défilés printemps-été 2027 à essayer cet automne",
+    "url": "https://www.vogue.fr/article/styling-tricks-tendances-printemps-ete-2027"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-ae76eecfda16",
+    "source": "Bing News — Paris vernissages",
+    "title": "Expositions et ouverture de galerie dans le Faubourg Saint-Honoré",
+    "url": "https://www.latribunedelart.com/expositions-et-ouverture-de-galerie-dans-le-faubourg-saint-honore-14045"
+   },
+   {
+    "city": "nyc",
+    "signal_id": "sig-9bdcc36b5a56",
+    "source": "FashionUnited",
+    "title": "MCM and Luar launch limited-edition Anima bag for MCM's 50th anniversary",
+    "url": "https://fashionunited.com/news/fashion/mcm-and-luar-launch-limited-edition-anima-bag-for-mcms-50th-anniversary/2026112775985"
+   },
+   {
+    "city": "cortina",
+    "signal_id": "sig-4ef69f92faf1",
+    "source": "Bing News — Cortina ski season",
+    "title": "Classifica Coppa del Mondo biathlon maschile 2026-2027: Wright a sorpresa in testa, Hofer tra i primi dieci. Giacomel vicino alla top-20",
+    "url": "https://www.oasport.it/2026/11/classifica-coppa-del-mondo-biathlon-maschile-2026-2027-graduatoria-e-punti/"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-3948d4395738",
+    "source": "Vogue France",
+    "title": "MINO ouvre la première salle d’écoute d’albums à Paris",
+    "url": "https://www.vogue.fr/article/mino-mk2-museum-salle-decoute-albums-musique-paris-2027"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-2b4f7627bc20",
+    "source": "Bing News — Paris vernissages",
+    "title": "En 2027, ce lieu culte du cinéma ouvrira un musée inédit de 1 500 m² à Paris",
+    "url": "https://www.msn.com/fr-fr/divertissement/g%C3%A9n%C3%A9ral/en-2027-ce-lieu-culte-du-cin%C3%A9ma-ouvrira-un-mus%C3%A9e-in%C3%A9dit-de-1-500-m-%C3%A0-paris/ar-AA2ilAeW"
+   },
+   {
+    "city": "paris",
+    "signal_id": "sig-1f4bdf6debde",
+    "source": "Bing News — Paris ouvertures",
+    "title": "Le Seymour, un nouvel hôtel 5* avec piscine et restaurant ouvre près des Champs-Élysées à Paris",
+    "url": "https://www.sortiraparis.com/hotel-restaurant/hotel/articles/359330-le-seymour-un-nouvel-hotel-5-avec-piscine-et-restaurant-ouvre-pres-des-champs-elysees-a-paris"
+   }
+  ],
+  "last_minute": [
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-29T23:45:00+01:00",
+    "event_id": "jazz-break-weekend-bded18c3",
+    "start": "2026-11-28T10:00:00+01:00",
+    "title": "Jazz Break Weekend",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T20:30:00+01:00",
+    "event_id": "lindy-hop-e3591292",
+    "start": "2026-11-28T19:30:00+01:00",
+    "title": "Lindy Hop",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T21:30:00+01:00",
+    "event_id": "les-crapauds-fous-4d39a438",
+    "start": "2026-11-28T20:00:00+01:00",
+    "title": "Les Crapauds fous",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T23:00:00+01:00",
+    "event_id": "theaterfrenn-mansfeldia-clausen-theatero-2744abcb",
+    "start": "2026-11-28T20:00:00+01:00",
+    "title": "Theaterfrënn Mansfeldia Clausen - Theaterowenter 2026",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T23:45:00+01:00",
+    "event_id": "jazz-break-party-live-music-c225c468",
+    "start": "2026-11-28T20:30:00+01:00",
+    "title": "Jazz Break Party - LIVE MUSIC",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T22:30:00+01:00",
+    "event_id": "tounsi-w-noss-afc3dc0a",
+    "start": "2026-11-28T21:00:00+01:00",
+    "title": "TOUNSI W NOSS",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "new_openings": [
+   {
+    "city": "london",
+    "published_at": "2026-11-23T11:30:00+00:00",
+    "signal_id": "sig-ef3f49bceba1",
+    "source": "Dezeen",
+    "title": "HTA Design unveils \"UK's largest council housing development\"",
+    "url": "https://www.dezeen.com/2026/11/23/kidbrooke-park-road-hta-design/",
+    "why": "opening reported by Dezeen"
+   },
+   {
+    "city": "venice",
+    "published_at": "2026-11-23T11:42:56+00:00",
+    "signal_id": "sig-ffa127c98fe1",
+    "source": "VeneziaToday",
+    "title": "Emergency apre il negozio di Natale in centro a Mestre",
+    "url": "https://www.veneziatoday.it/attualita/negozio-natale-emergency.html",
+    "why": "opening reported by VeneziaToday"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-23T16:45:30+00:00",
+    "signal_id": "sig-ea8d943c866e",
+    "source": "Vogue France",
+    "title": "Cate Blanchett donne le coup d’envoi des illuminations de Noël à Paris",
+    "url": "https://www.vogue.fr/article/cate-blanchett-illuminations-noel-champs-elysees-paris",
+    "why": "opening reported by Vogue France"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-24T00:01:00+00:00",
+    "signal_id": "sig-987f6d431154",
+    "source": "Wallpaper*",
+    "title": "Discover the ‘soft power’ of the London Museum as it reveals its new home",
+    "url": "https://www.wallpaper.com/architecture/public-buildings/london-museum-opens-uk",
+    "why": "opening reported by Wallpaper*"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-24T06:00:38+00:00",
+    "signal_id": "sig-8cacdc631ba8",
+    "source": "Evening Standard — Going Out",
+    "title": "Inside story of the new London Museum and how it will ‘reimagine’ Smithfield",
+    "url": "https://www.standard.co.uk/news/london/museum-opening-smithfield-history-b1305999.html",
+    "why": "opening reported by Evening Standard — Going Out"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-24T08:51:36+00:00",
+    "signal_id": "sig-2fa114158f03",
+    "source": "FashionUnited",
+    "title": "Extreme Cashmere opens winter pop-up on New York's Madison Avenue",
+    "url": "https://fashionunited.com/news/retail/extreme-cashmere-opens-winter-pop-up-on-new-yorks-madison-avenue/2026112475907",
+    "why": "opening reported by FashionUnited"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-24T10:55:00+00:00",
+    "signal_id": "sig-1dc981c97953",
+    "source": "FashionUnited",
+    "title": "Barbour opens British holiday shop at Bloomingdale's New York with Tea & Sympathy",
+    "url": "https://fashionunited.com/news/retail/barbour-opens-british-holiday-shop-at-bloomingdales-new-york-with-tea-sympathy/2026112475915",
+    "why": "opening reported by FashionUnited"
+   },
+   {
+    "city": "london",
+    "published_at": "2026-11-24T12:20:17+00:00",
+    "signal_id": "sig-e2a5aec8c80b",
+    "source": "The Art Newspaper",
+    "title": "Fatbergs, pigeons and Pankhurst: rebranded London Museum opens new £437m home",
+    "url": "https://www.theartnewspaper.com/2026/11/24/fatbergs-pigeons-and-pankhurst-rebranded-london-museum-opens-new-£437m-home",
+    "why": "opening reported by The Art Newspaper"
+   },
+   {
+    "city": "paris",
+    "published_at": "2026-11-24T16:34:36+00:00",
+    "signal_id": "sig-9ace97817076",
+    "source": "Vogue France",
+    "title": "David Sims ouvre ses archives à la Fondation MOP",
+    "url": "https://www.vogue.fr/article/david-sims-exposition-fondation-mop",
+    "why": "opening reported by Vogue France"
+   },
+   {
+    "city": "nyc",
+    "published_at": "2026-11-24T19:46:57+00:00",
+    "signal_id": "sig-f3f975162a8d",
+    "source": "Eater New York",
+    "title": "A Top-Rated Tokyo Udon Shop Opens in NYC",
+    "url": "https://ny.eater.com/news/415143/udon-shin-nyc-restaurant-open-japanese-noodles-tokyo",
+    "why": "opening reported by Eater New York"
+   }
+  ],
+  "plan_a_trip": [
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-01-24",
+    "event_id": "ev-pa-pfw-men-fw27",
+    "start": "2027-01-19",
+    "title": "Paris Fashion Week — Menswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "venice",
+    "end": "2027-11-21",
+    "event_id": "ev-ve-biennale-architettura-2027",
+    "start": "2027-05-08",
+    "title": "Biennale Architettura 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: biennale · worth a trip"
+   },
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-03-09",
+    "event_id": "ev-pa-pfw-women-fw27",
+    "start": "2027-03-01",
+    "title": "Paris Fashion Week — Womenswear FW 2027-28",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: fashion week · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "cortina",
+    "end": "2027-01-17",
+    "event_id": "ev-co-ski-world-cup-2027",
+    "start": "2027-01-15",
+    "title": "Ski World Cup — women's speed races, Cortina",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "reputable publication · distinctive: world cup · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "paris",
+    "end": "2027-06-06",
+    "event_id": "ev-pa-roland-garros-2027",
+    "start": "2027-05-23",
+    "title": "Roland-Garros 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "sports",
+    "city": "london",
+    "end": "2027-07-11",
+    "event_id": "ev-lo-wimbledon-2027",
+    "start": "2027-06-28",
+    "title": "The Championships, Wimbledon 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "announced_pending",
+    "why": "organiser/partner source · distinctive: grand slam · worth a trip"
+   },
+   {
+    "category": "seasonal",
+    "city": "venice",
+    "end": "2027-02-09",
+    "event_id": "ev-ve-carnevale-2027",
+    "start": null,
+    "title": "Carnevale di Venezia 2027",
+    "urgency": "information_pending",
+    "verification_status": "expected",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "fashion",
+    "city": "paris",
+    "end": "2027-01-28",
+    "event_id": "ev-pa-couture-ss27",
+    "start": "2027-01-25",
+    "title": "Haute Couture Week — Spring/Summer 2027",
+    "urgency": "plan_ahead",
+    "verification_status": "confirmed",
+    "why": "official source · worth a trip"
+   }
+  ],
+  "this_week": [
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-29T17:00:00-05:00",
+    "event_id": "premiere-visual-aids-presents-seeds-in-a-cb0c2900",
+    "start": "2026-11-29T14:30:00-05:00",
+    "title": "Premiere: Visual AIDS presents seeds in a dying colony",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: premiere · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-12-04T21:30:00+01:00",
+    "event_id": "holiday-sauce-3510b1ed",
+    "start": "2026-12-04T19:30:00+01:00",
+    "title": "Holiday Sauce",
+    "urgency": "book_soon",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: premiere · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-28T10:30:00-05:00",
+    "event_id": "member-mornings-6bd5870b",
+    "start": "2026-11-28T09:30:00-05:00",
+    "title": "Member Mornings",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-28T12:00:00-05:00",
+    "event_id": "a-closer-look-guided-close-looking-throu-77345884",
+    "start": "2026-11-28T12:00:00-05:00",
+    "title": "A Closer Look: Guided Close-Looking Through Dialogue",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-28T13:00:00-05:00",
+    "event_id": "exhibition-tour-untitled-america-aa4f018f",
+    "start": "2026-11-28T13:00:00-05:00",
+    "title": "Exhibition Tour: “Untitled” (America)",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T23:00:00+01:00",
+    "event_id": "mamagoesdancing-ac849c6c",
+    "start": "2026-11-28T20:00:00+01:00",
+    "title": "MAMAGOESDANCING",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T21:30:00+01:00",
+    "event_id": "turkish-delight-standup-comedy-show-bdcf0183",
+    "start": "2026-11-28T20:00:00+01:00",
+    "title": "Turkish Delight - Standup Comedy Show",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T22:00:00+01:00",
+    "event_id": "born-in-the-80s-90s-8581a92a",
+    "start": "2026-11-28T22:00:00+01:00",
+    "title": "BORN IN THE 80s/90s",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-29T10:30:00+01:00",
+    "event_id": "game-of-thieves-wind-quintets-for-the-yo-ba47d91a",
+    "start": "2026-11-29T10:30:00+01:00",
+    "title": "GAME OF THIEVES – WIND QUINTETS FOR THE YOUNG AND YOUNG AT HEART",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-29T12:00:00+01:00",
+    "event_id": "oasis-boom-fbfe3cae",
+    "start": "2026-11-29T11:00:00+01:00",
+    "title": "Oasis Boom",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "tonight": [
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-28T23:15:00+01:00",
+    "event_id": "saving-private-ryan-steven-spielberg-40e2249d",
+    "start": "2026-11-28T20:15:00+01:00",
+    "title": "Saving Private Ryan (Steven Spielberg)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T20:00:00+01:00",
+    "event_id": "love-and-anarchy-lina-wertmuller-285b5193",
+    "start": "2026-11-28T18:00:00+01:00",
+    "title": "Love and Anarchy (Lina Wertmüller)",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T18:30:00+01:00",
+    "event_id": "the-unwomanly-face-of-war-1124f675",
+    "start": "2026-11-28T17:00:00+01:00",
+    "title": "The Unwomanly Face Of War",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T19:00:00+01:00",
+    "event_id": "amour-bdsm-et-anxiete-4033f165",
+    "start": "2026-11-28T18:00:00+01:00",
+    "title": "Amour, BDSM et Anxiété",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T21:00:00+01:00",
+    "event_id": "heemspill-featured-lady-live-in-lux-2da6c197",
+    "start": "2026-11-28T19:30:00+01:00",
+    "title": "Heemspill Featured | Lady Live in Lux",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   },
+   {
+    "category": "food",
+    "city": "luxembourg",
+    "end": "2026-11-28T20:00:00+01:00",
+    "event_id": "game-on-pub-quiz-ade630f8",
+    "start": "2026-11-28T20:00:00+01:00",
+    "title": "Game On – Pub Quiz",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks"
+   }
+  ],
+  "top_today": [
+   {
+    "category": "sports",
+    "city": "cortina",
+    "end": null,
+    "event_id": "ev-co-ski-season-2026",
+    "start": "2026-11-28",
+    "title": "Ski season opens across Dolomiti Superski",
+    "urgency": "last_chance",
+    "verification_status": "announced_pending",
+    "why": "official source · distinctive: opening · worth a trip"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-28T14:00:00-05:00",
+    "event_id": "exhibition-tour-the-lost-world-the-art-o-aa5e970a",
+    "start": "2026-11-28T14:00:00-05:00",
+    "title": "Exhibition Tour: The Lost World: The Art of Minnie Evans",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "nyc",
+    "end": "2026-11-28T15:00:00-05:00",
+    "event_id": "exhibition-tour-roy-lichtenstein-like-ne-c6ca1b6f",
+    "start": "2026-11-28T15:00:00-05:00",
+    "title": "Exhibition Tour: Roy Lichtenstein: Like New",
+    "urgency": "information_pending",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: limited · happening within two weeks"
+   },
+   {
+    "category": "culture",
+    "city": "luxembourg",
+    "end": "2026-11-28T23:00:00+01:00",
+    "event_id": "dancesport-in-luxembourg-f30f8fdc",
+    "start": "2026-11-28T18:30:00+01:00",
+    "title": "DanceSport in Luxembourg",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · distinctive: festival · happening within two weeks"
+   },
+   {
+    "category": "art",
+    "city": "luxembourg",
+    "end": "2026-11-28T16:00:00+01:00",
+    "event_id": "regular-guided-tour-a-stroll-through-art-457717f2",
+    "start": "2026-11-28T16:00:00+01:00",
+    "title": "Regular guided tour: A stroll through art",
+    "urgency": "act_now",
+    "verification_status": "confirmed",
+    "why": "official source · happening within two weeks · seen in 2 sources · free"
+   }
+  ]
+ },
+ "timezone": "Europe/Luxembourg"
+}
